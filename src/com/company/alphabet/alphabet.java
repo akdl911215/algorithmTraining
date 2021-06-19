@@ -1,4 +1,4 @@
-package com.company;
+package com.company.alphabet;
 
 import java.util.Scanner;
 
@@ -16,14 +16,14 @@ public class alphabet {
         System.out.println("");
 
         for (int i = 0; i < s.length(); i++) {
-            System.out.println("i = " + i); // 0 1 2
-            System.out.println("s.charAt(i) = " + s.charAt(i)); // b b a
+            System.out.println("i = " + i);
+            System.out.println("s.charAt(i) = " + s.charAt(i));
             if ('A' <= s.charAt(i) && s.charAt(i) <= 'Z') {
                 arr[s.charAt(i) - 'A']++;
                 System.out.printf("arr[%d] = %s\n\n", i, s.charAt(i) - 'a');
             }
             else {
-                arr[s.charAt(i) - 'a']++; // [0 1 0] [0 2 0] [1 2 0]
+                arr[s.charAt(i) - 'a']++;
                 System.out.printf("arr[%d] = %s\n\n", i, s.charAt(i) - 'a');
             }
 //
@@ -39,7 +39,7 @@ public class alphabet {
         for (int i = 0; i < s.length(); i++) {
             System.out.println("밑에 i = " + i);
             System.out.println("max = " + max);
-            System.out.println("arr[i] = " + arr[i]); // [0 2 0]
+            System.out.printf("arr[%d] = %s\n" ,i , arr[i]);
             if (arr[i] > max) {
 
                 max = arr[i];
