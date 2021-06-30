@@ -1,18 +1,19 @@
 package com.company.sequence;
 
+import java.io.BufferedReader;
 import java.io.IOException;
-import java.util.Scanner;
+import java.io.InputStreamReader;
 
-public class Fibonnachi {
+public class Fibonnachi2 {
     public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.print("BufferedReader ::: " );
+        int inputNum = Integer.parseInt(br.readLine());
+        System.out.print("inputNum : " + inputNum);
 
-        Scanner scan = new Scanner(System.in);
-        System.out.printf("입력값은 : ");
         int firstNum = 1;
         int secondNum = 1;
         int addNum = 0;
-
-        int inputNum = scan.nextInt();
 
         if (inputNum > 2) {
             for (int i=0; i<inputNum-2; i++){
@@ -25,6 +26,7 @@ public class Fibonnachi {
         } else {
             System.out.println("잘못된 입력입니다");
         }
-        System.out.printf("%d번째 수열의 값 = %d", inputNum, addNum);
+        System.out.printf("\n%d번째 수열의 값 = %d", inputNum, addNum);
     }
+
 }
