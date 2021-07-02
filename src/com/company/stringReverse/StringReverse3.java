@@ -1,4 +1,4 @@
-package com.company.StringReverse;
+package com.company.stringReverse;
 
 import java.util.ArrayList;
 import java.util.Collections;

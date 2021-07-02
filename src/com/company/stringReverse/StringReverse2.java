@@ -1,4 +1,4 @@
-package com.company.StringReverse;
+package com.company.stringReverse;
 
 public class StringReverse2 {
     public static void main(String[] args) {
