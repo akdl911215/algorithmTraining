@@ -47,11 +47,17 @@ public class Lie {
 
         int[] partyAttendees = new int[N];
         // 파티 총 참석자 번호 부여
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < partyAttendees.length; i++) {
            partyAttendees[i] = (int)((Math.random() * 50) + 1);
-            System.out.print("부여 번호 = " + partyAttendees[i] + " ");
+            for (int j = 0; j < i; j++) {
+                if (partyAttendees[i] == partyAttendees[j]){
+                    i--;
+                }
+            }
         }
-
+        for (int k = 0; k < partyAttendees.length; k++) {
+            System.out.printf("a[%d] 값 = %d\n", k, partyAttendees[k]);
+        }
     }
 
     // https://geojun.tistory.com/36
