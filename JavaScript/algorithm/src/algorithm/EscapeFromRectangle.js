@@ -1,0 +1,5 @@
+<script>
+var input = prompt('입력받기', '메세지를 입력해주세요');
+console.log(document.write(input));
+
+</script>
