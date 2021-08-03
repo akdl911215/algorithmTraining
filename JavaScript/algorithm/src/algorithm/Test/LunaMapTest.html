@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            * {
+                font-size: 16px;
+                font-family: Consolas, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <label>Fruits</label>
+            <input type='checkbox' name='fruits' id='fruits' value='apple' />사과
+            <input type='checkbox' name='fruits' id='fruits' value='banana' />바나나
+            <input type='checkbox' name='fruits' id='fruits' value='orange' />오렌지
+        </form>
+        <script>
+            let checkArray = [];
+            function printFruit() {
+                const fruit1 = document.getElementById('fruits').value;
+                document.getElementById("result").innerText = name;
+            }
+            printFruit()
+
+            console.log('checkArray : ', checkArray);
+            let checkBtn = false;
+            console.log('checkBtn : ', checkBtn);
+
+            const CheckMapArray = checkArray.map(fruit => fruit + 1)
+            console.log('CheckMapArray : ', CheckMapArray)  
+        </script>
+    </body>
+</html>

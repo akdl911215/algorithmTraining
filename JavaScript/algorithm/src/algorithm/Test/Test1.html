@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>EVERDEVEL - JAVASCRIPT - checkbox</title>
+        <script>
+            window.onload = function() {
+                for(var i=0; i<documnet.getElementsByTagName('input').length; i++) {
+                    if(documnet.getElementsByTagName('input')[i].getAttribute("type") === 'checkbox'){
+                        document.getElementsByTagName('input')[i].checked = true;
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <label>haro<input type="checkbox"/></label>
+        <label>haro<input type="checkbox"/></label>
+        <label>haro<input type="checkbox"/></label>
+        <label>haro<input type="checkbox"/></label>
+        <label>haro<input type="checkbox"/></label>
+        <label>haro<input type="checkbox"/></label>
+        <label>haro<input type="checkbox"/></label>
+        <label>haro<input type="checkbox"/></label>
+        <label>haro<input type="checkbox"/></label>
+    </body>
+</html>
