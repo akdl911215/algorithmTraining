@@ -10,7 +10,7 @@ public class Algorithm_11720_3 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("BufferedReader : \n");
         // BufferedReader의 readLine() 을 사용하면 데이터를 라인 단위로 읽을 수 있음
-        // readLine ㅎ마수의 리턴 값은 STring으로 고정
+        // readLine 함수의 리턴 값은 String으로 고정
         br.readLine();
         System.out.print("br.readLine : ");
 
