@@ -13,7 +13,7 @@ public class DecompositionSum3 {
             System.out.printf("숫자 범위를 확인해보세요.\n범위는 1 <= N <= 1,000,000 입니다.");
             return;
         }
-        
+
         int result = calculation2(decomSumNum);
         System.out.println("result : " + result);
     }
