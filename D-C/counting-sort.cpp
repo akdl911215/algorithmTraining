@@ -15,22 +15,14 @@ int main(void) {
 		count[i] = 0;
 	} 
 	
-	//
 	for (int i = 0; i < 30; i++) {
-//		printf("i = %d", i);
-
-		count[arr[i]]++;
-		
-//		printf("arr[%d] = %d ", i, arr[i]);
-//		printf("count[%d] ", count[arr[i]]);
-		
-//		printf(" ", count[arr[i]]);
+		count[arr[i] - 1]++;
 	} 
 	
 	for (int i = 0; i < 5; i++) {
 		if (count[i] != 0) {
 			for (int j = 0; j < count[i]; j++) {
-				printf("%d ", i);
+				printf("%d ", i + 1);
 			}
 		}
 	}
