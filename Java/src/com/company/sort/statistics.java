@@ -17,11 +17,15 @@ public class statistics {
     public static int[] arr, sorted, mergeArr, countArr;
 
     public static void main(String[] args) throws IOException {
+        int FOUR_THOUSAND = 4000;
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         N = Integer.parseInt(br.readLine());
         arr = new int[N];
         mergeArr = new int[N];
-        countArr = new int[N];
+
+        // 입력값의 범위 : -4000~ 4000;
+        countArr = new int[80001];
 
         if (N % 2 == 0) {
             System.out.println("N값이 홀수가 아닙니다.");
@@ -48,12 +52,20 @@ public class statistics {
 
 
         // 최빈값 = N개의 수들 중 가장 많이 나타나는 값
+        int min = 9999;
         for (int i = 0; i < N; i++) {
-            countArr[arr[i]]++;
+            countArr[arr[i] + FOUR_THOUSAND]++;
         }
-        for (int i = 0; i < N; i++) {
             System.out.println("최빈값 시작");
-            System.out.println(countArr[i]);
+        for (int i = 0; i < N + FOUR_THOUSAND; i++) {
+            if (countArr[i] != 0) {
+                System.out.println(countArr[i]);
+
+//                if (min > countArr[i]) {
+//                    min = countArr[i];
+//                }
+
+            }
         }
     }
 
