@@ -10,27 +10,22 @@ public class arrangeTheNumber_countingSort4 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
 
-        int[] count = new int[7];
-        int[] arr = new int[N];
+        int[] count = new int[10001];
 
         for (int i = 0; i < N; i++) {
-            arr[i] = Integer.parseInt(br.readLine());
+            count[Integer.parseInt(br.readLine())]++;
         }
 
-        for (int i = 0; i < 7; i++) {
-            count[i] = 0;
-        }
+        br.close();
 
-        for (int i = 0; i < N; i++) {
-            count[arr[i] - 1]++;
-        }
+        StringBuilder sb = new StringBuilder();
 
-        for (int i = 0; i < 7; i++) {
-            if (count[i] != 0) {
-                for (int j = 0; j < count[i]; j++){
-                    System.out.println(i + 1);
-                }
+        for (int i = 0; i < 10001; i++) {
+            while (count[i] > 0) {
+                    sb.append(i).append('\n');
+                    count[i]--;
             }
         }
+            System.out.println(sb);
     }
 }
