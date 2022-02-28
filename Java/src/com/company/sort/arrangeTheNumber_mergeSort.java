@@ -25,6 +25,15 @@ public class arrangeTheNumber_mergeSort {
     }
 
     static void mergeSort(int arr[], int m, int n) {
+        System.out.println("m " + m);
+        System.out.println("n " + n);
+
+        for (int i = 0; i < arr.length; i++) {
+
+            System.out.println("arr[] : "+ arr[i]);
+        }
+        System.out.println("!");
+
         if (m < n) {
             int middle = (m + n) / 2;
             mergeSort(arr, m, middle);
