@@ -35,6 +35,7 @@ public class arrangeTheNumber_mergeSort {
         System.out.println("!");
 
         if (m < n) {
+            System.out.println("if 진입");
             int middle = (m + n) / 2;
             mergeSort(arr, m, middle);
             mergeSort(arr, middle + 1, n);
@@ -43,9 +44,18 @@ public class arrangeTheNumber_mergeSort {
     }
 
     static void merge(int arr[], int m, int middle, int n) {
+        System.out.println("도착?");
         int i = m;
         int j = middle + 1;
         int k = m;
+        for (int z = 0; z < arr.length; z++) {
+            System.out.printf("arr[%d] = %d\n", z, arr[z]);
+        }
+        System.out.println("m : " + m);
+        System.out.println("middle : " + middle);
+        System.out.println("n : " + n);
+
+
         sorted = new int[N];
 
         // 작은 순서대로 배열에 삽입

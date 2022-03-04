@@ -1,0 +1,8 @@
+﻿  11651backjoon.cpp
+  11651backjoon2.c
+C:\Users\luna\Desktop\proproject\algorithmTraining\C\C++\algorithm\backjoon-11651-bubble\Project1\11651backjoon2.c(6,11): error C2057: 상수 식이 필요합니다.
+C:\Users\luna\Desktop\proproject\algorithmTraining\C\C++\algorithm\backjoon-11651-bubble\Project1\11651backjoon2.c(6,11): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+C:\Users\luna\Desktop\proproject\algorithmTraining\C\C++\algorithm\backjoon-11651-bubble\Project1\11651backjoon2.c(6,15): error C2133: 'arr': 알 수 없는 크기입니다.
+C:\Users\luna\Desktop\proproject\algorithmTraining\C\C++\algorithm\backjoon-11651-bubble\Project1\11651backjoon2.c(5,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\luna\Desktop\proproject\algorithmTraining\C\C++\algorithm\backjoon-11651-bubble\Project1\11651backjoon2.c(10,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(700,5): error MSB6006: "CL.exe"이(가) 종료되었습니다(코드: 2).
