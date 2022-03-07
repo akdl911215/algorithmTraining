@@ -26,6 +26,11 @@ int main(void) {
 	sort(array, array + N, compare);
 	
 	for (i = 0; i < N; i++) {
+		
+		if (array[i] == array[i + 1]) {
+			continue;
+		}
+		
 		cout << array[i] << "\n";
 	}
 	
