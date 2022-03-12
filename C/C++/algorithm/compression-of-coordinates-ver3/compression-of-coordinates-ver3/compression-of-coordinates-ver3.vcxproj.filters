@@ -18,5 +18,14 @@
     <ClCompile Include="compression-of-coordinates-ver3.cpp">
       <Filter>헤더 파일</Filter>
     </ClCompile>
+    <ClCompile Include="lower_bound-upper_bound-test.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="compression-of-coordinates-ver4.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="for-test.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -27,14 +27,13 @@ int main()
 	// end() : 벡터의 마지막 요소를 가리킨다.
 	sort(vec.begin(), vec.end());
 
-	cout << "sort후 vec.begin() : " << vec.begin() << "\n";
-
 	// resize() : 벡터의 크기를 재할당한다. > vector.resize(size, value)
-	// unique() : vector 배열에서 중복되지 않는 워노들을 앞에서부터 채워나가는 함수
+	// unique() : vector 배열에서 중복되지 않는 원소들을 앞에서부터 채워나가는 함수
 	vec.resize(unique(vec.begin(), vec.end()) - vec.begin());
 
 	for (int x : org)
 	{
+		// 찾으려는 key 값보다 같거나 큰 숫자가 
 		int print = lower_bound(vec.begin(), vec.end(), x) - vec.begin();
 		cout << print << ' ';
 	}
