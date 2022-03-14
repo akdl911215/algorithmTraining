@@ -13,6 +13,7 @@ function solution(input) {
 
   const answer = [];
 
+  // Array.from : 유사 배열 객체나 반복 가능한 객체를 얕게 복사해 새로운 Array객체를 만든ㄷ다
   const set = Array.from(new Set([...x])).sort((a, b) => a, b);
 
   const object = {};

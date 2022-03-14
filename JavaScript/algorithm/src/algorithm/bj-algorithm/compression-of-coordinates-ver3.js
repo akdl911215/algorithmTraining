@@ -1,32 +1,11 @@
-const arr = [2, 4, -10, 4, -9];
-const copyArr = arr.map((el) => el);
-let tmp;
+// const arr = [2, 4, -10, 4, -9];
+const arr = [1000, 999, 1000, 999, 1000, 999];
 
-for (let i = 0; i < copyArr.length; i++) {
-  for (let j = 0; j < copyArr.length - (i + 1); j++) {
-    if (copyArr[j] > copyArr[j + 1]) {
-      if (copyArr[j] === copyArr[j + 1]) continue;
-
-      tmp = copyArr[j];
-      copyArr[j] = copyArr[j + 1];
-      copyArr[j + 1] = tmp;
-    }
-  }
-}
-
-console.log("copyArr  : ", copyArr);
-
+const copyArr = Array.from(new Set([...arr])).sort((a, b) => a - b);
 const myMap = new Map();
 
-[...copyArr].forEach((el, index) => {
-  myMap.set(el, index);
-});
-console.log("myMap : ", myMap);
+[...copyArr].forEach((el, index) => myMap.set(el, index));
 
 let answer = "";
-arr.forEach((el) => console.log("el : ", el));
-
-arr.forEach((el, index) => {
-  answer += myMap.get(el) + " ";
-});
+arr.forEach((el) => (answer += myMap.get(el) + " "));
 console.log("answer : ", answer);
