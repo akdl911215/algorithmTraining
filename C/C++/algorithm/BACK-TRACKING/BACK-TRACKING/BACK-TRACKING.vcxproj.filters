@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NandM(1).cpp">
+    <ClCompile Include="NandM(1-1).cpp">
       <Filter>헤더 파일</Filter>
     </ClCompile>
   </ItemGroup>

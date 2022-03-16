@@ -32,11 +32,18 @@ void dfs(int cnt)
 			visited[i] = false;
 		}
 	}
+
+	for (int i = 0; i < N; ++i)
+		cout << arr[i];
+
+	
 }
 
 int main() {
 
 	cin >> N >> M;
+
+
 
 	return 0;
 }
