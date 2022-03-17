@@ -47,9 +47,6 @@ public class NandMver1 {
                 arr[depth] = i + 1;
                 System.out.println("if > arr[depth] : " + arr[depth]);
 
-                System.out.println("N : " + N);
-                System.out.println("M : " + M);
-                System.out.println("depth : " + depth);
                 dfs(N, M, depth + 1);
                 visit[i] = false;
             }
