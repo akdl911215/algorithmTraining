@@ -26,35 +26,58 @@ public class NandMver1 {
     }
 
     public static void dfs(int N, int M, int depth) {
-        System.out.println("N : " + N);
-        System.out.println("M : " + M);
-        System.out.println("depth : " + depth);
+//        System.out.println("N : " + N);
+//        System.out.println("M : " + M);
+//        System.out.println("depth : " + depth);
 
         if (depth == M) {
             for (int val : arr) {
-                sb.append(val).append(' ');
+                sb.append(val).append(' '); // 1 2 3 4
             }
             sb.append('\n');
             return;
         }
 
-        for (int i = 0; i < N; ++i) {
-            System.out.println("for i : " + i);
-            if (!visit[i]) {
-                System.out.println("if > !visit[i] : " + !visit[i]);
-                visit[i] = true;
-                System.out.println("if > visit[i] : " + visit[i]);
-                arr[depth] = i + 1;
-                System.out.println("if > arr[depth] : " + arr[depth]);
+        for (int i = 1; i <= N; ++i) {
+//            System.out.println("for i : " + i);
+            if (!visit[i - 1]) { // visit[i] = false 만 진입
+//                System.out.println("if > !visit[i] : " + !visit[i]); t f f f
+                visit[i - 1] = true;
+//                System.out.println("if > visit[i] : " + visit[i]);
+                arr[depth] = i;
+//                System.out.println("if > arr[depth] : " + arr[depth]);
 
                 dfs(N, M, depth + 1);
-                visit[i] = false;
+                visit[i - 1] = false; // ffff
             }
         }
 
-        for (int i = 0; i < N; ++i) {
-            System.out.print(visit[i] + " ");
+        for (int i = 0; i < 27; i++)
+
+            write()
+
+
+
+        for (int i = 1; i <= N; ++i) {
+//            System.out.println("for i : " + i); t f f f
+            if (!visit[i -1]) { // visit[i] = false 만 진입
+//                System.out.println("if > !visit[i] : " + !visit[i]);
+                visit[i -1] = true;
+//                System.out.println("if > visit[i] : " + visit[i]);
+                arr[depth] = i;
+//                System.out.println("if > arr[depth] : " + arr[depth]);
+                dfs(N, M, depth + 1);
+                visit[i - 1] = false;
+            }
         }
-        System.out.println(" ");
+
+
+
+
+//        for (int i = 0; i < N; ++i) {
+//            System.out.print(visit[i] + " ");
+//        }
+//        System.out.println(" ");
+
     }
 }
