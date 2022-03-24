@@ -24,5 +24,8 @@
     <ClCompile Include="divide-test.cpp">
       <Filter>헤더 파일</Filter>
     </ClCompile>
+    <ClCompile Include="star2.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
