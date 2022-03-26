@@ -27,5 +27,14 @@
     <ClCompile Include="star2.cpp">
       <Filter>헤더 파일</Filter>
     </ClCompile>
+    <ClCompile Include="star3.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="twoDimensionalPointer.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="twoDimensionalPoint2.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
