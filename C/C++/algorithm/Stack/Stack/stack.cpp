@@ -6,11 +6,11 @@ using namespace std;
 int main(void) {
 
 	int N;
-	string str;
-	stack<int> stack;
-
 	cin >> N;
-	for (int i = 0; i < N; ++i) {
+	stack<int> stack;
+	string str;
+	
+	for (int i = 0; i < N; i++) {
 		cin >> str;
 		if (str == "push") {
 			int num;
@@ -32,7 +32,6 @@ int main(void) {
 			else {
 				cout << "0" << endl;
 			}
- 			
 		} else if (str == "top") {
 			if (!str.empty()) {
 				cout << stack.top() << endl;
