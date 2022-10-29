@@ -5,47 +5,51 @@ function solution(ingredient) {
 
 // 빵 야채 고기 빵
 // [야채, 빵, 빵, 야채, 고기, 빵, 야채, 고기, 빵]
+// 배열의 앞에서부터 재료를 확인한다.
+// 0이 아니면 사용한다.
+// 배열의 값을 1내린다.
+// 햄버거배열(length 4)에 한개씩 넣는다.
+// 4 가 되면 count ++ 해주고 햄버거 배열을 0 으로 초기화해준다.
 
-// 주문은 배열
-// 주문 오면 > 포장을 한다.
-
-// 햄버거 1개 생성
-const meterialCount = [0, 1, 1, 1, 1, 1, 0, 0, 0];
+const materialCount = [0, 1, 1, 1, 1, 1, 0, 0, 0];
+console.log("🚀 >> materialCount", materialCount);
 const material = [
   "vegetable",
   "bread",
   "bread",
-  "begetable",
+  "vegetable",
   "meat",
   "bread",
   "vegetable",
   "meat",
   "bread",
 ];
-console.log("material : ", material);
+const materialBool = [
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+];
+const hamburger = [];
 
-const hamburgerCount = 0;
-for (let i = 0; i < material.length; ++i) {
-  if (material[i] === "bread" && meterialCount[i] > 0) {
-    meterialCount[i] -= 1;
-    for (let j = i; j < material.length; ++j) {
-      if (material[j] === "vegetable" && meterialCount[j] > 0) {
-        meterialCount[j] -= 1;
-        for (let k = j; material.length; ++k) {
-          if (material[k] === "meat" && meterialCount[k] > 0) {
-            meterialCount[k] -= 1;
-            for (let l = k; material.length; ++l) {
-              if (material[l] === "bread" && meterialCount[l] > 0) {
-                meterialCount[l] -= 1;
-                hamburgerCount++;
-              }
-            }
-          }
-        }
-      }
-    }
+for (let i = 0; i < materialCount.length; ++i) {
+  if (
+    materialCount[i] > 0 &&
+    materialBool[i] === false &&
+    material[i] === "bread"
+  ) {
+    materialBool[i] = true;
+    hamburger.push("bread");
   }
 }
 
-console.log(hamburgerCount);
+console.log("hamburger : ", hamburger);
+console.log("material : ", material);
+console.log("material.length : ", material.length);
+
 // https://school.programmers.co.kr/learn/courses/30/lessons/133502?language=javascript
