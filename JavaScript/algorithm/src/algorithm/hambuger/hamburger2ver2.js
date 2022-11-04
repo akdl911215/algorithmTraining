@@ -6,11 +6,9 @@ function solution(ingredient) {
   let answer = 0;
 
   let arr = [];
-  for (let i = 4; i < ingredient.length; ++i) {
-    if (i === 4) {
-      for (let j = 0; j < 5; ++j) {
-        arr.push(ingredient[j]);
-      }
+  for (let i = 3; i < ingredient.length; ++i) {
+    if (i === 3) {
+      for (let j = 0; j < 4; ++j) arr.push(ingredient[j]);
     } else {
       arr.push(ingredient[i]);
     }

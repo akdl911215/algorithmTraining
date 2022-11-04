@@ -69,3 +69,5 @@ function solution(babbling) {
 const babbling = ["asadasayafe", "mayeayaye", "yeye", "yemawoo", "ayaayaa"];
 // const babbling = ["mayeayaye"];
 solution(babbling);
+
+// https://school.programmers.co.kr/learn/courses/30/lessons/133499
