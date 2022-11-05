@@ -66,7 +66,8 @@ function solution(babbling) {
 // const babbling = ["ayaa", "wooyeaya", "u", "maa"];
 // const babbling = ["aya", "yee", "u", "maa"];
 // const babbling = ["ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"];
-const babbling = ["asadasayafe", "mayeayaye", "yeye", "yemawoo", "ayaayaa"];
+// const babbling = ["asadasayafe", "mayeayaye", "yeye", "yemawoo", "ayaayaa"];
+const babbling = ["ayaayayewooomaayye", "yeeyyewoomawu", "ayeaymema"];
 // const babbling = ["mayeayaye"];
 solution(babbling);
 
