@@ -9,50 +9,36 @@
 function solution(babbling) {
   let answer = 0;
 
+  let bool = ["ayaaya", "yeye", "woowoo", "mama"];
   for (let i = 0; i < babbling.length; ++i) {
-    console.log(i);
-    console.log(babbling[i]);
-
     let tmp = babbling[i];
-    console.log("tmp 할당 : ", tmp);
+    const bool2 = bool.some((el) => tmp.includes(el));
+    if (bool2) {
+      continue;
+    }
+
     const aya = tmp.indexOf("aya");
-    console.log("aya: ", aya);
     if (aya !== -1) {
-      // tmp = tmp.slice(aya + 3);
-      tmp = tmp.replace("aya", "");
-      console.log("aya tmp: ", tmp);
-      console.log("tmp : ", tmp);
+      tmp = tmp.replaceAll("aya", "1");
     }
 
     const ye = tmp.indexOf("ye");
-    console.log("ye : ", ye);
     if (ye !== -1) {
-      // tmp = tmp.slice(ye + 2);
-      tmp = tmp.replace("ye", "");
-      console.log("ye tmp: ", tmp);
-      console.log("tmp : ", tmp);
+      tmp = tmp.replaceAll("ye", "2");
     }
 
     const woo = tmp.indexOf("woo");
-    console.log("woo : ", woo);
     if (woo !== -1) {
-      // tmp = tmp.slice(woo + 3);
-      tmp = tmp.replace("woo", "");
-      console.log("woo tmp: ", tmp);
-      console.log("tmp : ", tmp);
+      tmp = tmp.replaceAll("woo", "3");
     }
 
     const ma = tmp.indexOf("ma");
-    console.log("ma : ", ma);
     if (ma !== -1) {
-      // tmp = tmp.slice(ma + 2);
-      tmp = tmp.replace("ma", "");
-      console.log("ma tmp: ", tmp);
-      console.log("tmp : ", tmp);
+      tmp = tmp.replaceAll("ma", "4");
     }
 
+    tmp = tmp.replace(/[1234]/g, "");
     if (tmp.length === 0) {
-      console.log("tmp.length : ", tmp.length);
       answer++;
     }
   }
@@ -67,8 +53,9 @@ function solution(babbling) {
 // const babbling = ["aya", "yee", "u", "maa"];
 // const babbling = ["ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"];
 // const babbling = ["asadasayafe", "mayeayaye", "yeye", "yemawoo", "ayaayaa"];
-const babbling = ["ayaayayewooomaayye", "yeeyyewoomawu", "ayeaymema"];
+// const babbling = ["ayaayayewooomaayye", "yeeyyewoomawu", "ayeaymema"];
 // const babbling = ["mayeayaye"];
+const babbling = ["yeyeye"];
 solution(babbling);
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/133499

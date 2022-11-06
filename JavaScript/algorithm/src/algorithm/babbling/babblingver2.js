@@ -35,8 +35,11 @@ function solution(babbling) {
     if (b.length === 0) count++;
   }
 
+  console.log("count : ", count);
+
   return count;
 }
 // const babbling = ["ayaayayewooomaayye", "yeeyyewoomawu", "ayeaymema"];
-const babbling = ["ye"];
+// const babbling = ["ye"];
+const babbling = ["yeyeye"];
 solution(babbling);

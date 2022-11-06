@@ -34,5 +34,5 @@ function solution(babbling) {
   console.log("result : ", result);
   return result;
 }
-const babbling = ["ye"];
+const babbling = ["maye", "back"];
 solution(babbling);
