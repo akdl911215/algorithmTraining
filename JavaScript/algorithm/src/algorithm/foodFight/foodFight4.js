@@ -1,17 +1,14 @@
 function solution(food) {
   var answer = "0";
 
-  let tmp1 = "";
-  let tmp2 = "";
+  let tmp = "";
   for (let i = 1; i < food.length; ++i) {
-    for (let j = 0; j < Math.floor(food[i] / 2); ++j) {
-      tmp1 = i + tmp1;
-      tmp2 = tmp2 + i;
-    }
+    tmp += String(i).repeat(Math.floor(food[i] / 2));
   }
 
-  answer = tmp2 + answer + tmp1;
+  answer = tmp + answer + [...tmp].reverse().join("");
 
+  console.log("answer", answer);
   return answer;
 }
 // const food = [1, 3, 4, 6];
