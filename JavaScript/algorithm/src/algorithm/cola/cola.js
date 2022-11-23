@@ -1,18 +1,22 @@
 function solution(a, b, n) {
   let answer = 0;
   while (n >= a) {
-    let num = Math.floor(n / a)
-    let num2 = n % a;
-    n = num2 + num
-    answer = answer + (num * b)
+    let num = Math.floor(n / a) * b
+    n = (n % a) + num
+    answer +=  num
   }
 
   return answer;
 }
 
-const a = 2;
-const b = 1;
-const n = 20;
+const a = 5;
+const b = 3;
+const n = 10;
+// result : 9
+
+// const a = 2;
+// const b = 1;
+// const n = 20;
 // result : 19
 
 // const a = 3;
