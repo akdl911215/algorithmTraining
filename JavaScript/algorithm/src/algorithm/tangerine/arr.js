@@ -15,3 +15,19 @@ for (const [key, value] of result.entries()) {
 
 console.log('------------------')
 console.log(result.values())
+
+
+
+
+// let a = 1;
+//
+// const function1 = () => {
+//     console.log('func1 : ',a)
+// }
+//
+// const function2 = () => {
+//     let a = 2
+//     function1()
+//     console.log('func2: ', a)
+// }
+// function2()
