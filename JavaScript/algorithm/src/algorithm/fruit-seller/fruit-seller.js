@@ -4,13 +4,13 @@ function solution(k, m, score) {
     const forLength = score.length;
     console.log('forLength : ', forLength)
 
-    const sortArr = score.sort((a,b) => b - a);
-    console.log("sortArr : ",sortArr);
+    // const sortArr = score.sort((a,b) => b - a);
+    // console.log("sortArr : ",sortArr);
 
     let box = [];
     let count = forLength;
     while(count >= m) {
-        box = sortArr.splice(0, m);
+        box = score.sort((a,b) => b - a).splice(0, m);
         console.log('box : ', box);
         const minScore = box.map(el => el).pop();
         console.log('micScore : ', minScore);
@@ -23,14 +23,14 @@ function solution(k, m, score) {
     return answer;
 }
 
-const k = 3;
-const m = 4;
-const score = [1, 2, 3, 1, 2, 3, 1];
+// const k = 3;
+// const m = 4;
+// const score = [1, 2, 3, 1, 2, 3, 1];
 // result : 8
 
-// const k = 4;
-// const m = 3;
-// const score = [4, 1, 2, 2, 4, 4, 4, 4, 1, 2, 4, 2];
+const k = 4;
+const m = 3;
+const score = [4, 1, 2, 2, 4, 4, 4, 4, 1, 2, 4, 2];
 // result : 33
 
 console.log(solution(k,m,score))
