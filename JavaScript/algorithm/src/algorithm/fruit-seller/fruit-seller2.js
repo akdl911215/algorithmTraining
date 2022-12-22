@@ -1,3 +1,4 @@
+
 function solution(k, m, score) {
     // 사과의 최대 점수 k, 한 상자에 들어가는 사과의 수 m, 사과들의 점수 score
     let answer = 0;
@@ -12,6 +13,8 @@ function solution(k, m, score) {
         answer += arr.splice(0, m).pop() * m
         count += m;
     }
+
+
     return answer;
 }
 
