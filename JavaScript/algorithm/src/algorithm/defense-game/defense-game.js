@@ -2,36 +2,25 @@ function solution(n, k, enemy) {
     // n : 병사의 수, k : 무적권, enemy : 적의 숫자가 담긴 배열
     let answer = k;
 
-    enemy.sort((a, b) => b - a).splice(0, k);
-        // .splice(0, k);
-    // if(enemy.length === 0) return answer;
-    console.log('enemy : ', enemy) // 5, 10, 30 제외 출력
 
-    // k 보다 작거나 같은거 배열에 담고 제일 큰 수를 반환 전략으로 변경
-    let checkingBox = [];
-    // for (let i = 0; i < enemy.length - 1; i++) {
-    //     let count = enemy[i];
-    //     answer++;
-    //     for (let j = i + 1; j < enemy.length; j++) {
-    //         count += enemy[j];
-    //         answer++;
-    //         if (count <= k) {
-    //             console.log('!!')
-    //             checkingBox.push(answer)
-    //         }
-    //     }
-    //     answer = k;
-    // }
-
-    for (let i = enemy.length - 1; i >= 0; i--) {
-        if (answer >= 7) {
-         break
+    for (let i = 0; i < k; ++i) {
+        const maxValue = Math.max(...enemy);
+        for (let j = 0; j < enemy.length; ++j) {
+            if(enemy[j] === maxValue) {
+                enemy.splice(j, 1);
+                break;
+            }
         }
-        console.log('enemy[i] : ', enemy[i])
-        answer += enemy[i]
     }
 
-    console.log(answer)
+    for (let i = 0; i < enemy.length; ++i) {
+        if (n < enemy[i]) {
+            break;
+        }
+        n -= enemy[i];
+        answer++;
+    }
+
     return answer;
 }
 
