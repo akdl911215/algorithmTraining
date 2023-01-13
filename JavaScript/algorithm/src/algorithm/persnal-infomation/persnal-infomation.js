@@ -1,8 +1,19 @@
 function solution(today, terms, privacies) {
+    console.log('today : ', today);
     let answer = [];
 
-    const todayDate = new Date(today);
+    // const todayDate = `${today[0]}${today[1]}${today[2]}${today[3]}-${today[5]}${today[6]}-${today[8]}${today[9]}`;
+
+    const year = Number(`${today[0]}${today[1]}${today[2]}${today[3]}`);
+    const month = Number(`${today[5]}${today[6]}`);
+    const day = Number(`${today[8]}${today[9]}`);
+    console.log(`${year}-${month}-${day}`);
+    console.log('typeof ',typeof year)
+
+    const todayDate = new Date(year, month, day);
+    const todayDate2 = new Date(today);
     console.log("todayDate : ", todayDate)
+    console.log("todayDate2 : ", todayDate2)
     console.log('------------------------')
 
     let termsObject = {};
