@@ -1,8 +1,10 @@
 function solution3(weights) {
     // 시소는 중심으로부터 2(m), 3(m), 4(m)
 
-    const sortArr = weights.sort((a, b) => a - b);
-    let count = 0;
+    const sortArr = [...new Set(weights)];
+    console.log(sortArr)
+    const subtraction = weights.length - sortArr.length;
+    let count = 0 + subtraction;
 
     for (let i = 0; i < sortArr.length - 1; ++i) {
         for (let j = i + 1; j < sortArr.length; ++j) {
@@ -13,6 +15,7 @@ function solution3(weights) {
         }
     }
 
+    console.log('count : ', count)
     return count;
 }
 
