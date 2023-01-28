@@ -27,4 +27,4 @@ function solution(weights) {
     console.log(answer)
     return answer;
 }
-solution([100,180,360,100,270, 100, 100, 100]);
+solution([100,180,360,100,270]);
