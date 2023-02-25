@@ -1,28 +1,15 @@
 function solution(cards1, cards2, goal) {
-    let answer = "No";
 
-    let count = 0;
-    for (let i = 0; i < goal.length; ++i) {
-        count++;
-
-        if (goal[i] === cards1[0]) {
+    for (const element of goal) {
+        if (element === cards1[0]) {
             cards1.shift()
-            continue;
-        }
-
-        if (goal[i] === cards2[0]) {
+        } else if (element === cards2[0]) {
             cards2.shift()
-            continue;
+        } else {
+            return 'No';
         }
-
-        count--;
-        break;
     }
-
-    if (count === goal.length) {
-        answer = "Yes"
-    }
-    return answer;
+    return 'Yes';
 }
 console.log(solution(["i", "drink"], ["want", "to"], ["i", "want", "to", "drink", "water"]))
 
