@@ -1,5 +1,17 @@
 function solution(players, callings) {
     var answer = [];
+
+    let arr = players
+    for (let i = 0; i < callings.length; ++i) {
+        const call = callings[i];
+        const index = arr.indexOf(call);
+
+        arr = arr.filter(el => el !== call)
+        arr.splice(index - 1, 0, call)
+
+        answer = arr;
+    }
+    console.log(answer)
     return answer;
 }
 
