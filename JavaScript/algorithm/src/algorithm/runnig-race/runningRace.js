@@ -1,5 +1,5 @@
 function solution(players, callings) {
-    var answer = [];
+    let answer = [];
 
     let arr = players
     for (let i = 0; i < callings.length; ++i) {
