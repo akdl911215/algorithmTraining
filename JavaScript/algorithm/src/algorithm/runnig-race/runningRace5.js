@@ -1,23 +1,18 @@
 function solution(players, callings) {
 
-    const result = {};
-    players.forEach((el, key) => result[el] = key);
-    console.log('result : ', result)
+    const object = {};
+    players.forEach((key, value) => object[key] = value);
 
-    callings.map((el, key) => {
-        console.log('callings[key] : ', callings[key])
-        const index = result[callings[key]];
-        console.log('index : ', index)
-        const player = players[index];
-        players[index] = players[index - 1];
-        players[index - 1] = player;
+    callings.forEach((el, inx) => {
+        const index = object[callings[inx]];
+        const player = players[index - 1];
+        players[index - 1] = players[index];
+        players[index] = player;
 
-        const tmp = result[el]
-        console.log('tmp : ', tmp)
+        object[player]++
+        object[callings[inx]]--
     })
 
-    // players = Object.keys(result)
-    console.log(players);
     return players;
 }
 
