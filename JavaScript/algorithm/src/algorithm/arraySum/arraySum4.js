@@ -31,6 +31,7 @@ function solution(sequence, pivot) {
         }
     }
 
+    console.log(returnArr)
     return returnArr;
 }
 
