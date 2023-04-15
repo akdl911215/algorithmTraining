@@ -1,0 +1,61 @@
+function solution(sequence, pivot) {
+
+    const length = sequence.length;
+
+    // let obj = {}
+    // let count = 0;
+    const checkArr = []
+    for (let i = 0; i < length; ++i) {
+        let sum = 0;
+
+        for (let j = i; j < length; ++j) {
+            sum += sequence[j];
+            if (pivot > sum) continue
+
+            if (pivot === sum) {
+                checkArr.push( {
+                    start: i,
+                    end: j,
+                    length: j - i})
+            }
+            break;
+        }
+    }
+    console.log('checkArr : ', checkArr)
+
+    let returnArr = [];
+    for (let i = 0; i < checkArr.length; ++i) {
+        if (i === 0) {
+            returnArr[0] = checkArr[0].start;
+            returnArr[1] = checkArr[0].end;
+        } else if (checkArr[i - 1].length > checkArr[i].length) {
+            returnArr[0] = checkArr[i].start;
+            returnArr[0] = checkArr[i].end;
+        }
+    }
+
+    console.log(returnArr)
+
+    // let arr = [];
+    // let check = obj[0].length;
+    // for (let i = 1; i < count; ++i) {
+    //     if (check > obj[i].length) {
+    //         arr[0] = obj[i].start;
+    //         arr[1] = obj[i].end;
+    //     }
+    // }
+
+    // console.log(arr)
+    // return ;
+}
+
+// solution([1, 2, 3, 4, 5], 7);
+// [2, 3]
+
+solution([1, 1, 1, 2, 3, 4, 5]	,5);
+// [6, 6]
+
+// solution([2, 2, 2, 2, 2], 6)
+// [0, 2]
+
+// https://school.programmers.co.kr/learn/courses/30/lessons/178870
