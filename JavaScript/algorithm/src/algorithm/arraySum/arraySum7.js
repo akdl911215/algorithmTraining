@@ -17,14 +17,14 @@ function solution(sequence, pivot) {
                         checkArr[1] = j;
                         checkArr[2] = j - i;
                     }
-                    break;
+
                 } else  if(checking) {
                     checkArr[0] = i;
                     checkArr[1] = j;
                     checkArr[2] = j - i;
 
                     checking = false;
-                    break;
+
                 }
             }
         }

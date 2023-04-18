@@ -2,33 +2,33 @@ function solution(sequence, pivot) {
 
     const length = sequence.length;
     const checkArr = []
-    let checking = true;
-    for (let i = 0; i < length; ++i) {
+    let checking = false;
+    sequence.forEach((el,i) => {
         let sum = 0;
 
         for (let j = i; j < length; ++j) {
             sum += sequence[j];
-            if (pivot > sum) continue
+            if (pivot > sum) continue;
 
             if (pivot === sum) {
-                if(!checking) {
+                if(checking) {
                     if (j - i < checkArr[2]) {
                         checkArr[0] = i;
                         checkArr[1] = j;
                         checkArr[2] = j - i;
                     }
-                    break;
-                } else  if(checking) {
+                }
+
+                if(!checking){
                     checkArr[0] = i;
                     checkArr[1] = j;
                     checkArr[2] = j - i;
 
-                    checking = false;
-                    break;
+                    checking = true;
                 }
             }
         }
-    }
+    })
 
     console.log([checkArr[0], checkArr[1]])
     return [checkArr[0], checkArr[1]]
