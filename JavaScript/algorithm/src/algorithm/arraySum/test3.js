@@ -1,0 +1,6 @@
+console.log(0)
+console.log(!0)
+console.log(!undefined)
+console.log(!1)
+console.log(!2)
+console.log(!-1)
