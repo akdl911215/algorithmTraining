@@ -8,9 +8,9 @@ function solution(sequence, pivot) {
 
         for (let j = i; j < length; ++j) {
             sum += sequence[j];
-            if (pivot > sum) continue
 
             if (pivot === sum) {
+
                 if(!checking) {
                     if (j - i < checkArr[2]) {
                         checkArr[0] = i;
@@ -26,6 +26,8 @@ function solution(sequence, pivot) {
                     checking = false;
 
                 }
+
+                break;
             }
         }
     }
@@ -34,10 +36,10 @@ function solution(sequence, pivot) {
     return [checkArr[0], checkArr[1]]
 }
 
-solution([1, 2, 3, 4, 5], 7);
+// solution([1, 2, 3, 4, 5], 7);
 // [2, 3]
 
-// solution([1, 1, 1, 2, 3, 4, 5]	,5);
+solution([1, 1, 1, 2, 3, 4, 5]	,5);
 // [6, 6]
 
 // solution([2, 2, 2, 2, 2], 6)
