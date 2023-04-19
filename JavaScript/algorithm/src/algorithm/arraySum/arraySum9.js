@@ -1,35 +1,52 @@
 function solution(sequence, pivot) {
 
-    const length = sequence.length;
-    const checkArr = []
+    console.log('start !! pivot : ', pivot)
+    const checkArr = [];
     let checking = true;
-    for (let i = 0; i < length; ++i) {
-        let sum = 0;
+    let ifCheck = true;
 
-        for (let j = i; j < length; ++j) {
-            sum += sequence[j];
+    let sum = 0;
+    let start = 0;
+    let end = 0
 
-            if (pivot === sum) {
+    while (checking) {
+        console.log(`start: ${start}, end: ${end}`);
 
-                if(!checking) {
-                    if (j - i < checkArr[2]) {
-                        checkArr[0] = i;
-                        checkArr[1] = j;
-                        checkArr[2] = j - i;
-                    }
+        const endArr = sequence[end];
+        end += 1;
+        sum += endArr;
 
-                } else if(checking) {
-                    checkArr[0] = i;
-                    checkArr[1] = j;
-                    checkArr[2] = j - i;
+        if (sum > pivot) {
+            console.log('sum > pivot : ', sum > pivot, sum, pivot);
+            start += 1;
+            end = start;
+            sum = 0;
+        }
 
-                    checking = false;
+        if (sum === pivot) {
+            // 같으면 값 할당
+            if (start < checkArr[2]) {
+                checkArr[0] = start;
+                checkArr[1] = end;
+                checkArr[2] = end - start;
+            }
 
-                }
+            if (ifCheck) {
+                checkArr[0] = start;
+                checkArr[1] = end;
+                checkArr[2] = end - start;
 
-                break;
+                ifCheck = false;
             }
         }
+
+
+
+        if (start === sequence.length) {
+            checking = false;
+        }
+
+
     }
 
     console.log([checkArr[0], checkArr[1]])

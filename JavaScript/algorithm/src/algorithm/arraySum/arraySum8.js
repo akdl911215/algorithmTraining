@@ -24,7 +24,6 @@ function solution(sequence, pivot) {
                     checkArr[2] = j - i;
 
                     checking = false;
-
                 }
 
                 break;
