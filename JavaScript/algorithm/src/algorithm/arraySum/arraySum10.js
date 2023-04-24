@@ -14,11 +14,7 @@ function solution(sequence, pivot) {
         const endArr = sequence[end];
         sum += endArr;
 
-        if(start + 1 === sequence.length) {
-            console.log('ending : ', start + 1)
-            count = sequence.length
-            console.log('eeeee : ', sequence.length !== count)
-        }
+
 
         if (sum < pivot) {
             console.log('sum < pivot : ',sum < pivot, sum, pivot)
@@ -69,14 +65,20 @@ function solution(sequence, pivot) {
 
     }
 
+    if(start + 1 === sequence.length) {
+        console.log('ending : ', start + 1)
+        count = sequence.length
+        console.log('eeeee : ', sequence.length !== count)
+    }
+
     console.log([checkArr[0], checkArr[1]])
     return [checkArr[0], checkArr[1]]
 }
 
-// solution([1, 2, 3, 4, 5], 7);
+solution([1, 2, 3, 4, 5], 7);
 // [2, 3]
 
-solution([1, 1, 1, 2, 3, 4, 5]	,5);
+// solution([1, 1, 1, 2, 3, 4, 5]	,5);
 // [6, 6]
 
 // solution([2, 2, 2, 2, 2], 6)
