@@ -1,18 +1,8 @@
 function solution(sequence, pivot) {
-
-    const checkArr = [];
-    let ifCheck = true;
-
-    let sum = 0;
-    let start = 0;
-    let end = 0
-    let count = 0;
-
+    let sum = 0,start = 0,end = 0,count = 0;
+    const checkArr = [start, end, 9999];
     while (sequence.length !== count) {
-
-        const endArr = sequence[end];
-        sum += endArr;
-
+        sum += sequence[end];
         if (sum < pivot) {
             end += 1;
             if (end === sequence.length) {
@@ -21,23 +11,13 @@ function solution(sequence, pivot) {
                 count++;
             }
         } else if (sum >= pivot) {
-
             if (sum === pivot) {
-                if (ifCheck) {
-                    checkArr[0] = start;
-                    checkArr[1] = end;
-                    checkArr[2] = end - start;
-                    ifCheck = false;
-                }
-
                 if (end - start < checkArr[2]) {
                     checkArr[0] = start;
                     checkArr[1] = end;
                     checkArr[2] = end - start;
                 }
-
             }
-
             end = start += 1;
             sum = 0;
             count += 1;
