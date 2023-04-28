@@ -5,7 +5,7 @@ function solution(sequence, pivot) {
     let arr = [1, 1000];
     while(end) {
 
-        if (left >= sequence.length) {
+        if (left === sequence.length) {
             console.log(`left: ${left}, sequence.length: ${sequence.length}`)
             end = false
         }
@@ -16,8 +16,7 @@ function solution(sequence, pivot) {
             console.log(`up pivot:${pivot}, sum:${sum}, left:${left}, right:${right}, arr[0]:${arr[0]}, arr[1]:${arr[1]}`)
 
             right += 1;
-
-            if (right >= sequence.length) {
+            if (right === sequence.length) {
                 console.log(`right:${right}, sequence.length:${sequence.length}`)
                 end = false
             }
