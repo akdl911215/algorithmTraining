@@ -6,21 +6,17 @@ function solution(sequence, k) {
 
     while (right < sequence.length) {
         if (sum < k) {
-            // k보다 작으면 오른쪽 포인터 이동
             right+= 1;
             sum += sequence[right];
         } else if (sum > k) {
-            // k보다 크면 왼쪽 포인터 이동
             sum -= sequence[left];
             left+= 1;
         } else {
-            // k와 같으면 result에 push
             result.push([left, right]);
-            right += 1; // 다른 값을 구하기 위해 포인터 이동
+            right += 1;
             sum += sequence[right];
         }
     }
-    console.log('result : ', result)
 
     const a = result.sort(condition)[0];
     console.log(a)
@@ -28,13 +24,9 @@ function solution(sequence, k) {
 }
 
 function condition(a, b) {
-    console.log(`a:${a}, b:${b}`)
-    console.log(`a[0] - a[1]: ${a[0] - a[1]}, b[0] - b[1]: ${b[0] - b[1]}`)
-    console.log(`Math.abs(a[0] - a[1]): ${Math.abs(a[0] - a[1])}, Math.abs(b[0] - b[1]: ${Math.abs(b[0] - b[1])}`)
     const lenDiff = Math.abs(a[0] - a[1]) - Math.abs(b[0] - b[1]);
-    console.log('lenDiff : ', lenDiff)
-    if (lenDiff !== 0) return lenDiff; // 길이에 따라 정렬
-    return a[0] - b[0]; // 그 외는 0번째 원소 index가 낮은 순서로 정렬
+    if (lenDiff !== 0) return lenDiff;
+    return a[0] - b[0];
 }
 
 // solution([1, 2, 3, 4, 5], 7);

@@ -1,7 +1,7 @@
 function solution(sequence, pivot) {
     let left = 0, right = 0;
     let sum = sequence[0];
-    const arr = [1, 999];
+    const arr = [1, 99999999];
 
     while (sequence.length > right) {
         if (sum < pivot) {
@@ -16,7 +16,6 @@ function solution(sequence, pivot) {
             sum += sequence[++right];
         }
     }
-
     return arr;
 }
 
