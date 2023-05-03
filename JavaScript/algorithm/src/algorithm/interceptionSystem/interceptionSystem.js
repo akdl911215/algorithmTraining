@@ -1,7 +1,7 @@
 function solution(targets) {
     var answer = 0;
 
-    let range = {};
+    let range = [];
 
     console.log(targets.length)
     for (let i = 0; i < targets.length; ++i) {
@@ -11,14 +11,19 @@ function solution(targets) {
         const targetTwo = targets[i][1]
         const subTargetTwo = targetTwo - 1;
 
-        range[`${i}`] = {
-                left: subTargetOne,
-                right: subTargetTwo,
-                arrLeft: targets[i][0],
-                arrRight: targets[i][1]
-            }
+        const difference = subTargetTwo - subTargetOne;
+
+        range[i] = {
+            left: subTargetOne,
+            right: subTargetTwo,
+            arrLeft: targets[i][0],
+            arrRight: targets[i][1],
+            difference
+        }
 
     }
+
+    range.sort()
     console.log(range)
 
     return answer;
