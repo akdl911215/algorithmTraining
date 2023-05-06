@@ -3,23 +3,26 @@ function solution(targets) {
 
     let range = [];
 
-    let check = []
+    let check = [];
+    let differenceArr = [];
     console.log(targets.length)
     for (let i = 0; i < targets.length; ++i) {
         const left = targets[i][0]
         const right = targets[i][1]
         const difference = right - left;
 
+        for (let j = 0; j < difference; ++j) {
+            check[j] = j + left;
+        }
+        console.log('check :: ', check)
+
         range[i] = {
             arrLeft: targets[i][0],
             arrRight: targets[i][1],
-            difference
+            difference,
+            differenceArr: check[i]
         }
-
-        for (let j = left; j < left + difference; ++j) {
-            check[j] = j;
-        }
-
+        console.log('range :: ', range)
     }
 
 
