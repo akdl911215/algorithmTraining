@@ -4,7 +4,6 @@ function solution(targets) {
     let range = [];
 
     let check = [];
-    let differenceArr = [];
     console.log(targets.length)
     for (let i = 0; i < targets.length; ++i) {
         const left = targets[i][0]
@@ -13,15 +12,21 @@ function solution(targets) {
 
         for (let j = 0; j < difference; ++j) {
             check[j] = j + left;
+            // console.log(`check[${j}]: ${check[j]}`)
         }
         console.log('check :: ', check)
+
+        const differenceCheck = check;
+        // const name = "who";
+        // const person = { [name]: "nkh" }; // {who: 'nkh'}
 
         range[i] = {
             arrLeft: targets[i][0],
             arrRight: targets[i][1],
             difference,
-            differenceArr: check[i]
+            [i]:differenceCheck
         }
+
         console.log('range :: ', range)
     }
 
