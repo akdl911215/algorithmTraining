@@ -1,20 +1,13 @@
 function solution(targets) {
-    // console.log(targets)
-    const sortTargets = targets.sort((a, b) => a[1] - b[1])
-    console.log(sortTargets)
-
+    const sortTargets = targets.sort((a, b) => a[1] - b[1]);
     let count = 1;
     let pivot = sortTargets[0][1];
     for (let i = 1; i < sortTargets.length; ++i) {
         if(sortTargets[i][0] >= pivot) {
-            console.log('check : ', sortTargets[i][0])
             pivot = sortTargets[i][1];
-            console.log('pivot : ', pivot)
             count++;
         }
     }
-
-    console.log(count)
     return count;
 }
 
