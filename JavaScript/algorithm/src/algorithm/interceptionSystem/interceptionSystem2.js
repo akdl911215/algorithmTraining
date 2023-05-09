@@ -2,9 +2,9 @@ function solution(targets) {
     var answer = 0;
 
     let range = [];
-
     let check = [];
     console.log(targets.length)
+
     for (let i = 0; i < targets.length; ++i) {
         const left = targets[i][0]
         const right = targets[i][1]
