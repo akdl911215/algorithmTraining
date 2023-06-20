@@ -19,7 +19,7 @@ class LinkedList {
 
   // Insert last node
   insertLast(data) {
-    let node = new Node(data, null);
+    let node = new Node(data);
     let current;
 
     // if empty, make head
@@ -41,7 +41,7 @@ class LinkedList {
 
   // Insert at index - 중간 삽입
   insertAt(data, index) {
-    // 인덱스가 size 범위 ㅈ넘어서면 아무것도 리턴 하지 않는다.
+    // 인덱스가 size 범위 넘어서면 아무것도 리턴 하지 않는다.
     if (index > 0 && index > this.size) {
       return;
     }
@@ -57,16 +57,30 @@ class LinkedList {
 
     // Set current first
     current = this.head;
-    let count = 0;
 
+    let count = 0;
+    // login 수정중..
     while (count < index) {
-      previous = this.head; // node before index
       count++;
-      current = current.next; // node after index
+
+      if (count === index) {
+        if (index === 1) {
+          previous = this.head;
+
+          current = current.next;
+        } else {
+          current = previous.next; // node after index
+        }
+      } else {
+        previous = this.head.next;
+
+        current = previous.next;
+      }
     }
 
     node.next = current;
     previous.next = node;
+    console.log("previous !! : ", previous);
 
     this.size++;
   }
@@ -124,6 +138,7 @@ class LinkedList {
 
   // Print list data ~ data 값만 따로
   printListData() {
+    console.log("printListData: ", this.head);
     let current = this.head; // 현재 노드를 나타낸다.
 
     while (current) {
@@ -135,6 +150,7 @@ class LinkedList {
 
 const linkedList = new LinkedList();
 console.log("linkedList : ", linkedList);
+console.log("------------------------------------------");
 
 linkedList.insertFirst(100);
 console.log("linkedList : ", linkedList);
@@ -156,22 +172,22 @@ console.log("linkedList : ", linkedList);
 console.log("linkedList.head.next", linkedList.head.next);
 console.log("------------------------------------------");
 
-linkedList.insertAt(500, 1);
+linkedList.insertAt(500, 3);
 console.log("linkedList : ", linkedList);
 console.log("linkedList.head.next", linkedList.head.next);
 console.log("------------------------------------------");
 
-linkedList.removeAt(2);
-console.log("linkedList : ", linkedList);
-console.log("linkedList.head.next", linkedList.head.next);
-console.log("------------------------------------------");
+// linkedList.removeAt(2);
+// console.log("linkedList : ", linkedList);
+// console.log("linkedList.head.next", linkedList.head.next);
+// console.log("------------------------------------------");
 
 linkedList.printListData();
 console.log("linkedList : ", linkedList);
 console.log("linkedList.head.next", linkedList.head.next);
 console.log("------------------------------------------");
 
-linkedList.getAt(2);
-console.log("linkedList : ", linkedList);
-console.log("linkedList.head.next", linkedList.head.next);
-console.log("------------------------------------------");
+// linkedList.getAt(2);
+// console.log("linkedList : ", linkedList);
+// console.log("linkedList.head.next", linkedList.head.next);
+// console.log("------------------------------------------");
