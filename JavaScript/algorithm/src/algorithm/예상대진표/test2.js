@@ -15,3 +15,6 @@ console.log("e : ", e);
 
 const f = Math.log2(1024);
 console.log("f : ", f);
+
+const g = Math.abs(1.23231231);
+console.log("g : ", g);
