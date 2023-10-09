@@ -2,12 +2,10 @@ function solution(picks, minerals) {
   let answer = 0;
 
   let len = Math.ceil(minerals.length / 5);
-  let maxLen = picks.reduce((a, b) => a + b);
+  let picksSum = picks.reduce((a, b) => a + b);
+  minerals = minerals.splice(0, picksSum * 5);
 
-  let arr = [];
-  if (maxLen === 0) return 0;
-
-  minerals = minerals.splice(0, maxLen * 5);
+  let caseArray = [];
 
   for (let i = 0; i < len; ++i) {
     let obj = { diamond: 0, iron: 0, stone: 0 };
@@ -15,16 +13,16 @@ function solution(picks, minerals) {
       obj[mineral]++;
     });
 
-    arr.push([
+    caseArray.push([
       obj.diamond + obj.iron + obj.stone,
       obj.diamond * 5 + obj.iron + obj.stone,
       obj.diamond * 25 + obj.iron * 5 + obj.stone,
     ]);
   }
 
-  console.log("arr : ", arr);
-  arr.sort((a, b) => b[2] - a[2]);
-  arr.map((value) => {
+  console.log("caseArray : ", caseArray);
+  caseArray.sort((a, b) => b[2] - a[2]);
+  caseArray.map((value) => {
     const [diamond, iron, stone] = picks;
     if (diamond > 0) {
       picks[0]--;
