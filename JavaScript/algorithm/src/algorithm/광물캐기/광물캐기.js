@@ -15,6 +15,8 @@ function solution(picks, minerals) {
       count++;
     }
 
+    if (numberOfTools === undefined) return answer;
+
     if (count === 1) tool = "iron";
     if (count === 2) tool = "stone";
 
@@ -48,21 +50,21 @@ function mining(mineral, tool) {
   return fatigueAsWell;
 }
 
-// console.log(
-//   solution(
-//     [1, 3, 2],
-//     [
-//       "diamond",
-//       "diamond",
-//       "diamond",
-//       "iron",
-//       "iron",
-//       "diamond",
-//       "iron",
-//       "stone",
-//     ]
-//   )
-// );
+console.log(
+  solution(
+    [1, 3, 2],
+    [
+      "diamond",
+      "diamond",
+      "diamond",
+      "iron",
+      "iron",
+      "diamond",
+      "iron",
+      "stone",
+    ]
+  )
+);
 // 12
 
 console.log(
