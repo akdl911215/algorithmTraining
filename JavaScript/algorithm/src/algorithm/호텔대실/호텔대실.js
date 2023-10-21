@@ -5,14 +5,10 @@ function solution(book_time) {
   for (let time of sortedBookTime) {
     const [[sH, sM], [eH, eM]] = time.map((x) => x.split(":"));
 
-    const startTime = sH * 60 + sM;
-    const endTime = eH * 60 + eM + 10;
-
-    console.log("startTime : ", startTime);
-    console.log("endTime : ", endTime);
+    const startTime = Number(sH) * 60 + Number(sM);
+    const endTime = Number(eH) * 60 + Number(eM) + 10;
 
     const index = room.findIndex((time) => time <= startTime);
-    console.log("index : ", index);
 
     if (index === -1) {
       room.push(endTime);
