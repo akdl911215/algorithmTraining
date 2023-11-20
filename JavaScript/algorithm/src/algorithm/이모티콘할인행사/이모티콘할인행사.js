@@ -18,6 +18,8 @@ function solution(users, emoticons) {
   console.log("userList : ", userList);
 
   const [emotionA, emotionB] = emoticons;
+  console.log("emotionA : ", emotionA);
+  console.log("emotionB : ", emotionB);
 
   const promotionList = [
     [0.4, 0.4],
@@ -33,22 +35,51 @@ function solution(users, emoticons) {
   ];
 
   let number = Infinity;
-  let count = 0;
+  const obj = {};
   for (let i = 0; i < promotionList.length; ++i) {
     const [promotionA, promotionB] = promotionList[i];
     const a = emotionA - emotionA * promotionA;
     const b = emotionB - emotionB * promotionB;
 
     const ab = a + b;
-    if (ab >= 10000 && number > ab) {
+
+    if (ab >= 10000 && ab < number) {
       number = ab;
+      obj["emotionA"] = emotionA;
+      obj["emotionB"] = emotionB;
+      obj["promotionA"] = promotionA;
+      obj["promotionB"] = promotionB;
+      obj["price"] = number;
     }
   }
+  console.log("obj : ", obj);
   // 이모티콘 플러스 서비스 가입 수와 이모티콘 매출액을 배열로
 
-  emoticons.forEach((value) => {
-    //
+  let emotionPlus = 0;
+
+  userList.forEach((value) => {
+    console.log("value : ", value);
+    const [discountRate, totalAmount] = value;
+    let amount = 0;
+
+    const a = obj.emotionA - obj.emotionA * obj.promotionA;
+    if (obj.promotionA * 100 >= discountRate) {
+      amount = a;
+      console.log("a amount : ", amount);
+    }
+
+    const b = obj.emotionB - obj.emotionB * obj.promotionB;
+    if (obj.promotionB * 100 >= discountRate) {
+      amount = b;
+      console.log("b amount : ", amount);
+    }
+
+    console.log("amount : ", amount);
+    if (amount === obj.price) {
+      answer[0] = ++emotionPlus;
+    }
   });
+  console.log("emotionPlus : ", emotionPlus);
 
   // 할인율은 10%, 20%, 30%, 40%
   // 최대한 1만원에서 좀만 넘어가게
