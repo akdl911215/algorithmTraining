@@ -22,10 +22,10 @@ function dfs(emoticons, result) {
 
     const dc = discount[i];
     console.log("dc : ", dc, "/ i : ", i);
-    result = [...result, [dc, emoticons[0]]];
+    const newResult = [...result, [dc, emoticons[0]]];
     console.log("result : ", result);
     console.log("--------------------------");
-    dfs(emo, result);
+    dfs(emo, newResult);
   }
 }
 
