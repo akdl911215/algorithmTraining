@@ -56,20 +56,29 @@ function solution(users, emoticons) {
   // 이모티콘 플러스 서비스 가입 수와 이모티콘 매출액을 배열로
 
   let emotionPlus = 0;
-
   userList.forEach((value) => {
     console.log("value : ", value);
     const [discountRate, totalAmount] = value;
     let amount = 0;
 
-    const a = obj.emotionA - obj.emotionA * obj.promotionA;
-    if (obj.promotionA * 100 >= discountRate) {
+    const { emotionA, emotionB, promotionA, promotionB, price } = obj;
+
+    const a = emotionA - emotionA * promotionA;
+    const b = emotionB - emotionB * promotionB;
+
+    if (promotionA * 100 >= discountRate && promotionB * 100 >= discountRate) {
+      if (
+        emotionA - emotionA * promotionA + emotionB - emotionB * promotionB >
+        10000
+      ) {
+        //
+      } else {
+        //
+      }
+    } else if (obj.promotionA * 100 >= discountRate) {
       amount = a;
       console.log("a amount : ", amount);
-    }
-
-    const b = obj.emotionB - obj.emotionB * obj.promotionB;
-    if (obj.promotionB * 100 >= discountRate) {
+    } else if (obj.promotionB * 100 >= discountRate) {
       amount = b;
       console.log("b amount : ", amount);
     }
