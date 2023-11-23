@@ -23,17 +23,16 @@ function solution(users, emoticons) {
     // 7) 할인율 개수만큼 반복한다.
     for (let i = 0; i < discount.length; i++) {
       // 8) 이모티콘 개수를 하나씩 줄이고, 줄였던 이모티콘의 할인율과 원가를 result 에 담는다.
-      console.log("up emoticons : ", emoticons);
       const emo = emoticons.slice(1);
-      console.log("down emoticons : ", emoticons);
-      console.log("emo : ", emo);
-      dfs(emo, [...result, [discount[i], emoticons[0]]]);
+      const newResult = [...result, [discount[i], emoticons[0]]];
+      dfs(emo, newResult);
     }
   }
 
   // 9) 최초 dfs 함수 실행
   dfs(emoticons, []);
 
+  console.log("arr : ", arr);
   // 10) 할인가 계산 함수
   const disAmt = (dis, price) => ((100 - dis) / 100) * price;
 
