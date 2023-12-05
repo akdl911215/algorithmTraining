@@ -25,13 +25,8 @@ function solution(k, tangerine) {
 
   return minTypes;
 }
-console.log(solution(6, [1, 3, 2, 5, 4, 5, 2, 3]));
-// 3
 
-console.log(solution(4, [1, 3, 2, 5, 4, 5, 2, 3]));
-// 2
-
-// console.log(solution(2, [1, 1, 1, 1, 2, 2, 2, 3]));
-// 1
-
-// https://school.programmers.co.kr/learn/courses/30/lessons/138476
+// 사용 예시
+const tangerine = [1, 3, 2, 5, 4, 5, 2, 3];
+const k = 6;
+console.log(solution(k, tangerine)); // 3
