@@ -5,7 +5,7 @@ function solution(x, y, n) {
   while (true) {
     count++;
 
-    cwonst set = new Set();
+    const set = new Set();
     test.forEach((item) => {
       console.log("item : ", item);
 
