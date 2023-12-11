@@ -1,13 +1,17 @@
 function solution(queue1, queue2) {
   let answer = 0;
 
-  const pivot =
-    [...queue1, ...queue2].reduce(
-      (accumulator, currentValue) => accumulator + currentValue,
-      0
-    ) / 2;
+  // const pivot =
+  //   [...queue1, ...queue2].reduce(
+  //     (accumulator, currentValue) => accumulator + currentValue,
+  //     0
+  //   ) / 2;
+
+  let check = queue1.length + queue2.length;
 
   while (true) {
+    check--;
+
     const q1 = queue1.reduce(
       (accumulator, currentValue) => accumulator + currentValue,
       0
@@ -27,6 +31,8 @@ function solution(queue1, queue2) {
     }
 
     answer++;
+
+    if (!check) return -1;
   }
 }
 
