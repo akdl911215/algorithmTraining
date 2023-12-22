@@ -1,18 +1,22 @@
 function solution(n, left, right) {
   let answer = [];
-  let y = Math.floor(left / n);
-  let x = left % n;
+  let row = Math.floor(left / n);
+  let column = left % n;
 
   for (let i = 0; i <= right - left; i++) {
-    answer.push(Math.max(x, y) + 1);
-    if (x + 1 < n) {
-      x++;
+    answer.push(Math.max(row, column) + 1);
+    if (column + 1 < n) {
+      column++;
     } else {
-      y++;
-      x = 0;
+      row++;
+      column = 0;
     }
   }
   return answer;
 }
 
 console.log(solution(3, 2, 5));
+// [3, 2, 2, 3]
+
+console.log(solution(4, 7, 14));
+// [4, 3, 3, 3, 4, 4, 4, 4]

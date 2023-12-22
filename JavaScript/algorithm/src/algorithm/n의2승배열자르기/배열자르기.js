@@ -5,9 +5,10 @@ function solution(n, left, right) {
 
   for (let i = 0; i < n; ++i) {
     for (let j = 0; j < n; ++j) {
-      arr[i][j] = Math.max(i + 1, j + 1);
+      arr[i][j] = Math.max(i, j) + 1;
     }
   }
+  console.log(arr);
 
   arr.forEach((array) => answer.push(...array));
 

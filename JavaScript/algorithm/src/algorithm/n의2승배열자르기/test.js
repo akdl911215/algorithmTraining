@@ -17,3 +17,16 @@ const c = 오십만원 * 칠프로 + (오백만원 - 오십만원) * 삼쩜오�
 console.log("c : ", c);
 const d = c / 오백만원;
 console.log("d : ", d);
+
+const e = 오십만원 * 칠프로;
+console.log("e : ", e);
+const f = e / 오백만원;
+console.log("f : ", f);
+
+const g = 4500000 * 삼쩜오프로;
+console.log("g : ", g);
+const h = g / 오백만원;
+console.log("h : ", h);
+
+const i = h + f;
+console.log(i);
