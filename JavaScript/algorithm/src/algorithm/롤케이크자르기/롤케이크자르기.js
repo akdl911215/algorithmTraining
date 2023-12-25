@@ -1,13 +1,20 @@
 function solution(topping) {
   let answer = -1;
 
-  const obj = {};
+  // const obj = {};
+  //
+  // for (let i = 0; i < topping.length; ++i) {
+  //   obj[topping[i]] = (obj[topping[i]] || 0) + 1;
+  // }
 
-  for (let i = 0; i < topping.length; ++i) {
-    obj[topping[i]] = (obj[topping[i]] || 0) + 1;
-  }
+  const a = topping.sort((a, b) => {
+    if (a > b) return 1;
+    if (a === b) return 0;
+    if (a < b) return -1;
+  });
+  console.log(a);
 
-  console.log(obj);
+  // console.log(obj);
 
   return answer;
 }
