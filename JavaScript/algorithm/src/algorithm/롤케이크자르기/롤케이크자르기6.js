@@ -13,8 +13,10 @@ function solution(topping) {
     baseSet.add(v);
     counter[v]++;
   });
+  console.log("baseSet : ", baseSet);
   console.log("counter : ", counter);
 
+  console.log("topping : ", topping);
   topping.map((v) => {
     console.log("counter[v]  :", counter[v]);
     if (counter[v] >= 1) {
