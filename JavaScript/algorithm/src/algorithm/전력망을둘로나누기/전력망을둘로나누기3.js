@@ -11,22 +11,24 @@ function solution(n, wires) {
       if (first !== third && second !== fourth) {
         adjacencyList[third].push(fourth);
         adjacencyList[fourth].push(third);
-
-        const visitedArr = Array.from({ length: n + 1 }, () => false);
-        const size = calculateSize(first, adjacencyList, visitedArr);
       }
     }
+    const visitedArr = Array.from({ length: n + 1 }, () => false);
+    const size = calculateSize(first, adjacencyList, visitedArr);
+
+    answer = Math.min(n, Math.abs(n - 2 * size));
   }
 
   function calculateSize(referencePoint, connectionCheck, visitedCheck) {
     let size = 1;
     visitedCheck[referencePoint] = true;
-    // const num = connectionCheck[referencePoint];
 
-    // console.log("visitedCheck[num] : ", visitedCheck[num]);
-    // if (!visitedCheck[num]) {
-    //
-    // }
+    for (const num of connectionCheck[referencePoint]) {
+      if (!visitedCheck[num]) {
+        visitedCheck[num] = true;
+        size += calculateSize(num, connectionCheck, visitedCheck);
+      }
+    }
 
     return size;
   }
