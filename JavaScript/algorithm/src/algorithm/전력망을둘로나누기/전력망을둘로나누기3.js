@@ -1,5 +1,5 @@
 function solution(n, wires) {
-  let answer = 0;
+  let answer = n;
 
   for (let i = 0; i < wires.length; ++i) {
     const adjacencyList = Array.from({ length: n + 1 }, () => []);
@@ -8,7 +8,7 @@ function solution(n, wires) {
     for (let j = 0; j < wires.length; ++j) {
       const [third, fourth] = wires[j];
 
-      if (first !== third && second !== fourth) {
+      if (first !== third || second !== fourth) {
         adjacencyList[third].push(fourth);
         adjacencyList[fourth].push(third);
       }
@@ -16,7 +16,7 @@ function solution(n, wires) {
     const visitedArr = Array.from({ length: n + 1 }, () => false);
     const size = calculateSize(first, adjacencyList, visitedArr);
 
-    answer = Math.min(n, Math.abs(n - 2 * size));
+    answer = Math.min(answer, Math.abs(n - 2 * size));
   }
 
   function calculateSize(referencePoint, connectionCheck, visitedCheck) {
@@ -36,28 +36,28 @@ function solution(n, wires) {
   return answer;
 }
 
+// 예시
 console.log(
-  solution(4, [
-    [1, 2],
+  solution(9, [
+    [1, 3],
     [2, 3],
     [3, 4],
+    [4, 5],
+    [4, 6],
+    [4, 7],
+    [7, 8],
+    [7, 9],
   ])
 );
-// 0
+// 예상 결과: 3
 
-// 예시
 // console.log(
-//   solution(9, [
-//     [1, 3],
+//   solution(4, [
+//     [1, 2],
 //     [2, 3],
 //     [3, 4],
-//     [4, 5],
-//     [4, 6],
-//     [4, 7],
-//     [7, 8],
-//     [7, 9],
 //   ])
 // );
-// 예상 결과: 3
+// 0
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/86971
