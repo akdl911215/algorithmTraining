@@ -11,33 +11,70 @@ function solution(k, ranges) {
       arr.push([index++, (num = num * 3 + 1)]);
     }
   }
-  console.log(num);
-  console.log("arr : ", arr);
 
   // [0, 0] 전체의 정적분값 계산
   // [0, 0] 이 아니면 배열의 앞값 <= x <= 뒷값
   // 뒷값이 음수의 경우에는 n - b > n === 초항 k 가 1이 되기까지의 횟수
-  const kOne = arr.length - 1;
-  console.log("kOne : ", kOne);
+  const n = arr.length - 1;
 
   const resultArr = [];
-  for (let i = 0; ranges.length; ++i) {
+  for (let i = 0; i < ranges.length; ++i) {
     const [first, seconds] = ranges[i];
 
     if (first === 0 && seconds === 0) {
       let result = 0;
       for (let j = 0; j < arr.length - 1; ++j) {
-        result +=
-          ((arr[i][1] + arr[i + 1][1]) * (arr[i + 1][0] - arr[i][0])) / 2;
+        const a = arr[j][1] + arr[j + 1][1];
+        console.log("a : ", a);
+        const b = arr[j + 1][0] - arr[j][0];
+        console.log("b : ", b);
+        const c = (a * b) / 2;
+        console.log("c : ", c);
+        result += c;
+        console.log("result : ", result);
       }
 
       resultArr.push(result);
-    } else if (true) {
-      //
+    } else if (first > n + seconds) {
+      resultArr.push(-1);
+    } else if (seconds < 0) {
+      let result = 0;
+      console.log("n + seconds ::: ", n + seconds);
+      for (let j = first; j < n + seconds; ++j) {
+        // result +=
+        //   ((arr[i][1] + arr[i + 1][1]) * (arr[i + 1][0] - arr[i][0])) / 2;
+        console.log("j : ", j);
+        const a = arr[j][1] + arr[j + 1][1];
+        console.log("a : ", a);
+        const b = arr[j + 1][0] - arr[j][0];
+        console.log("b : ", b);
+        const c = (a * b) / 2;
+        console.log("c : ", c);
+        result += c;
+        console.log("result : ", result);
+      }
+
+      resultArr.push(result);
     } else {
-      //
+      let result = 0;
+      for (let j = first; j < n + seconds; ++j) {
+        // result +=
+        //   ((arr[i][1] + arr[i + 1][1]) * (arr[i + 1][0] - arr[i][0])) / 2;
+        const a = arr[j][1] + arr[j + 1][1];
+        console.log("a : ", a);
+        const b = arr[j + 1][0] - arr[j][0];
+        console.log("b : ", b);
+        const c = (a * b) / 2;
+        console.log("c : ", c);
+        result += c;
+        console.log("result : ", result);
+      }
+
+      resultArr.push(result);
     }
   }
+
+  console.log("resultArrR : ", resultArr);
 
   return answer;
 }
