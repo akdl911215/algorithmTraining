@@ -11,12 +11,19 @@ function solution(n, info) {
 
   const compareArr = Array.from({ length: info.length }, () => 0);
 
-  for (let i = 0; i < compareArr.length; ++i) {
-    compareArr[i] -= info[i];
-  }
+  for (let i = 0; i < compareArr.length; ++i) compareArr[i] -= info[i];
+
   console.log(compareArr);
 
-  // 어퍼치 >= 라이언
+  for (let i = 0; i < info.length - n; ++i) {
+    const copyInfo = [...info];
+    console.log("copyInfo : ", copyInfo);
+    let k = n;
+
+    for (let j = 0; n > 0; --j) {
+      //
+    }
+  }
 
   return answer;
 }
