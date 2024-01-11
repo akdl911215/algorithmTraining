@@ -18,7 +18,6 @@ def n_queen(n):
 
     def backtrack(row):
         if row == n:
-            print('board : ', board)
             solution = [arr[:] for arr in board]
             solutionList.append(solution)
             return
