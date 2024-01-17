@@ -6,8 +6,11 @@ def solution(n, info):
     # BFS를 위한 queue. 10점을 쏘지 않은 경우 기본 추가
     queue = [[0]]
     answer = []
+
+    print("n >= info[0] + 1 : ", n >= info[0] + 1)
     # 10점을 쏠 수 있는 경우, 쏜 경우를 queue에 추가
     if n >= info[0] + 1:
+        print("info[0] + 1 : ", info[0] + 1)
         queue.append([info[0] + 1])
 
     while queue:
