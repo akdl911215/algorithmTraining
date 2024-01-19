@@ -9,7 +9,7 @@ def solution(n, m, section):
     while any(arr):
         end = 0
         if arr[start]:
-            end = start + m > len(n) if len(n) else start + m
+            end = start + m > n if n else start + m
             print('end : ', end)
             for i in range(start, end):
                 arr[i] = False
