@@ -16,7 +16,7 @@ def solution(n, info):
     while queue:
         recent = queue.pop(0)
         # 주어진 화살을 다 쐈거나, 10~1점까지 다 쏜 경우
-        if sum(recent) == n or len(recent) == 10:
+        if sum(recent) == n or len(recent) == 10:ㄷ
             new = sum([score[i] for i in range(len(recent)) if recent[i]])
             old = sum([score[i] for i in range(len(answer)) if answer[i]])
             # apeach보다 많은 점수를, 그리고 기존 answer 이상의 점수를 얻었다면 update
@@ -37,3 +37,5 @@ def solution(n, info):
     return answer + [0] * (10 - len(answer)) + [n - sum(answer)]
 
 print(solution(5, [2,1,1,1,0,0,0,0,0,0,0]))
+
+# https://school.programmers.co.kr/learn/courses/30/lessons/92342
