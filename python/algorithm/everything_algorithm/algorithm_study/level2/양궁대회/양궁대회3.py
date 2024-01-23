@@ -1,8 +1,12 @@
 def solution(n, info):
     # 어피치의 총 점수 계산
     apeach = sum([10 - i for i in range(10) if info[i]])
+    # apeach = sum([10 - i for i in range(9, -1, -1) if info[i]])
+
     # 과녁의 각 점수별 실질적으로 얻어지는 점수
     score = [(10 - i) * 2 if info[i] else 10 - i for i in range(10)]
+    print("score : " , score)
+
     # BFS를 위한 queue. 10점을 쏘지 않은 경우 기본 추가
     queue = [[0]]
     answer = []
@@ -16,7 +20,7 @@ def solution(n, info):
     while queue:
         recent = queue.pop(0)
         # 주어진 화살을 다 쐈거나, 10~1점까지 다 쏜 경우
-        if sum(recent) == n or len(recent) == 10:ㄷ
+        if sum(recent) == n or len(recent) == 10:
             new = sum([score[i] for i in range(len(recent)) if recent[i]])
             old = sum([score[i] for i in range(len(answer)) if answer[i]])
             # apeach보다 많은 점수를, 그리고 기존 answer 이상의 점수를 얻었다면 update
