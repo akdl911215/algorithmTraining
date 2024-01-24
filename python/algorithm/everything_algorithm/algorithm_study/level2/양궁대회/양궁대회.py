@@ -3,6 +3,7 @@ def solution(n, info):
 
     # 어피치 총합 점수
     apeach = sum([10 - i for i in range(10) if info[i]])
+    print(apeach)
 
     # 실질 획득 점수
     score = [(10 - i) * 2 if info[i] else 10 - i for i in range(10)]
