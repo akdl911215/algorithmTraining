@@ -18,15 +18,15 @@ function solution(n, info) {
       0
     );
 
-    if (scoreSum === n || scoreList.length === n) {
+    if (scoreSum === n || scoreList.length === 10) {
       let originalScore = 0;
       for (let i = 0; i < answer.length; ++i) {
-        if (info[i]) originalScore += score[i];
+        if (answer[i]) originalScore += score[i];
       }
 
       let newScore = 0;
       for (let i = 0; i < scoreList.length; ++i) {
-        if (info[i]) newScore += score[i];
+        if (scoreList[i]) newScore += score[i];
       }
 
       if (newScore > apeach && newScore >= originalScore) {
@@ -40,9 +40,8 @@ function solution(n, info) {
     }
   }
 
-  if (!answer.length) return -1;
+  if (!answer.length) return [-1];
 
-  console.log("answer : ", answer);
   return [
     ...answer,
     ...Array.from({ length: 10 - answer.length }, () => 0),
