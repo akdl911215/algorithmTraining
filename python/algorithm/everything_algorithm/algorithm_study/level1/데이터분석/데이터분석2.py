@@ -1,29 +1,11 @@
 def solution(data, ext, val_ext, sort_by):
     answer = []
-
-    ext_pivot = 0 # 기본값 코드번호
-    if ext == "date":
-        ext_pivot = 1
-    elif ext == "maximum":
-        ext_pivot = 2
-    elif ext == "remain":
-        ext_pivot = 3
-
-    sort_pivot = 0
-    if sort_by == "date":
-        sort_pivot = 1
-    elif sort_by == "maximum":
-        sort_pivot = 2
-    elif sort_by == "remain":
-        sort_pivot = 3
-
-    filter_arr = [el for el in data if el[ext_pivot] < val_ext]
-
-    if filter_arr:
-        answer = sorted(filter_arr, key=lambda x:x[sort_pivot])
-    else:
-        [[]]
-
+    dict = {"code": 0, "date": 1, "maximum": 2, "remain": 3}
+    for d in data:
+        value = d[dict[ext]]
+        if value <= val_ext:
+            answer.append(d)
+    answer.sort(key=lambda x: x[dict[sort_by]])
     return answer
 
 # data > 정렬한 데이터들이 담긴 이차원 정수 리스트
