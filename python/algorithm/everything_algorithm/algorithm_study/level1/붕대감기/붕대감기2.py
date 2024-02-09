@@ -2,25 +2,28 @@ def solution(bandage, health, attacks):
     answer = 0
     max_health = health
 
-    for [attack_time, damage] in attacks:
-        print(attack_time, ', ', damage)
-        if bandage[0] > attack_time:
+    pivot = 0
+    success = 0
+    for number in range(attacks[len(attacks) - 1][0]):
+        time = number + 1
+
+        if time == attacks[pivot][0]:
+            success = 0
+            health -= attacks[pivot][1]
+            pivot += 1
+        else:
+            success += 1
+            if success == 5:
+                health += 5
+
+            health += bandage[0]
             if max_health > health:
-                health += bandage[0] - attack_time
-                if health > 30:
-                    health = 30
-            health -= damage
-        elif bandage[0] < attack_time:
-            if max_health > health:
-                health += bandage[0] + bandage[2]
-                if health > 30:
-                    health = 30
-            health -= damage
+                health = 30
 
     if health < 0:
         return -1
 
-    return answer
+    return health
 
 # bandage : 기술의 시전 시간, 1초당 회복량, 추가 회복량
 # health : 최대 체력

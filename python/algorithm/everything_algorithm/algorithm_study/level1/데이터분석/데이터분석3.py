@@ -17,3 +17,5 @@ print(
             )
     )
 # [[3,20300401,10,8],[1,20300104,100,80]]
+
+# https://school.programmers.co.kr/learn/courses/30/lessons/250121?language=python3
