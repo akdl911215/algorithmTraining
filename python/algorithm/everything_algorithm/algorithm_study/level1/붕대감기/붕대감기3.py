@@ -6,15 +6,14 @@ def solution(bandage, health, attacks):
 
     loop = attacks[len(attacks) - 1][0] # 총 시간
     for number in range(loop):
-
         time = number + 1
 
-        if time == attacks[pivot][0]:
+        if time == attacks[pivot][0]: # 공격을 받는 경우
             success = 0
             damage = attacks[pivot][1]
             health -= damage
             pivot += 1
-        else:
+        else: # 그 외
             success += 1
             if success == bandage[0]:
                 health += bandage[2]
@@ -24,7 +23,7 @@ def solution(bandage, health, attacks):
             if health > max_health:
                 health = max_health
 
-        if health <= 0:
+        if health <= 0: # 체력이 0이하가 된다면
             return -1
 
     return health
