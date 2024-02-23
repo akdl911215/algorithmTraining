@@ -1,47 +1,45 @@
 from collections import deque
 
 def bfs(land, visit, x, y):
-
     visit[x][y] = 1
     count = 1
     queue = deque([[x, y]])
-    directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]  # 상하좌우
+    directions = [(-1, 0), (1, 0), (0, -1), (0, 1)] # 상하좌우
 
-    min_x = len(land[0]) - 1
-    max_x = 0
+    min_y = len(land[0]) - 1
+    max_y = 0
 
     while queue:
-        print('queue : ', queue)
         queue_x, queue_y = queue.popleft()
 
-        if queue_x < min_x:
-            min_x = queue_x
-        elif queue_x > max_x:
-            max_x = queue_x
+        if queue_y < min_y:
+            min_y = queue_y
+        elif queue_y > max_y:
+            max_y = queue_y
 
         for i in range(4):
             dir_x, dir_y = directions[i]
-            if queue_x + dir_x >= 0 and queue_x + dir_x <= len(land) - 1 and queue_y + dir_y >= 0 and queue_y + dir_y <= len(land[0]) and land[x + dir_x][y + dir_y] == 1 and visit[x + dir_x][y + dir_y] == 0:
-                visit[queue_x + dir_x][queue_y + dir_y] = 1
-                queue.append([queue_x + dir_x, queue_y + dir_y])
+            pivot_x, pivot_y = queue_x + dir_x, queue_y + dir_y
+            if pivot_x >= 0 and pivot_x <= len(land) - 1 and pivot_y >= 0 and pivot_y <= len(land[0]) - 1 and land[pivot_x][pivot_y] == 1 and visit[pivot_x][pivot_y] == 0:
+                visit[pivot_x][pivot_y] = 1
+                queue.append([pivot_x, pivot_y])
                 count += 1
 
-    return [count, min_x, max_x]
+    return [count, min_y, max_y]
 
 
 def solution(land):
     answer = [0 for _ in land[0]]
     visit = [[0 for _ in land[0]] for _ in land]
-    print('visit : ', visit)
 
-    for y in range(len(land[0])):
-        for x in range(len(land)):
+    for x in range(len(land)):
+        for y in range(len(land[0])):
             if land[x][y] == 1 and visit[x][y] == 0:
-                count, mix_x, max_x = bfs(land, visit, x, y)
-                for i in range(mix_x, max_x):
+                count, mix_y, max_y = bfs(land, visit, x, y)
+                for i in range(mix_y, max_y + 1):
                     answer[i] += count
 
-    return answer
+    return max(answer)
 
 print(solution(
     [
