@@ -14,13 +14,14 @@ def bfs(land, visit, x, y):
 
         if queue_y < min_y:
             min_y = queue_y
-        elif queue_y > max_y:
+
+        if queue_y > max_y:
             max_y = queue_y
 
         for i in range(4):
             dir_x, dir_y = directions[i]
             pivot_x, pivot_y = queue_x + dir_x, queue_y + dir_y
-            if pivot_x >= 0 and pivot_x <= len(land) - 1 and pivot_y >= 0 and pivot_y <= len(land[0]) - 1 and land[pivot_x][pivot_y] == 1 and visit[pivot_x][pivot_y] == 0:
+            if len(land) - 1 >= pivot_x >= 0 and len(land[0]) - 1 >= pivot_y >= 0 and land[pivot_x][pivot_y] == 1 and visit[pivot_x][pivot_y] == 0:
                 visit[pivot_x][pivot_y] = 1
                 queue.append([pivot_x, pivot_y])
                 count += 1
