@@ -13,7 +13,7 @@ def solution(edges):
             edge_counts[b][1] += 1  # b는 n번 노드로 들어오는 간선
         return edge_counts
 
-    def check_answer(egde_counts):
+    def check_answer(edge_counts):
         answer = [0, 0, 0, 0]
         for key, counts in edge_counts.items():
             # 생성된 정점의 번호 확인
@@ -26,6 +26,7 @@ def solution(edges):
             elif counts[0] >= 2 and counts[1] >= 2:
                 answer[3] += 1
         # 도넛 모양 그래프의 수 확인
+        print('edge_counts[answer[0]][0] : ', edge_counts[answer[0]][0])
         answer[1] = (edge_counts[answer[0]][0] - answer[2] - answer[3])
 
         return answer
@@ -35,10 +36,10 @@ def solution(edges):
 
     return answer
 
-print(solution([[2, 3], [4, 3], [1, 1], [2, 1]]))
+# print(solution([[2, 3], [4, 3], [1, 1], [2, 1]]))
 # [2, 1, 1, 0]
 
-# print(solution([[4, 11], [1, 12], [8, 3], [12, 7], [4, 2], [7, 11], [4, 8], [9, 6], [10, 11], [6, 10], [3, 5], [11, 1], [5, 3], [11, 9], [3, 8]]))
+print(solution([[4, 11], [1, 12], [8, 3], [12, 7], [4, 2], [7, 11], [4, 8], [9, 6], [10, 11], [6, 10], [3, 5], [11, 1], [5, 3], [11, 9], [3, 8]]))
 # [4, 0, 1, 2]
 
 # https://school.programmers.co.kr/learn/courses/30/lessons/258711
