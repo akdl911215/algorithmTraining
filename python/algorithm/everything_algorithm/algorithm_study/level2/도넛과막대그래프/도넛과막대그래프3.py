@@ -1,7 +1,9 @@
 def solution(edges):
     answer = [0] * 4
+    # [생성한 정점, 도넛 모양, 막대 모양, 8자 모양]
 
     edge_list = {}
+    # 모든 간선의 진출,진입에 대해 테이블 형태로 체크
     for out_put, in_put in edges:
         if not edge_list.get(out_put):
             edge_list[out_put] = [0, 0]
@@ -12,13 +14,17 @@ def solution(edges):
         edge_list[in_put][1] += 1
 
     for key, (out_put, in_put) in edge_list.items():
+        # 생성한 정점 찾기
         if out_put >= 2 and in_put == 0:
             answer[0] = key
+        # 막대 모양 갯수 찾기
         elif out_put == 0 and in_put >= 1:
             answer[2] += 1
+        # 8자 모양 갯수 찾기
         elif out_put >= 2 and in_put >= 2:
             answer[3] += 1
 
+    # 정점의 진출 차수 - 막대 모양 갯수 - 8자 모양 갯수
     answer[1] = edge_list[answer[0]][0] - answer[2] - answer[3]
 
     return answer
