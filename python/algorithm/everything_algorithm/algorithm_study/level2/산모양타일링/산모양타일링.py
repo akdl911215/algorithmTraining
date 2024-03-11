@@ -19,13 +19,3 @@ def solution(n, tops):
 
     return dp[n + 1]
 
-# print(solution(4,[1, 1, 0, 1]))
-# 149
-
-print(solution(2, [0, 1]))
-# 11
-
-# print(solution(0, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]))
-# 7704
-
-# https://school.programmers.co.kr/learn/courses/30/lessons/258705?language=python3
