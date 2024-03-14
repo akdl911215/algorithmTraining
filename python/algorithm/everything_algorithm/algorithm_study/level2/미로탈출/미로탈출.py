@@ -1,12 +1,52 @@
-def solution(maps):
-    answer = 0
+from collections import deque
 
+def solution(maps):
     N = len(maps)
     M = len(maps[0])
 
     check_coordinates_list = [[float('inf') for _ in range(M)] for _ in range(N)]
+    check_count_list = [[float('inf') for _ in range(M)] for _ in range(N)]
+    directions = [(-1, 0), (1, 0), (0, -1), (0, 1)] # 상하좌우
+    queue = deque([[0, 0, 0]])
 
-    return answer
+    for i in range(N):
+        for j in range(M):
+            if maps[i][j] == 'S':
+                check_coordinates_list[i][j] = 0
+                queue[0][0], queue[0][1] = i, j
+                break
+
+    L = 9999999
+    E = 9999998
+
+    pivot = 'L'
+
+    while queue:
+        x, y, c = queue.popleft()
+        nx, ny = x, y
+
+        for i in range(4):
+            dx, dy = directions[i]
+
+            while 0 <= nx + dx < N and 0 <= ny + dy < M and maps[nx + dx][ny + dy] != 'X' and maps[nx + dx][ny + dy] != pivot:
+                nx += dx
+                ny += dy
+                c += 1
+
+
+            if 0 <= nx + dx < N and 0 <= ny + dy < M and maps[nx + dx][ny + dy] == pivot:
+                queue.append([nx + dx, ny + dy, c + 1])
+
+                if maps[nx + dx][ny + dy] == 'L':
+                    check_coordinates_list[nx + dx][ny + dy] = L
+                    pivot = 'E'
+                    break
+
+                if maps[nx + dx][ny + dy] == 'E':
+                    check_coordinates_list[nx + dx][ny + dy] = E
+                    return c + 1
+
+    return -1
 
 # S : 시작 지점
 # E : 출구
