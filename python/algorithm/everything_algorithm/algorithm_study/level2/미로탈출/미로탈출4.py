@@ -1,5 +1,5 @@
 from collections import deque
-
+# bfs 를 모듈화해서 L과 E를 찾는것에 재활용하면 될듯
 def solution(maps):
     N = len(maps)
     M = len(maps[0])
@@ -28,10 +28,6 @@ def solution(maps):
         for i in range(4):
             dx, dy = directions[i]
 
-            print("nx + dx : ", nx + dx)
-            print("ny + dy : ", ny + dy)
-            print("maps[nx + dx][ny + dy] : ", maps[nx + dx][ny + dy])
-            print("check_count_list[nx + dx][ny + dy] > c + 1 : ", check_count_list[nx + dx][ny + dy] > c + 1)
             while 0 <= nx + dx < N and 0 <= ny + dy < M and maps[nx + dx][ny + dy] != 'X' and maps[nx + dx][ny + dy] != pivot and check_count_list[nx + dx][ny + dy] > c + 1:
                 nx += dx
                 ny += dy
@@ -39,7 +35,7 @@ def solution(maps):
                 check_count_list[nx][ny] = c
 
 
-            if 0 <= nx + dx < N and 0 <= ny + dy < M and maps[nx + dx][ny + dy] == pivot:
+            if 0 <= nx + dx < N and 0 <= ny + dy < M and maps[nx + dx][ny + dy] != 'X' and check_count_list[nx + dx][ny + dy] > c + 1:
                 c += 1
                 check_count_list[nx + dx][ny + dy] = c
                 queue.append([nx + dx, ny + dy, c])
