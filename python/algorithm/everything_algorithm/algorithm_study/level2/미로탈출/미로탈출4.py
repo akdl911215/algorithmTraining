@@ -1,25 +1,14 @@
 from collections import deque
 # bfs 를 모듈화해서 L과 E를 찾는것에 재활용하면 될듯
-def solution(maps):
-    N = len(maps)
-    M = len(maps[0])
 
+def bfs(maps, N, M, start, end, count, coordinates_count_list):
     check_coordinates_list = [[float('inf') for _ in range(M)] for _ in range(N)]
-    check_count_list = [[float('inf') for _ in range(M)] for _ in range(N)]
+    check_coordinates_list[start[0]][start[1]] = 0
+
+    queue = deque([[0, 0, count]])
     directions = [(-1, 0), (1, 0), (0, -1), (0, 1)] # 상하좌우
-    queue = deque([[0, 0, 0]])
 
-    for i in range(N):
-        for j in range(M):
-            if maps[i][j] == 'S':
-                check_coordinates_list[i][j], check_count_list[i][j] = 0, 0
-                queue[0][0], queue[0][1] = i, j
-                break
-
-    L = 9999999
-    E = 9999998
-
-    pivot = 'L'
+    queue[0][0], queue[0][1] = start[0], start[1]
 
     while queue:
         x, y, c = queue.popleft()
@@ -28,28 +17,61 @@ def solution(maps):
         for i in range(4):
             dx, dy = directions[i]
 
-            while 0 <= nx + dx < N and 0 <= ny + dy < M and maps[nx + dx][ny + dy] != 'X' and maps[nx + dx][ny + dy] != pivot and check_count_list[nx + dx][ny + dy] > c + 1:
+            print('coordinates_count_list[nx + dx][ny + dy] : ', coordinates_count_list[nx + dx][ny + dy])
+            print('c : ', c)
+            while 0 <= nx + dx < N and 0 <= ny + dy < M and coordinates_count_list[nx + dx][ny + dy] >= c and maps[nx + dx][ny + dy] != 'X':
                 nx += dx
                 ny += dy
                 c += 1
-                check_count_list[nx][ny] = c
+                coordinates_count_list[nx][ny] = c
 
 
-            if 0 <= nx + dx < N and 0 <= ny + dy < M and maps[nx + dx][ny + dy] != 'X' and check_count_list[nx + dx][ny + dy] > c + 1:
-                c += 1
-                check_count_list[nx + dx][ny + dy] = c
-                queue.append([nx + dx, ny + dy, c])
+            if 0 <= nx < N and 0 <= ny < M and coordinates_count_list[nx][ny] >= c:
+                coordinates_count_list[nx][ny] = c
+                queue.append([nx, ny, c])
 
-                if maps[nx + dx][ny + dy] == 'L':
-                    check_coordinates_list[nx + dx][ny + dy] = L
-                    pivot = 'E'
-                    break
+                if nx == end[0] and ny == end[1]:
+                    return [nx, ny, c]
 
-                if maps[nx + dx][ny + dy] == 'E':
-                    check_coordinates_list[nx + dx][ny + dy] = E
-                    return c + 1
+    return [-1]
 
-    return -1
+
+def solution(maps):
+    N = len(maps)
+    M = len(maps[0])
+
+    start = [0, 0]
+    lever = [0, 0]
+    exit = [0, 0]
+
+    for i in range(N):
+        for j in range(M):
+            if maps[i][j] == 'S':
+                start[0], start[1] = i, j
+
+            if maps[i][j] == 'L':
+                lever[0], lever[1] = i, j
+
+            if maps[i][j] == 'E':
+                exit[0], exit[1] = i, j
+
+    coordinates_count_list = [[float('inf') for _ in range(M)] for _ in range(N)]
+    coordinates_count_list[start[0]][start[1]] = 0
+    end = lever
+    lever_position_information = bfs(maps, N, M, start, end, 0, coordinates_count_list)
+    print('lever_position_information : ', lever_position_information)
+    if lever_position_information[0] == -1:
+        return -1
+
+    end = exit
+    count = lever_position_information[2]
+    start[0], start[1] = lever_position_information[0], lever_position_information[1]
+    exit_position_information = bfs(maps, N, M, start, end, count, coordinates_count_list)
+    print('exit_position_information : ', exit_position_information)
+    if exit_position_information[0] == -1:
+        return -1
+
+    return exit_position_information[2]
 
 # S : 시작 지점
 # E : 출구
