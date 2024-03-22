@@ -20,6 +20,7 @@ def bfs(maps, N, M, start, end, count, coordinates_count_list):
                 nx += x
                 ny += y
                 c += 1
+                coordinates_count_list[nx][ny] = c
 
             if 0 <= nx < N and 0 <= ny < M and check_coordinates_list[nx][ny] > pivot:
                 pivot += 1
