@@ -1,16 +1,15 @@
 package N으로표현;
 
-
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class N으로표현 {
+public class N으로표현3 {
 
     private static int repeat(int N, int count) {
-
         StringBuilder sb = new StringBuilder();
+
         sb.append(N);
         for (int i = 1; i < count; ++i) {
             sb.append(N);
@@ -18,7 +17,6 @@ public class N으로표현 {
 
         return Integer.parseInt(sb.toString());
     }
-
 
     public static int solution(int N, int number) {
 
@@ -34,19 +32,24 @@ public class N으로표현 {
             dp.get(i).add(baseValue);
 
             for (int j = 1; j < i; ++j) {
-                for (int k : dp.get(j)) {
-                    for (int l : dp.get(i - j)) {
-                        dp.get(i).add(k + l);
-                        dp.get(i).add(k - l);
-                        dp.get(i).add(k * l);
-                        if (l != 0) dp.get(i).add(k / l);
-                    }
+                List<Integer> list1 = new ArrayList<>(dp.get(j));
+                List<Integer> list2 = new ArrayList<>(dp.get(i - j));
+
+                for (int k = 0; k <list1.size(); ++k) {
+                       int list1K = list1.get(k);
+                       for (int l = 0; l < list2.size(); ++l) {
+                           int list2L = list2.get(l);
+
+                           dp.get(i).add(list1K + list2L);
+                           dp.get(i).add(list1K - list2L);
+                           dp.get(i).add(list1K * list2L);
+                           if (list2L != 0) dp.get(i).add(list1K / list2L);
+                       }
                 }
             }
 
             if (dp.get(i).contains(number)) return i;
         }
-
 
         return -1;
     }
@@ -63,5 +66,3 @@ public class N으로표현 {
         // 3
     }
 }
-
-// https://school.programmers.co.kr/learn/courses/30/lessons/42895
