@@ -30,7 +30,7 @@ public class 기능개발2 {
         while (!queue.isEmpty()) {
             int second = queue.peek();
 
-            if (first > second) {
+            if (first >= second) {
                 check++;
                 queue.poll();
             } else {
