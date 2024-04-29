@@ -8,21 +8,41 @@ def solution(board):
     # 0 == 0 && X == 0 return 1
     # O,X가 총 9개되면 무승부
 
-    queue = deque()
-    for str in board:
-        for s in str:
-            queue.append(s)
-    print(queue)
+    O = sum(row.count("O") for row in board)
+    X = sum(row.count("X") for row in board)
 
-    table = []
-    for str in board:
-        for s in str:
-            table.append(s)
-    print('table : ', table)
+    if O == 0 and X == 0:
+        return 1
 
-    while not queue:
-        s = queue.popleft()
+    if O + X == 9:
+        return 0
 
+    direction = [(-1, 0), (1, 0), (0, -1), (0 , 1)]
+    if O == X and O >= 3 and X >= 3:
+        queue = deque()
+        for x in range(len(board)):
+            for y in range(len(board[x])):
+                if board[x][y] == '0':
+                    queue.append([x, y])
+        print('queue : ', queue)
+
+        count = 0
+        while queue:
+            x, y = queue.popleft()
+
+            for dx, dy in direction:
+                if len(board) > dx + x >= 0 and len(board[0]) > dy + y >= 0:
+                    count += 1
+                else:
+                    count = 0
+
+        if count >= 3:
+            return 0
+
+        return 0
+
+    turn = "O" if O <= X else "X"
+    print(turn)
 
     return answer
 
