@@ -1,5 +1,6 @@
 from collections import deque
 
+
 def solution(board):
     answer = 0
 
@@ -10,6 +11,9 @@ def solution(board):
 
     O = sum(row.count("O") for row in board)
     X = sum(row.count("X") for row in board)
+    check_queue = [[False for _ in board[0]] for _ in board]
+
+    print('check_queue : ', check_queue)
 
     if O == 0 and X == 0:
         return 1
@@ -17,27 +21,26 @@ def solution(board):
     if O + X == 9:
         return 0
 
-    direction = [(-1, 0), (1, 0), (0, -1), (0 , 1)]
+    direction = [(-1, 0), (1, 0), (0, -1), (0, 1)]
     if O == X and O >= 3 and X >= 3:
         queue = deque()
         for x in range(len(board)):
             for y in range(len(board[x])):
-                if board[x][y] == '0':
-                    queue.append([x, y])
+                if board[x][y] != '.':
+                    queue.append([x, y, 1])
         print('queue : ', queue)
 
-        count = 0
         while queue:
-            x, y = queue.popleft()
+            x, y, c = queue.popleft()
 
             for dx, dy in direction:
-                if len(board) > dx + x >= 0 and len(board[0]) > dy + y >= 0:
-                    count += 1
-                else:
-                    count = 0
 
-        if count >= 3:
-            return 0
+                fx, fy = dx + x, dy + y
+
+                if len(board) > fx >= 0 and len(board[0]) > fy >= 0 and not check_queue[fx][fy]:
+                    c += 1
+                    check_queue[fx][fy] = True
+                    queue.append([fx, fy, c])
 
         return 0
 
@@ -46,10 +49,11 @@ def solution(board):
 
     return answer
 
-print(solution(["O.X", ".O.", "..X"]))
+
+# print(solution(["O.X", ".O.", "..X"]))
 # 1
 
-# print(solution(["OOO", "...", "XXX"]))
+print(solution(["OOO", "...", "XXX"]))
 # 0
 
 # print(solution(["...", ".X.", "..."]))
