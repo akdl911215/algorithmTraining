@@ -22,12 +22,15 @@ def solution(board):
         return 0
 
     direction = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+    max_count = 0
+    result_arr = []
     if O == X and O >= 3 and X >= 3:
         queue = deque()
         for x in range(len(board)):
             for y in range(len(board[x])):
                 if board[x][y] != '.':
                     queue.append([x, y, 1])
+                    max_count = 1
         print('queue : ', queue)
 
         while queue:
@@ -38,11 +41,19 @@ def solution(board):
 
                 fx, fy = dx + x, dy + y
 
-                if len(board) > fx >= 0 and len(board[0]) > fy >= 0 and not check_queue[fx][fy] and board[fx][fy] != '.':
+                while len(board) > fx >= 0 and len(board[0]) > fy >= 0 and not check_queue[fx][fy] and board[fx][fy] != '.':
                     c += 1
                     check_queue[fx][fy] = True
-                    queue.append([fx, fy, c])
+                    fx += dx
+                    fy += dy
 
+                # if 조건 수정 > 무한 루프 생김
+                if c >= 2:
+                    queue.append([fx - dx, fy - dy, c])
+                    result_arr.append([fx - dx, fy - dy, c])
+                    max_count = max(max_count, c)
+
+        print(max_count)
         return 0
 
     turn = "O" if O <= X else "X"
