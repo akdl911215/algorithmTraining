@@ -11,7 +11,7 @@ def solution(board):
 
     O = sum(row.count("O") for row in board)
     X = sum(row.count("X") for row in board)
-    check_queue = [[False for _ in board[0]] for _ in board]
+    check_queue = [[0 for _ in board[0]] for _ in board]
 
     print('check_queue : ', check_queue)
 
@@ -36,21 +36,24 @@ def solution(board):
         while queue:
             x, y, c = queue.popleft()
 
-            check_queue[x][y] = True
+            # check_queue[x][y] = 1
             for dx, dy in direction:
 
                 fx, fy = dx + x, dy + y
 
-                while len(board) > fx >= 0 and len(board[0]) > fy >= 0 and not check_queue[fx][fy] and board[fx][fy] != '.':
+                while len(board) > fx >= 0 and len(board[0]) > fy >= 0 and check_queue[fx][fy] == 0 and board[fx][fy] != '.':
                     c += 1
-                    check_queue[fx][fy] = True
+                    check_queue[fx][fy] = 1
                     fx += dx
                     fy += dy
 
+                ix = fx - dx
+                iy = fy - dy
                 # if 조건 수정 > 무한 루프 생김
-                if c >= 2:
-                    queue.append([fx - dx, fy - dy, c])
-                    result_arr.append([fx - dx, fy - dy, c])
+                if c >= 2 and check_queue[ix][iy] == 1:
+                    check_queue[ix][iy] = 2
+                    queue.append([ix, iy, c])
+                    result_arr.append([ix, iy, c])
                     max_count = max(max_count, c)
 
         print(max_count)
