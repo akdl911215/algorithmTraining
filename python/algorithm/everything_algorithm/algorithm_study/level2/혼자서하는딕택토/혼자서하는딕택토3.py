@@ -2,7 +2,9 @@ def solution(board):
     def check_winner(board, player):
         # Check rows
         for row in board:
-            if row == player * 3:
+            p = player * 3
+
+            if row == p:
                 return True
 
         # Check columns
