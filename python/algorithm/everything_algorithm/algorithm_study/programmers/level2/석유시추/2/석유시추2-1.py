@@ -1,9 +1,22 @@
 from collections import deque
 
 def bfs(graph, start):
-    print()
+    N, M = start
+    queue = deque([[N, M]])
+    oil_size = 1
 
-    return 0
+    directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+    while queue:
+        q_n, q_m = queue.popleft()
+
+        for x, y in directions:
+            nx, ny = q_n + x, q_m + y
+
+            if 0 <= nx <= len(graph) and 0 <= ny <= len(graph[0]) and graph[nx][ny] == 1:
+                oil_size += 1
+                queue.append([nx, ny])
+
+    return oil_size
 
 def solution(land):
 
@@ -22,7 +35,10 @@ def solution(land):
                 visited[i][j] = True
                 oil_size_list[j] += oil_size
 
-    return 0
+    revl = max(oil_size_list)
+    print('revl : ' + revl)
+
+    return revl
 
 print(
     solution(
