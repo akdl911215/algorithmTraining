@@ -1,5 +1,7 @@
-const bfs = () => {
-    //
+const bfs = (graph, visited, start) => {
+    const [N, M] = start;
+    let minY = M;
+    let maxY = M;
 }
 
 const solution = (land) => {
@@ -12,7 +14,7 @@ const solution = (land) => {
     land.forEach((_, i) => {
         land[0].forEach((_, j) => {
             if (land[i][j] === 1 && !visited[i][j]) {
-                //
+                bfs(land, visited, [i, j])
             }
         })
     })
