@@ -36,7 +36,9 @@ const bfs = (graph, visited, start) => {
             const nx = x + qn;
             const ny = y + qm;
 
-            if (0 <= nx && nx < graph.length && 0 <= ny && nx < graph[0].length  && graph[nx][ny] === 1 && !visited[nx][ny]) {
+            const bfsN = graph.length - 1;
+            const bfsM = graph[0].length - 1;
+            if (0 <= nx && nx <= bfsN && 0 <= ny && ny <= bfsM  && graph[nx][ny] === 1 && !visited[nx][ny]) {
                 queue.enqueue([nx, ny]);
                 visited[nx][ny] = true;
                 oilSize++;
@@ -62,8 +64,8 @@ const solution = (land) => {
     const visited = Array.from({length: N}, ()=> Array(M).fill(false));
     const oilSizeList = Array.from({length: M}, () => 0);
 
-    land.forEach((_, i) => {
-        land[0].forEach((_, j) => {
+    for (let i = 0; i < N; ++i) {
+        for (let j = 0; j < M; ++j) {
             if (land[i][j] === 1 && !visited[i][j] ) {
 
                 const [start, end, oilSize] = bfs(land, visited, [i, j]);
@@ -72,20 +74,30 @@ const solution = (land) => {
                     oilSizeList[i] += oilSize;
                 }
             }
-        })
-    })
-
+        }
+    }
 
 
     return Math.max(...oilSizeList);
 }
 
-// cos
+// console.log(
+//     solution(
+//     [
+//             [0, 0, 0, 1, 1, 1, 0, 0],
+//             [0, 0, 0, 0, 1, 1, 0, 0],
+//             [1, 1, 0, 0, 0, 1, 1, 0],
+//             [1, 1, 1, 0, 0, 0, 0, 0],
+//             [1, 1, 1, 0, 0, 0, 1, 1]
+//         ]
+//
+//     )
+// )
 // # 9
 
 console.log(
     solution(
-        [
+    [
             [1, 0, 1, 0, 1, 1],
             [1, 0, 1, 0, 0, 0],
             [1, 0, 1, 0, 0, 1],
