@@ -7,14 +7,21 @@ def solution(m, n, startX, startY, balls):
     answer = []
 
     for [x, y] in balls:
-        min_distance = float('int')
+        min_distance = float('inf')
 
-        if m == 0 and n >= y:
-            distance = get_distance(startX, startY, x, y)
-            if distance < min_distance:
-                min_distance = distance
+        if not (startX == x and startY <= y):
+            min_distance = min(min_distance, get_distance(startX, startY, x, 2 * n - y))
 
+        if not (startX == x and startY >= y):
+            min_distance = min(min_distance, get_distance(startX, startY, x, -y))
 
+        if not (startX >= x and startY == y):
+            min_distance = min(min_distance, get_distance(startX, startY, -x, y))
+
+        if not (startX <= x and startY == y):
+            min_distance = min(min_distance, get_distance(startX, startY, 2 * m - x, y))
+
+        answer.append(min_distance)
 
     return answer
 
