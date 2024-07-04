@@ -1,16 +1,19 @@
 from collections import deque
 
-def bfs(maps, time_check, start, end, visited):
+def bfs(maps, start, end):
+    visited = [[0 for _ in range(len(maps[0]))] for _ in range(len(maps))]
+    print('visited : ', visited)
+
     [sx, sy] = next([i, j] for i, row in enumerate(maps) for j, value in enumerate(row) if value == start)
     print('sx : ', sx, " / sy : ", sy)
 
     directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
     print('maps : ', maps)
-    visited[sx][sy] = True
-    queue = deque([[sx, sy]])
+    visited[sx][sy] = 1
+    queue = deque([[sx, sy, 0]])
     while queue:
-        x, y = queue.popleft()
+        x, y, c = queue.popleft()
 
         for i in range(4):
             nx, ny = x + directions[i][0], y + directions[i][1]
@@ -18,23 +21,21 @@ def bfs(maps, time_check, start, end, visited):
             a = not visited[ny][ny]
             b = visited[ny][ny]
             if 0 <= nx <= len(maps) - 1 and 0 <= ny <= len(maps[0]) - 1 and maps[nx][ny] != 'X':
-                if not visited[ny][ny]:
-                    time_check += 1
-                    visited[nx][ny] = True
-                    queue.append([nx, ny])
+                if visited[ny][ny] == 0:
+                    visited[nx][ny] = 1
+                    c += 1
+                    queue.append([nx, ny, c])
 
-            if 0 <= nx <= len(maps) - 1 and 0 <= ny <= len(maps[0]) and maps[nx][ny] == end and not visited[ny][ny]:
-                return time_check
+            if 0 <= nx <= len(maps) - 1 and 0 <= ny <= len(maps[0]) and maps[nx][ny] == end and visited[ny][ny] == 0:
+                return c + 1
 
     return -1
 
 
 def solution(maps):
 
-    time_check = 0
-    visited = [[False for _ in range(len(maps[0]))] for _ in range(len(maps))]
-    print('visited : ', visited)
-    distance = bfs(maps, time_check, 'S', 'L', visited)
+
+    distance = bfs(maps, 'S', 'L')
 
     return distance
 
