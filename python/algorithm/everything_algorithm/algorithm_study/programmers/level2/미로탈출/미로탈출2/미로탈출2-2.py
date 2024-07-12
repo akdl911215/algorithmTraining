@@ -18,26 +18,24 @@ def bfs(maps, start, end):
         for i in range(4):
             nx, ny = x + directions[i][0], y + directions[i][1]
 
-            a = not visited[ny][ny]
-            b = visited[ny][ny]
             if 0 <= nx <= len(maps) - 1 and 0 <= ny <= len(maps[0]) - 1 and maps[nx][ny] != 'X':
-                if visited[ny][ny] == 0:
+                if visited[nx][ny] == 0:
                     visited[nx][ny] = 1
                     c += 1
                     queue.append([nx, ny, c])
 
             if 0 <= nx <= len(maps) - 1 and 0 <= ny <= len(maps[0]) and maps[nx][ny] == end and visited[ny][ny] == 0:
-                return c + 1
+                return c
 
     return -1
 
 
 def solution(maps):
 
+    total_distance += bfs(maps, 'S', 'L')
+    total_distance += bfs(maps, 'L', 'E')
 
-    distance = bfs(maps, 'S', 'L')
-
-    return distance
+    return total_distance
 
 print(solution(
     [
