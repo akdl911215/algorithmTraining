@@ -9,24 +9,27 @@ function solution(maps) {
 }
 
 function bfs(graph, start, end) {
-  let visited = [];
-
-  const startPivot = [];
-  for (let i = 0; i < graph.length; ++i) {
-    for (let j = 0; j < graph[0].length; ++j) {
-      visited[i][j] = 0;
-
-      if (graph[i][j] === start) {
-        startPivot.push([i, j]);
-      }
-    }
-  }
+  let visited = Array.from({ length: graph.length }, () =>
+    Array(graph[0].length).fill(0),
+  );
 
   let queue = new Queue();
-  queue.enqueue([startPivot[0], startPivot[1], 0]);
-  console.log("visited : ", visited);
+  let check = false;
+  for (let i = 0; i < graph.length; ++i) {
+    for (let j = 0; j < graph[0].length; ++j) {
+      if (graph[i][j] === start) {
+        queue.enqueue([i, j, 0]);
+        visited[i][j] = 1;
+      }
+      if (queue.size() > 0) {
+        check = true;
+        break;
+      }
+    }
+    if (!!check) break;
+  }
 
-  while (!!queue.size()) {
+  while (queue.size() > 0) {
     const [x, y, c] = queue.dequeue();
 
     const directions = [
@@ -44,7 +47,8 @@ function bfs(graph, start, end) {
         nx <= graph.length - 1 &&
         0 <= ny &&
         ny <= graph[0].length - 1 &&
-        visited[nx][ny] === 0
+        visited[nx][ny] === 0 &&
+        graph[nx][ny] !== "X"
       ) {
         if (graph[nx][ny] === end) {
           return c + 1;
@@ -55,6 +59,8 @@ function bfs(graph, start, end) {
       }
     }
   }
+
+  return -1;
 }
 
 class Queue {
@@ -67,7 +73,7 @@ class Queue {
   }
 
   dequeue() {
-    this.items.shift();
+    return this.items.shift();
   }
 
   size() {
@@ -84,7 +90,10 @@ class Queue {
 //
 // 미로를 나타낸 문자열 배열 maps가 매개변수로 주어질 때, 미로를 탈출하는데 필요한 최소 시간을 return 하는 solution 함수를 완성해주세요. 만약, 탈출할 수 없다면 -1을 return 해주세요.
 
-console.log(solution(["SOOOL", "XXXXO", "OOOOO", "OXXXX", "OOOOE"]));
+// console.log(solution(["SOOOL", "XXXXO", "OOOOO", "OXXXX", "OOOOE"]));
 // 16
+
+console.log(solution(["LOOXS", "OOOOX", "OOOOO", "OOOOO", "EOOOO"]));
+// -1
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/159993
