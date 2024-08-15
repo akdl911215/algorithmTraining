@@ -1,6 +1,5 @@
 from itertools import combinations, product
 
-
 def solution(dice):
     n = len(dice)
     half_n = n // 2
