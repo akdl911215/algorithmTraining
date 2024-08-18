@@ -4,8 +4,7 @@ def solution(dice):
 
     n = len(dice)
     half_n = n // 2
-
-    best_win_count = -1
+    best_win_score = -1
     best_dice = None
 
     for A_indices in combinations(range(n), half_n):
@@ -17,18 +16,22 @@ def solution(dice):
                 A_sum = sum(A_roll)
                 B_sum = sum(B_roll)
 
-                if A_sum > B_sum:
-                    win += 1
-                elif A_sum == B_sum:
-                    draw += 1
-                else:
-                    lose += 1
+            if A_sum > B_sum:
+                win += 1
+            elif A_sum == B_sum:
+                draw += 1
+            else:
+                lose += 1
 
-        if win > best_win_count:
-            best_win_count = win
+        if win > best_win_score:
+            best_win_score = win
             best_dice = A_indices
 
-    return [i + 1 for i in best_dice]
+
+    result = [i + 1 for i in best_dice]
+    print(result)
+
+    return result
 
 
 # 주어진 예시를 테스트합니다.
