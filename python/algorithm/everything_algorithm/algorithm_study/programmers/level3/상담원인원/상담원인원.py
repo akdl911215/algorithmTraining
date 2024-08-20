@@ -10,11 +10,22 @@
 # 멘토 n, 상담 유형 k 를 비교해서 최소한 k개 만큼 배정을 해야한다.
 # 다만, 대기 시간을 계산해서 배치를 최적화 해야 한다.
 def solution(k, n, reqs):
+    # 멘토: n
+    # 상담 유형: k
     answer = 0
+    best_time = float('inf')
+    best_distribution = None
+
+    counseling_count = max([i[2]] for i in reqs)[0]
+    print(counseling_count)
+
     return answer
 
+print(solution(3, 5, [[10, 60, 1], [15, 100, 3], [20, 30, 1], [30, 50, 3], [50, 40, 1], [60, 30, 2], [65, 30, 1], [70, 100, 2]]))
+# 25
 
-
+# print(solution(2, 3, 	[[5, 55, 2], [10, 90, 2], [20, 40, 2], [50, 45, 2], [100, 50, 2]]))
+# 90
 
 
 
