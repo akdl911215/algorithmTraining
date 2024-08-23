@@ -1,24 +1,17 @@
-function isValid(s) {
-  const stack = [];
+function rotatedValidate(str) {
   const map = {
     "(": ")",
     "{": "}",
     "[": "]",
   };
 
-  for (let i = 0; i < s.length; i++) {
-    const si = s[i];
-    if (si === "(" || si === "{" || si === "[") {
-      stack.push(s[i]);
-    } else {
-      const top = stack.pop();
-      if (map[top] !== s[i]) {
-        return false;
-      }
+  const stack = [];
+  for (let i = 0; i < str.length; i++) {
+    const s = str[i];
+    if (str === "(" || str === "{" || str == "[") {
+      stack.push(s);
     }
   }
-
-  return stack.length === 0;
 }
 
 function solution(s) {
@@ -26,8 +19,13 @@ function solution(s) {
   const len = s.length;
 
   for (let i = 0; i < len; i++) {
-    const rotated = s.slice(i) + s.slice(0, i);
-    if (isValid(rotated)) {
+    const a = s.slice(i);
+    const b = s.slice(0, i);
+    console.log(`a: ${a} b: ${b}`);
+
+    const rotated = a + b;
+    console.log("rotated : ", rotated);
+    if (rotatedValidate(rotated)) {
       count++;
     }
   }
