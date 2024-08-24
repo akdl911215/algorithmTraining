@@ -44,13 +44,13 @@ def distribute_mentors(n, k):
 
 def solution(k, n, reqs):
     best_time = float('inf')
-    best_distribution = None
+    # best_distribution = None
 
     for distribution in distribute_mentors(n, k):
         waiting_time = simulate_mentors(k, n, reqs, distribution)
         if waiting_time < best_time:
             best_time = waiting_time
-            best_distribution = distribution
+            # best_distribution = distribution
 
     return best_time
 
