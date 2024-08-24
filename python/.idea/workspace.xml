@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871e14f6-5dde-44f7-b56a-cd8fed87a48c" name="Changes" comment="Number of customer service representatives">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/상담원인원/상담원인원.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/상담원인원/상담원인원.py" afterDir="false" />
-    </list>
+    <list default="true" id="871e14f6-5dde-44f7-b56a-cd8fed87a48c" name="Changes" comment="Number of customer service representatives" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,73 +28,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.bfs.executor": "Debug",
-    "Python.dynamic-programming.executor": "Debug",
-    "Python.fibonacci.executor": "Debug",
-    "Python.kadane-algorithm.executor": "Debug",
-    "Python.one.executor": "Run",
-    "Python.one2.executor": "Debug",
-    "Python.test (1).executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.te상담원인원.executor": "Run",
-    "Python.three.executor": "Run",
-    "Python.three2.executor": "Debug",
-    "Python.three3.executor": "Run",
-    "Python.three4.executor": "Run",
-    "Python.당구연습.executor": "Debug",
-    "Python.당구연습2.executor": "Run",
-    "Python.리코쳇로봇.executor": "Run",
-    "Python.리코쳇로봇2.executor": "Debug",
-    "Python.리코쳇로봇3.executor": "Run",
-    "Python.리코쳇로봇4.executor": "Run",
-    "Python.무인도여행.executor": "Run",
-    "Python.무인도여행2.executor": "Run",
-    "Python.미로탈출.executor": "Debug",
-    "Python.미로탈출2.executor": "Debug",
-    "Python.미로탈출3.executor": "Run",
-    "Python.미로탈출4.executor": "Debug",
-    "Python.미로탈출5.executor": "Debug",
-    "Python.미로탈출6.executor": "Debug",
-    "Python.미로탈출7.executor": "Run",
-    "Python.산모양타일링.executor": "Debug",
-    "Python.산모양타일링2.executor": "Debug",
-    "Python.산모양타일링3.executor": "Run",
-    "Python.석유시추2-1.executor": "Run",
-    "Python.석유시츄2-2.executor": "Run",
-    "Python.연속펄스부분수열의합.executor": "Run",
-    "Python.연속펄스부분수열의합2.executor": "Debug",
-    "Python.연속펄스부분수열의합4.executor": "Run",
-    "Python.연속펄스부분의수열의합4.executor": "Run",
-    "Python.인사고과.executor": "Run",
-    "Python.인사고과2.executor": "Run",
-    "Python.인사고과3.executor": "Run",
-    "Python.인사고과4.executor": "Debug",
-    "Python.인사고과5.executor": "Debug",
-    "Python.인사고과6.executor": "Debug",
-    "Python.주사위고르기.executor": "Debug",
-    "Python.주사위고르기2.executor": "Debug",
-    "Python.주사위고르기3.executor": "Run",
-    "Python.주사위고르기4.executor": "Run",
-    "Python.주사위고르기5.executor": "Debug",
-    "Python.혼자서하는딕택토.executor": "Debug",
-    "Python.혼자서하는딕택토2.executor": "Run",
-    "Python.혼자서하는딕택토3.executor": "Debug",
-    "Python.혼자서하는딕택토4.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/leejunghyun/Desktop/develop/algorithmTraining/algorithmTraining/python",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.bfs.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.dynamic-programming.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.fibonacci.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.kadane-algorithm.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.one.executor&quot;: &quot;Run&quot;,
+    &quot;Python.one2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.te상담원인원.executor&quot;: &quot;Run&quot;,
+    &quot;Python.three.executor&quot;: &quot;Run&quot;,
+    &quot;Python.three2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.three3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.three4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.당구연습.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.당구연습2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.리코쳇로봇.executor&quot;: &quot;Run&quot;,
+    &quot;Python.리코쳇로봇2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.리코쳇로봇3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.리코쳇로봇4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.무인도여행.executor&quot;: &quot;Run&quot;,
+    &quot;Python.무인도여행2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.미로탈출.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.미로탈출2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.미로탈출3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.미로탈출4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.미로탈출5.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.미로탈출6.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.미로탈출7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.산모양타일링.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.산모양타일링2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.산모양타일링3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.석유시추2-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.석유시츄2-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.연속펄스부분수열의합.executor&quot;: &quot;Run&quot;,
+    &quot;Python.연속펄스부분수열의합2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.연속펄스부분수열의합4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.연속펄스부분의수열의합4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.인사고과.executor&quot;: &quot;Run&quot;,
+    &quot;Python.인사고과2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.인사고과3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.인사고과4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.인사고과5.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.인사고과6.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.주사위고르기.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.주사위고르기2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.주사위고르기3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.주사위고르기4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.주사위고르기5.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.혼자서하는딕택토.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.혼자서하는딕택토2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.혼자서하는딕택토3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.혼자서하는딕택토4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/leejunghyun/Desktop/develop/algorithmTraining/algorithmTraining/python&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\leejunghyun\Desktop\develop\algorithmTraining\algorithmTraining\python\algorithm\everything_algorithm\algorithm_study\programmers\level2\석유시추\1" />
@@ -236,6 +233,98 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기/주사위고르기5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="연속펄스부분수열의합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/연속펄스부분수열의합" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/연속펄스부분수열의합/연속펄스부분수열의합.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="무인도여행" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/무인도여행" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/무인도여행/무인도여행.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="미로탈출" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출/미로탈출.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="미로탈출" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출/미로탈출.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -428,98 +517,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="연속펄스부분수열의합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/연속펄스부분수열의합" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/연속펄스부분수열의합/연속펄스부분수열의합.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="무인도여행" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/무인도여행" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/무인도여행/무인도여행.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="미로탈출" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출/미로탈출.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="미로탈출" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출/미로탈출.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="te상담원인원" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -618,6 +615,7 @@
       <workItem from="1719233409676" duration="408000" />
       <workItem from="1723681192231" duration="3190000" />
       <workItem from="1723941178871" duration="4340000" />
+      <workItem from="1724508290566" duration="70000" />
     </task>
     <task id="LOCAL-00001" summary="Choosing a dice">
       <option name="closed" value="true" />

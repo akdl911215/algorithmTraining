@@ -8,10 +8,19 @@ function rotatedValidate(str) {
   const stack = [];
   for (let i = 0; i < str.length; i++) {
     const s = str[i];
-    if (str === "(" || str === "{" || str == "[") {
+    if (s === "(" || s === "{" || s === "[") {
       stack.push(s);
+    } else {
+      const top = stack.pop();
+      const m = map[top]
+
+      if (s !== m) {
+        return false
+      }
     }
   }
+
+  return stack.length === 0;
 }
 
 function solution(s) {
@@ -21,10 +30,8 @@ function solution(s) {
   for (let i = 0; i < len; i++) {
     const a = s.slice(i);
     const b = s.slice(0, i);
-    console.log(`a: ${a} b: ${b}`);
 
     const rotated = a + b;
-    console.log("rotated : ", rotated);
     if (rotatedValidate(rotated)) {
       count++;
     }
@@ -36,13 +43,13 @@ function solution(s) {
 console.log(solution("[](){}"));
 // 3
 
-// console.log(solution("}]()[{"));
+console.log(solution("}]()[{"));
 // 2
 
-// console.log(solution("[)(]"));
+console.log(solution("[)(]"));
 // 0
 
-// console.log(solution("}}}"));
+console.log(solution("}}}"));
 // 0
 
 // 문제 설명
