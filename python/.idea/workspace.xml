@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871e14f6-5dde-44f7-b56a-cd8fed87a48c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/상담원인원/te상담원인원.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/상담원인원/상담원인원.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기/주사위고르기5.py" afterDir="false" />
+    <list default="true" id="871e14f6-5dde-44f7-b56a-cd8fed87a48c" name="Changes" comment="Number of customer service representatives">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기/주사위고르기4.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기/주사위고르기4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/상담원인원/상담원인원.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/상담원인원/상담원인원.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -620,12 +617,34 @@
       <workItem from="1719014383306" duration="2024000" />
       <workItem from="1719233409676" duration="408000" />
       <workItem from="1723681192231" duration="3190000" />
-      <workItem from="1723941178871" duration="3574000" />
+      <workItem from="1723941178871" duration="4340000" />
     </task>
+    <task id="LOCAL-00001" summary="Choosing a dice">
+      <option name="closed" value="true" />
+      <created>1723945238254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723945238255</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Number of customer service representatives">
+      <option name="closed" value="true" />
+      <created>1723945289893</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723945289893</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Choosing a dice" />
+    <MESSAGE value="Number of customer service representatives" />
+    <option name="LAST_COMMIT_MESSAGE" value="Number of customer service representatives" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

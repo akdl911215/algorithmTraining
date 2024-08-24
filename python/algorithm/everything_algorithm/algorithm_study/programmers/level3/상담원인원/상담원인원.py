@@ -16,6 +16,6 @@ def solution(k, n, reqs):
 
 
 
-
+# https://chatgpt.com/c/d2a1a956-b4e7-48db-b34a-f8db436b239f
 
 # https://school.programmers.co.kr/learn/courses/30/lessons/214288
