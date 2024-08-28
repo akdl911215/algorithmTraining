@@ -27,6 +27,6 @@ print(solution(3, 5, [[10, 60, 1], [15, 100, 3], [20, 30, 1], [30, 50, 3], [50, 
 # print(solution(2, 3, 	[[5, 55, 2], [10, 90, 2], [20, 40, 2], [50, 45, 2], [100, 50, 2]]))
 # 90
 
-
+# https://chatgpt.com/c/d2a1a956-b4e7-48db-b34a-f8db436b239f
 
 # https://school.programmers.co.kr/learn/courses/30/lessons/214288
