@@ -8,7 +8,7 @@ def solution(numbers):
             binary = list(format(number, '08b'))
 
             for i in range(len(binary) - 2, -1, -1):
-                if binary[i] == '0' and binary[i + 1] == '1':
+
                     binary[i] = '1'
                     binary[i + 1] = '0'
                     break
