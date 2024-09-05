@@ -5,7 +5,7 @@ def solution(numbers):
         if number % 2 == 0:
             result.append(number + 1)
         else:
-            binary = list(format(number, '08b'))
+            binary = list('0' + format(number, 'b'))
 
             for i in range(len(binary) - 2, -1, -1):
 
