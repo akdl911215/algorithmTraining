@@ -8,7 +8,8 @@ function solution(skill, skill_trees) {
     for (let i = 0; i < skill_trees.length; ++i) {
         const arr = [];
         for (let j = 0; j < skillArr.length; ++j) {
-            arr.push(skill_trees[i].indexOf(skillArr[j]));
+            const index = skillArr[j];
+            arr.push(skill_trees[i].indexOf(index));
         }
         skillIndexArr.push(arr);
     }
