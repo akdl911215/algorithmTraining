@@ -3,41 +3,36 @@ def solution(diffs, times, limit):
     # else
     #  ((diff - level) * (time_cur + time_prev)) + time_cur
 
+    left, right = 1, max(diffs)
+    answer = right
+
     def total_time(level):
-        time_prev = 0 # 이전 퍼즐 소요 시간
-        total_time_count = 0
+        time_prev, total_time_count = 0, 0
 
         for diff, time_cur in zip(diffs, times):
             if diff <= level:
                 total_time_count += time_cur
             else:
                 mistake = diff - level
-                result = mistake * (time_cur + time_prev) + time_cur
-                total_time_count += result
-            time_prev = time_cur
+                total_time_count += mistake * (time_cur + time_prev)
 
             if total_time_count > limit:
                 return total_time_count
 
         return total_time_count
 
-    left, right = 1, max(diffs)
-    result = right
-
 
     while left <= right:
         mid = (left + right) // 2
-        time = total_time(mid)
-        print('time : ', time)
+        result = total_time(mid)
 
-        if time <= limit:
-            result = mid
+        if result <= right:
+            answer = mid
             right = mid - 1
         else:
             left = mid + 1
 
-    print("result : ", result)
-    return result
+    return answer
 
 print(solution([1, 5, 3], [2, 4, 7], 30))
 # 3
