@@ -14,8 +14,9 @@ def solution(diffs, times, limit):
                 total_time_count += time_cur
             else:
                 mistake = diff - level
-                total_time_count += mistake * (time_cur + time_prev)
+                total_time_count += mistake * (time_cur + time_prev) + time_cur
 
+            time_prev = time_cur
             if total_time_count > limit:
                 return total_time_count
 
@@ -26,7 +27,7 @@ def solution(diffs, times, limit):
         mid = (left + right) // 2
         result = total_time(mid)
 
-        if result <= right:
+        if result <= limit:
             answer = mid
             right = mid - 1
         else:
