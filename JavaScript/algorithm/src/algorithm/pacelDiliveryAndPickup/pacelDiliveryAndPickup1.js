@@ -44,3 +44,5 @@ console.log(solution(4, 5, [1, 0, 3, 1, 2], [0, 3, 0, 4, 0]));
 
 console.log(solution(2, 7, [1, 0, 2, 0, 1, 0, 2], [0, 2, 0, 1, 0, 2, 0]));
 // 30
+
+//https://school.programmers.co.kr/learn/courses/30/lessons/150369
