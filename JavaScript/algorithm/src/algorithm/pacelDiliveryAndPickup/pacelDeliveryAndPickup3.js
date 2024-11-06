@@ -29,24 +29,32 @@ function solution(cap, n, deliveries, pickups) {
                 deliveryCount += sendParcels;
                 deliveryStack.pop();
             } else {
-                // sendParcels = send
-                deliveryCount = 0;
+                const remainingParcels  =  + sendParcels - (cap - deliveryCount);
+                deliveryCount = cap;
+                deliveryStack[deliveryStack.length -1][1] = remainingParcels;
             }
             maxDistance = Math.max(maxDistance, homeLocation);
         }
 
         while (pickupStack.length > 0 && pickupCount < cap) {
-            const [homeLocation, pickupParcels] = pickupStack.pop();
+            const [homeLocation, pickupParcels] = pickupStack[pickupStack.length - 1];
 
-            pickupCount += pickupParcels;
+            if (pickupCount + pickupParcels <= cap) {
+                pickupCount += pickupParcels;
+                pickupStack.pop();
+            } else {
+                const remainingParcels  =  + pickupParcels - (cap - pickupCount);
+                pickupCount = cap;
+                deliveryStack[pickupStack.length -1][1] = remainingParcels;
+            }
             maxDistance = Math.max(maxDistance, homeLocation);
         }
 
-
+        answer += maxDistance
     }
 
 
-    return answer;
+    return answer * 2;
 }
 
 console.log(solution(4, 5, [1, 0, 3, 1, 2], [0, 3, 0, 4, 0]));
