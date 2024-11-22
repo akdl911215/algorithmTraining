@@ -18,7 +18,7 @@ function solution(cap, n, deliveries, pickups) {
     }
   }
 
-  while (deliveriesStack.length > 0 && pickupsStack.length > 0) {
+  while (deliveriesStack.length > 0 || pickupsStack.length > 0) {
     let maxDistance = 0;
     let truckDeliveryCapCount = 0;
     let truckPickupCapCount = 0;
