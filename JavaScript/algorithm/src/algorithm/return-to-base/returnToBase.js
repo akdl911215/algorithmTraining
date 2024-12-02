@@ -6,6 +6,8 @@ class Queue {
   enqueue = (element) => this.nodes.push(element);
 
   dequeue = () => (this.isEmpty() ? "Nodes is empty" : this.nodes.shift());
+
+  isEmpty = () => this.nodes.length === 0;
 }
 
 function buildGraph(roads) {
@@ -27,23 +29,32 @@ function solution(n, roads, sources, destination) {
   const queue = new Queue();
   const distances = {};
   const visited = new Set();
-
-  // bfs 기준점은 destination
   const startNode = destination;
   distances[startNode] = 0;
   queue.enqueue(startNode);
   visited.add(startNode);
-
   const graph = buildGraph(roads);
-  console.log("graph: ", graph);
 
-  // 1. destination 기준으로 bfs 돌려서 거리 측정
   while (!queue.isEmpty()) {
     const currentNode = queue.dequeue();
     const currentDistance = distances[currentNode];
+
+    for (let neighbor of graph[currentNode]) {
+      if (!visited.has(neighbor)) {
+        visited.add(neighbor);
+        distances[neighbor] = currentDistance + 1;
+        queue.enqueue(neighbor);
+      }
+    }
   }
 
-  // 2. sources 로 거리 몇인지 체크
+  for (let source of sources) {
+    if (distances[source] === undefined) {
+      answer.push(-1);
+    } else {
+      answer.push(distances[source]);
+    }
+  }
 
   return answer;
 }
