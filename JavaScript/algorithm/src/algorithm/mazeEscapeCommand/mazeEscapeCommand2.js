@@ -1,5 +1,5 @@
 function solution(n, m, x, y, r, c, k) {
-  let answer = "";
+  const IMPOSSIBLE = "impossible";
 
   // n * m = maze size
   // x, y = start
@@ -24,7 +24,6 @@ function solution(n, m, x, y, r, c, k) {
     const [x, y] = queue.shift();
 
     for (const { dx, dy } of directions) {
-      console.log(dx, dy);
       const nx = dx + x;
       const ny = dy + y;
 
@@ -34,6 +33,28 @@ function solution(n, m, x, y, r, c, k) {
         queue.push([nx, ny]);
       }
     }
+  }
+  console.log("grid2 : ", grid);
+
+  const initialMinDistance = grid[x][y];
+  if (
+    initialMinDistance > k ||
+    (initialMinDistance - k) % 2 ||
+    initialMinDistance === -1
+  ) {
+    return IMPOSSIBLE;
+  }
+
+  // n * m = maze size
+  // x = 2, y = 3 > starting point
+  // r = 3, c = 1 > ending point
+  // k = distance
+  queue.push([x, y]);
+  const minDistance = [];
+  let currentX = x;
+  let currentY = y;
+  for (let step = 0; step < k; ++k) {
+    const remainingSteps = k - step - 1;
   }
 
   return answer;
