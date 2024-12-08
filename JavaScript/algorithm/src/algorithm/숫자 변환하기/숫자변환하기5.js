@@ -32,7 +32,7 @@ function solution(x, y, n) {
 
     test = set;
 
-    console.log("test : ", test);
+    console.log("test.js : ", test);
   }
 }
 
