@@ -12,17 +12,24 @@ def solution(points, routes):
     robot_paths = []
     for route in routes:
         path = []
+
+        print('len(route) - 1 : ', len(route) - 1)
         for i in range(len(route) - 1):
             start = point_coords[route[i]]
             end = point_coords[route[i + 1]]
+            print('up path : ', path)
             path.extend(calculate_path(start, end))
+            print('down path : ', path)
         robot_paths.append(path)
 
     # Step 4: Simulate robot movements over time
     active_robots = [0] * len(routes)  # Tracks how far each robot has traveled in its path
+    print('active_robots : ', active_robots)
 
     while any(robot_idx < len(robot_paths[i]) for i, robot_idx in enumerate(active_robots)):
+
         position_count = defaultdict(int)
+        print('position_count : ', position_count)
 
         for i, robot_idx in enumerate(active_robots):
             if robot_idx < len(robot_paths[i]):  # Robot still has steps to move
