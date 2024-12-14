@@ -1,6 +1,5 @@
 from collections import defaultdict
 
-
 def solution(points, routes):
     # Step 1: Map point indices to their coordinates
     point_coords = {i + 1: (r, c) for i, (r, c) in enumerate(points)}
@@ -13,23 +12,18 @@ def solution(points, routes):
     for route in routes:
         path = []
 
-        print('len(route) - 1 : ', len(route) - 1)
         for i in range(len(route) - 1):
             start = point_coords[route[i]]
             end = point_coords[route[i + 1]]
-            print('up path : ', path)
             path.extend(calculate_path(start, end))
-            print('down path : ', path)
         robot_paths.append(path)
 
     # Step 4: Simulate robot movements over time
     active_robots = [0] * len(routes)  # Tracks how far each robot has traveled in its path
-    print('active_robots : ', active_robots)
 
     while any(robot_idx < len(robot_paths[i]) for i, robot_idx in enumerate(active_robots)):
 
         position_count = defaultdict(int)
-        print('position_count : ', position_count)
 
         for i, robot_idx in enumerate(active_robots):
             if robot_idx < len(robot_paths[i]):  # Robot still has steps to move
@@ -40,7 +34,7 @@ def solution(points, routes):
         # Correct Collision Counting
         for position, count in position_count.items():
             if count > 1:  # More than one robot in the same position
-                collision_count += count * (count - 1) // 2  # Count unique pairs
+                collision_count += 1
 
     return collision_count
 
@@ -49,7 +43,7 @@ def calculate_path(start, end):
     """Calculate the Manhattan path from start to end with row priority."""
     sr, sc = start
     er, ec = end
-    path = []
+    path = [(sr, sc)]
 
     # Move along rows first
     while sr != er:
@@ -65,10 +59,10 @@ def calculate_path(start, end):
 
 
 print(solution([[3, 2], [6, 4], [4, 7], [1, 4]],
-               [[4, 2], [1, 3], [2, 4]]	))
+               [[4, 2], [1, 3], [2, 4]]))
 # 1
 
-print(solution([[3, 2], [6, 4], [4, 7], [1, 4]],[[4, 2], [1, 3], [4, 2], [4, 3]]))
+print(solution([[3, 2], [6, 4], [4, 7], [1, 4]], [[4, 2], [1, 3], [4, 2], [4, 3]]))
 # 9
 
 print(solution([[2, 2], [2, 3], [2, 7], [6, 6], [5, 2]],	[[2, 3, 4, 5], [1, 3, 4, 5]]))
