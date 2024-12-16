@@ -22,7 +22,6 @@ def solution(points, routes):
     active_robots = [0] * len(routes)
 
     while any(robot_idx < len(robot_paths[i]) for i, robot_idx in enumerate(active_robots)):
-
         position_count = defaultdict(int)
 
         for i, robot_idx in enumerate(active_robots):
@@ -36,7 +35,6 @@ def solution(points, routes):
                 collision_count += 1
 
     return collision_count
-
 
 def calculate_path(start, end):
     sr, sc = start
@@ -55,14 +53,11 @@ def calculate_path(start, end):
 
 
 
-
-
-
-# print(solution([[3, 2], [6, 4], [4, 7], [1, 4]],
-#                [[4, 2], [1, 3], [2, 4]]))
+print(solution([[3, 2], [6, 4], [4, 7], [1, 4]],
+               [[4, 2], [1, 3], [2, 4]]))
 # 1
 
-print(solution([[3, 2], [6, 4], [4, 7], [1, 4]], [[4, 2], [1, 3], [4, 2], [4, 3]]))
+# print(solution([[3, 2], [6, 4], [4, 7], [1, 4]], [[4, 2], [1, 3], [4, 2], [4, 3]]))
 # 9
 
 # print(solution([[2, 2], [2, 3], [2, 7], [6, 6], [5, 2]],	[[2, 3, 4, 5], [1, 3, 4, 5]]))
