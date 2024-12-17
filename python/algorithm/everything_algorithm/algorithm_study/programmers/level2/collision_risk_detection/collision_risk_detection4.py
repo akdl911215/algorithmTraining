@@ -2,10 +2,11 @@ from collections import defaultdict
 
 def solution(points, routes):
 
+    # 각 포인트 위치 지정
     point_coords = {(i + 1): (r, c) for i, (r, c) in enumerate(points)}
     print(point_coords)
 
-    path = []
+    robots_path = []
     for route in routes:
         print('route : ', route)
         start = point_coords[route[0]]
@@ -13,9 +14,26 @@ def solution(points, routes):
         end = point_coords[route[1]]
         print('end : ', end)
 
-        result_path = calculate_path(start, end)
-        print('result_path : ', result_path)
-        path.extend(result_path)
+        path = []
+        for i in range(len(route) - 1):
+            if i == 0:
+                path.append(start)
+
+            result_path = calculate_path(start, end)
+            print('result_path : ', result_path)
+            path.extend(result_path)
+            print('path : ', path)
+        robots_path.append(path)
+
+    robots_position = [0] * len(robots_path)
+    collision_check = defaultdict(int)
+
+    # while any(i < )
+
+    for i in range(len(robots_path)):
+        for j, position in enumerate(robots_path[i]):
+            collision_check[position] += 1
+            robots_position[j] += 1
 
     return 0
 
