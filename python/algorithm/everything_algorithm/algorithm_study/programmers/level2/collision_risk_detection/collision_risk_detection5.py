@@ -8,11 +8,11 @@ def solution(points, routes):
     # 모든 로봇의 path 를 모으기 위한 배열. 2중 배열 형태
     robots_path = []
     for route in routes:
+        start = point_coords[route[0]]
+        end = point_coords[route[1]]
 
         path = []
         for i in range(len(route) - 1):
-            start = point_coords[route[i]]
-            end = point_coords[route[i + 1]]
 
             if i == 0:
                 path.append(start)

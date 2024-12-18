@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871e14f6-5dde-44f7-b56a-cd8fed87a48c" name="Changes" comment="Number of customer service representatives">
+      <change afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java3/out/production/Java3/billiardsPractice/billiardsPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java3/out/production/Java3/billiardsPractice/billiardsPractice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection4.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection4.py" afterDir="false" />
@@ -32,94 +33,94 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.2개이하로다른비트.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2개이하로다른비트2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2개이하로다른비트3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2개이하로다른비트4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2개이하로다른비트5.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.bfs.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.collision_risk_detection.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.collision_risk_detection2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.collision_risk_detection3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.collision_risk_detection4.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.dijkstra_algorithm.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.dynamic-programming.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.fibonacci.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.kadane-algorithm.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.knapsack_algorithm.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.oil-rdilling.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.one.executor&quot;: &quot;Run&quot;,
-    &quot;Python.one2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.prim.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.puzzle_game_challenge3.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.skilltree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.skilltree2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test1-2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testt.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.te상담원인원.executor&quot;: &quot;Run&quot;,
-    &quot;Python.three.executor&quot;: &quot;Run&quot;,
-    &quot;Python.three2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.three3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.three4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.당구연습.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.당구연습2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.리코쳇로봇.executor&quot;: &quot;Run&quot;,
-    &quot;Python.리코쳇로봇2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.리코쳇로봇3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.리코쳇로봇4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.무인도여행.executor&quot;: &quot;Run&quot;,
-    &quot;Python.무인도여행2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.미로탈출.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.미로탈출2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.미로탈출3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.미로탈출4.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.미로탈출5.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.미로탈출6.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.미로탈출7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.산모양타일링.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.산모양타일링2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.산모양타일링3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.석유시추2-1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.석유시츄2-2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.연속펄스부분수열의합.executor&quot;: &quot;Run&quot;,
-    &quot;Python.연속펄스부분수열의합2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.연속펄스부분수열의합4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.연속펄스부분의수열의합4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.인사고과.executor&quot;: &quot;Run&quot;,
-    &quot;Python.인사고과2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.인사고과3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.인사고과4.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.인사고과5.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.인사고과6.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.주사위고르기.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.주사위고르기2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.주사위고르기3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.주사위고르기4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.주사위고르기5.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.혼자서하는딕택토.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.혼자서하는딕택토2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.혼자서하는딕택토3.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.혼자서하는딕택토4.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/leejunghyun/Desktop/develop/algorithmTraining/algorithmTraining/python&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.2개이하로다른비트.executor": "Run",
+    "Python.2개이하로다른비트2.executor": "Run",
+    "Python.2개이하로다른비트3.executor": "Run",
+    "Python.2개이하로다른비트4.executor": "Run",
+    "Python.2개이하로다른비트5.executor": "Debug",
+    "Python.bfs.executor": "Debug",
+    "Python.collision_risk_detection.executor": "Debug",
+    "Python.collision_risk_detection2.executor": "Debug",
+    "Python.collision_risk_detection3.executor": "Run",
+    "Python.collision_risk_detection4.executor": "Run",
+    "Python.dijkstra_algorithm.executor": "Debug",
+    "Python.dynamic-programming.executor": "Debug",
+    "Python.fibonacci.executor": "Debug",
+    "Python.kadane-algorithm.executor": "Debug",
+    "Python.knapsack_algorithm.executor": "Debug",
+    "Python.oil-rdilling.executor": "Debug",
+    "Python.one.executor": "Run",
+    "Python.one2.executor": "Debug",
+    "Python.prim.executor": "Debug",
+    "Python.puzzle_game_challenge3.executor": "Debug",
+    "Python.skilltree.executor": "Run",
+    "Python.skilltree2.executor": "Run",
+    "Python.test (1).executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test1-2.executor": "Debug",
+    "Python.test1.executor": "Run",
+    "Python.test2.executor": "Run",
+    "Python.testt.executor": "Debug",
+    "Python.te상담원인원.executor": "Run",
+    "Python.three.executor": "Run",
+    "Python.three2.executor": "Debug",
+    "Python.three3.executor": "Run",
+    "Python.three4.executor": "Run",
+    "Python.당구연습.executor": "Debug",
+    "Python.당구연습2.executor": "Run",
+    "Python.리코쳇로봇.executor": "Run",
+    "Python.리코쳇로봇2.executor": "Debug",
+    "Python.리코쳇로봇3.executor": "Run",
+    "Python.리코쳇로봇4.executor": "Run",
+    "Python.무인도여행.executor": "Run",
+    "Python.무인도여행2.executor": "Run",
+    "Python.미로탈출.executor": "Debug",
+    "Python.미로탈출2.executor": "Debug",
+    "Python.미로탈출3.executor": "Run",
+    "Python.미로탈출4.executor": "Debug",
+    "Python.미로탈출5.executor": "Debug",
+    "Python.미로탈출6.executor": "Debug",
+    "Python.미로탈출7.executor": "Run",
+    "Python.산모양타일링.executor": "Debug",
+    "Python.산모양타일링2.executor": "Debug",
+    "Python.산모양타일링3.executor": "Run",
+    "Python.석유시추2-1.executor": "Run",
+    "Python.석유시츄2-2.executor": "Run",
+    "Python.연속펄스부분수열의합.executor": "Run",
+    "Python.연속펄스부분수열의합2.executor": "Debug",
+    "Python.연속펄스부분수열의합4.executor": "Run",
+    "Python.연속펄스부분의수열의합4.executor": "Run",
+    "Python.인사고과.executor": "Run",
+    "Python.인사고과2.executor": "Run",
+    "Python.인사고과3.executor": "Run",
+    "Python.인사고과4.executor": "Debug",
+    "Python.인사고과5.executor": "Debug",
+    "Python.인사고과6.executor": "Debug",
+    "Python.주사위고르기.executor": "Debug",
+    "Python.주사위고르기2.executor": "Debug",
+    "Python.주사위고르기3.executor": "Run",
+    "Python.주사위고르기4.executor": "Run",
+    "Python.주사위고르기5.executor": "Debug",
+    "Python.혼자서하는딕택토.executor": "Debug",
+    "Python.혼자서하는딕택토2.executor": "Run",
+    "Python.혼자서하는딕택토3.executor": "Debug",
+    "Python.혼자서하는딕택토4.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/leejunghyun/Desktop/develop/algorithmTraining/algorithmTraining/python",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.tools",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="python" is-module-sdk="true">
@@ -154,6 +155,98 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/산모양타일링/산모양타일링.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="주사위고르기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기/주사위고르기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="혼자서하는딕택토" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/혼자서하는딕택토" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/혼자서하는딕택토/혼자서하는딕택토.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="혼자서하는딕택토" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/혼자서하는딕택토" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/혼자서하는딕택토/혼자서하는딕택토.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="인사고과" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/인사고과" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/인사고과/인사고과.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -338,98 +431,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/혼자서하는딕택토/혼자서하는딕택토.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="주사위고르기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기/주사위고르기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="혼자서하는딕택토" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/혼자서하는딕택토" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/혼자서하는딕택토/혼자서하는딕택토.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="혼자서하는딕택토" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/혼자서하는딕택토" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/혼자서하는딕택토/혼자서하는딕택토.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="인사고과" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/인사고과" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/인사고과/인사고과.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -682,7 +683,8 @@
       <workItem from="1734161741701" duration="5825000" />
       <workItem from="1734223550740" duration="3415000" />
       <workItem from="1734311295743" duration="4662000" />
-      <workItem from="1734398049431" duration="2608000" />
+      <workItem from="1734398049431" duration="2695000" />
+      <workItem from="1734486593762" duration="3289000" />
     </task>
     <task id="LOCAL-00001" summary="Choosing a dice">
       <option name="closed" value="true" />
@@ -1391,31 +1393,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection3.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="190" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection3.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="191" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection3.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="192" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection3.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="193" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection3.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="194" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection3.py</url>
           <line>23</line>
           <option name="timeStamp" value="195" />
         </line-breakpoint>
@@ -1430,38 +1407,23 @@
           <option name="timeStamp" value="197" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection3.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="198" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection3.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="199" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection3.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="200" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection4.py</url>
-          <line>39</line>
+          <line>51</line>
           <option name="timeStamp" value="201" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection4.py</url>
-          <line>44</line>
+          <line>57</line>
           <option name="timeStamp" value="202" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection4.py</url>
-          <line>48</line>
+          <line>62</line>
           <option name="timeStamp" value="203" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection4.py</url>
-          <line>52</line>
+          <line>66</line>
           <option name="timeStamp" value="204" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1471,7 +1433,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection4.py</url>
-          <line>16</line>
+          <line>11</line>
           <option name="timeStamp" value="206" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1481,17 +1443,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection4.py</url>
-          <line>17</line>
+          <line>12</line>
           <option name="timeStamp" value="208" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection4.py</url>
-          <line>23</line>
+          <line>21</line>
           <option name="timeStamp" value="209" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection4.py</url>
-          <line>25</line>
+          <line>24</line>
           <option name="timeStamp" value="210" />
         </line-breakpoint>
       </breakpoints>
@@ -1513,7 +1475,7 @@
     <SUITE FILE_PATH="coverage/python$puzzle_game_challenge3.coverage" NAME="puzzle_game_challenge3 Coverage Results" MODIFIED="1733621406181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/퍼즐게임챌린지" />
     <SUITE FILE_PATH="coverage/python$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1733646016878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/test" />
     <SUITE FILE_PATH="coverage/python$oil_rdilling.coverage" NAME="oil-rdilling Coverage Results" MODIFIED="1733623417988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/석유시추/3" />
-    <SUITE FILE_PATH="coverage/python$collision_risk_detection4.coverage" NAME="collision_risk_detection4 Coverage Results" MODIFIED="1734399218334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection" />
+    <SUITE FILE_PATH="coverage/python$collision_risk_detection4.coverage" NAME="collision_risk_detection4 Coverage Results" MODIFIED="1734489361685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection" />
     <SUITE FILE_PATH="coverage/python$6.coverage" NAME="인사고과6 Coverage Results" MODIFIED="1712023982741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/인사고과" />
     <SUITE FILE_PATH="coverage/python$3.coverage" NAME="주사위고르기3 Coverage Results" MODIFIED="1723682667390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기" />
     <SUITE FILE_PATH="coverage/python$skilltree.coverage" NAME="skilltree Coverage Results" MODIFIED="1733625119348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/skilltree" />
@@ -1531,7 +1493,7 @@
     <SUITE FILE_PATH="coverage/python$prim.coverage" NAME="prim Coverage Results" MODIFIED="1733791664535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/greedy" />
     <SUITE FILE_PATH="coverage/python$2.coverage" NAME="2개이하로다른비트 Coverage Results" MODIFIED="1733625903130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/2개이하로다른비트" />
     <SUITE FILE_PATH="coverage/python$5.coverage" NAME="주사위고르기5 Coverage Results" MODIFIED="1723943125535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기" />
-    <SUITE FILE_PATH="coverage/python$collision_risk_detection3.coverage" NAME="collision_risk_detection3 Coverage Results" MODIFIED="1734313921289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection" />
+    <SUITE FILE_PATH="coverage/python$collision_risk_detection3.coverage" NAME="collision_risk_detection3 Coverage Results" MODIFIED="1734488530477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection" />
     <SUITE FILE_PATH="coverage/python$dynamic_programming.coverage" NAME="dynamic-programming Coverage Results" MODIFIED="1711463323226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/연속펄스부분수열의합" />
     <SUITE FILE_PATH="coverage/python$knapsack_algorithm.coverage" NAME="knapsack_algorithm Coverage Results" MODIFIED="1733793750269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/greedy" />
     <SUITE FILE_PATH="coverage/python$22.coverage" NAME="2개이하로다른비트2 Coverage Results" MODIFIED="1733625885102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/2개이하로다른비트" />
