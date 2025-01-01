@@ -9,6 +9,7 @@ def lcs(X, Y):
             else:
                 dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
 
+    print(dp)
     return dp[m][n]
 
 X = "AGGTAB"
