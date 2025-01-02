@@ -18,7 +18,10 @@ def solution(numbers):
     answer = []
     for num in numbers:  # num = 42
         b = bin(num)[2:]  # b = 101010 / len(b) = 6
-        nodes = bin(len(b) + 1)[2:]  # nodes = 7 = 111
+
+        len_b = len(b)
+        bin_len_b = bin(len_b + 1)
+        nodes = bin_len_b[2:]  # nodes = 7 = 111
 
         # 포화이진트리가 아닌 경우 더미노드(0추가)
         if '1' in nodes[1:]:
