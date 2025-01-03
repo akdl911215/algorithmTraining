@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871e14f6-5dde-44f7-b56a-cd8fed87a48c" name="Changes" comment="Number of customer service representatives">
-      <change afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/2D_coin_filp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/2D_coin_flip2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/breadth_first_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/breath_first_search2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/depth_first_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java3/out/production/Java3/billiardsPractice/billiardsPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java3/out/production/Java3/billiardsPractice/billiardsPractice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -45,6 +44,8 @@
     "Python.2개이하로다른비트4.executor": "Run",
     "Python.2개이하로다른비트5.executor": "Debug",
     "Python.bfs.executor": "Debug",
+    "Python.breadth_first_search.executor": "Run",
+    "Python.breath_first_search2.executor": "Debug",
     "Python.coin_change.executor": "Debug",
     "Python.collision_risk_detection.executor": "Debug",
     "Python.collision_risk_detection2.executor": "Debug",
@@ -53,6 +54,7 @@
     "Python.countdown.executor": "Run",
     "Python.countdown2.executor": "Debug",
     "Python.countdown3.executor": "Debug",
+    "Python.depth_first_search.executor": "Debug",
     "Python.dijkstra_algorithm.executor": "Debug",
     "Python.dynamic-programming.executor": "Debug",
     "Python.fibonacci.executor": "Debug",
@@ -152,7 +154,7 @@
       <recent name="C:\Users\leejunghyun\Desktop\develop\algorithmTraining\algorithmTraining\python\algorithm\everything_algorithm\algorithm_study\programmers\level2\석유시추\1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
+  <component name="RunManager" selected="Python.depth_first_search">
     <configuration name="산모양타일링" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -177,29 +179,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2D_coin_filp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/2D_coin_filp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="2D_coin_flip2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -215,6 +194,98 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/2D_coin_flip2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="연속펄스부분수열의합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/연속펄스부분수열의합" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/연속펄스부분수열의합/연속펄스부분수열의합.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="무인도여행" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/무인도여행" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/무인도여행/무인도여행.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="미로탈출" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출/미로탈출.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="미로탈출" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출/미로탈출.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -407,7 +478,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="연속펄스부분수열의합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="breadth_first_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -416,12 +487,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/연속펄스부분수열의합" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/연속펄스부분수열의합/연속펄스부분수열의합.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/breadth_first_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -430,7 +501,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="무인도여행" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="breath_first_search2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -439,58 +510,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/무인도여행" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/무인도여행/무인도여행.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="미로탈출" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출/미로탈출.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="미로탈출" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출/미로탈출.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/breath_first_search2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -523,7 +548,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="representable_binary_tree2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="depth_first_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -532,35 +557,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/level3/representable_binary_tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/level3/representable_binary_tree/representable_binary_tree2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="representable_binary_tree3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/level3/representable_binary_tree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/level3/representable_binary_tree/representable_binary_tree3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/depth_first_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -595,19 +597,19 @@
     <list>
       <item itemvalue="Python.collision_risk_detection" />
       <item itemvalue="Python.산모양타일링" />
-      <item itemvalue="Python.2D_coin_filp" />
+      <item itemvalue="Python.breadth_first_search" />
+      <item itemvalue="Python.breath_first_search2" />
+      <item itemvalue="Python.depth_first_search" />
       <item itemvalue="Python.2D_coin_flip2" />
-      <item itemvalue="Python.representable_binary_tree3" />
       <item itemvalue="Python.test (1)" />
-      <item itemvalue="Python.representable_binary_tree2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.depth_first_search" />
+        <item itemvalue="Python.breath_first_search2" />
+        <item itemvalue="Python.breadth_first_search" />
         <item itemvalue="Python.2D_coin_flip2" />
-        <item itemvalue="Python.2D_coin_filp" />
-        <item itemvalue="Python.representable_binary_tree3" />
-        <item itemvalue="Python.representable_binary_tree2" />
+        <item itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -708,7 +710,8 @@
       <workItem from="1735698768790" duration="652000" />
       <workItem from="1735730359297" duration="9549000" />
       <workItem from="1735824653092" duration="2471000" />
-      <workItem from="1735864648138" duration="7675000" />
+      <workItem from="1735864648138" duration="7811000" />
+      <workItem from="1735901685438" duration="2046000" />
     </task>
     <task id="LOCAL-00001" summary="Choosing a dice">
       <option name="closed" value="true" />
@@ -1778,6 +1781,51 @@
           <line>50</line>
           <option name="timeStamp" value="275" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/breath_first_search2.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/breath_first_search2.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/breath_first_search2.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/breath_first_search2.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/breath_first_search2.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/depth_first_search.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/depth_first_search.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/depth_first_search.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip/depth_first_search.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1790,6 +1838,7 @@
     <SUITE FILE_PATH="coverage/python$longgest_common_subsequence.coverage" NAME="longgest_common_subsequence Coverage Results" MODIFIED="1735633779510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/dynamic_programming" />
     <SUITE FILE_PATH="coverage/python$countdown.coverage" NAME="countdown Coverage Results" MODIFIED="1735734912755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3" />
     <SUITE FILE_PATH="coverage/python$bfs.coverage" NAME="bfs Coverage Results" MODIFIED="1718171633976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/석유시추/2" />
+    <SUITE FILE_PATH="coverage/python$breadth_first_search.coverage" NAME="breadth_first_search Coverage Results" MODIFIED="1735902345457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
     <SUITE FILE_PATH="coverage/python$puzzle_game_challenge3.coverage" NAME="puzzle_game_challenge3 Coverage Results" MODIFIED="1733621406181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/퍼즐게임챌린지" />
     <SUITE FILE_PATH="coverage/python$representable_binary_tree.coverage" NAME="representable_binary_tree Coverage Results" MODIFIED="1735781782562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/representable_binary_tree" />
     <SUITE FILE_PATH="coverage/python$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1733646016878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/test" />
@@ -1804,10 +1853,11 @@
     <SUITE FILE_PATH="coverage/python$three3.coverage" NAME="three3 Coverage Results" MODIFIED="1710726604896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm/three" />
     <SUITE FILE_PATH="coverage/python$representable_binary_tree2.coverage" NAME="representable_binary_tree2 Coverage Results" MODIFIED="1735830045013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/representable_binary_tree" />
     <SUITE FILE_PATH="coverage/python$prim.coverage" NAME="prim Coverage Results" MODIFIED="1733791664535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/greedy" />
-    <SUITE FILE_PATH="coverage/python$2D_coin_flip2.coverage" NAME="2D_coin_flip2 Coverage Results" MODIFIED="1735876447085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
+    <SUITE FILE_PATH="coverage/python$2D_coin_flip2.coverage" NAME="2D_coin_flip2 Coverage Results" MODIFIED="1735901709577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
     <SUITE FILE_PATH="coverage/python$5.coverage" NAME="주사위고르기5 Coverage Results" MODIFIED="1723943125535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기" />
     <SUITE FILE_PATH="coverage/python$collision_risk_detection3.coverage" NAME="collision_risk_detection3 Coverage Results" MODIFIED="1734488530477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection" />
     <SUITE FILE_PATH="coverage/python$countdown3.coverage" NAME="countdown3 Coverage Results" MODIFIED="1735736121833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/countdown" />
+    <SUITE FILE_PATH="coverage/python$breath_first_search2.coverage" NAME="breath_first_search2 Coverage Results" MODIFIED="1735902598199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
     <SUITE FILE_PATH="coverage/python$22.coverage" NAME="2개이하로다른비트2 Coverage Results" MODIFIED="1733625885102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/2개이하로다른비트" />
     <SUITE FILE_PATH="coverage/python$three.coverage" NAME="three Coverage Results" MODIFIED="1710725647590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm/three" />
     <SUITE FILE_PATH="coverage/python$coin_change.coverage" NAME="coin_change Coverage Results" MODIFIED="1735477197507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/dynamic_programming" />
@@ -1824,13 +1874,14 @@
     <SUITE FILE_PATH="coverage/python$longgest_common_subsequence2.coverage" NAME="longgest_common_subsequence2 Coverage Results" MODIFIED="1735698794581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/dynamic_programming" />
     <SUITE FILE_PATH="coverage/python$collision_risk_detection2.coverage" NAME="collision_risk_detection2 Coverage Results" MODIFIED="1734226972952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection" />
     <SUITE FILE_PATH="coverage/python$skilltree2.coverage" NAME="skilltree2 Coverage Results" MODIFIED="1733625288471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/skilltree" />
-    <SUITE FILE_PATH="coverage/python$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1735877075377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
+    <SUITE FILE_PATH="coverage/python$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1735877106474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
     <SUITE FILE_PATH="coverage/python$representable_binary_tree3.coverage" NAME="representable_binary_tree3 Coverage Results" MODIFIED="1735866612990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/representable_binary_tree" />
     <SUITE FILE_PATH="coverage/python$oil_rdilling.coverage" NAME="oil-rdilling Coverage Results" MODIFIED="1733623417988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/석유시추/3" />
     <SUITE FILE_PATH="coverage/python$te.coverage" NAME="te상담원인원 Coverage Results" MODIFIED="1723944306200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/상담원인원" />
     <SUITE FILE_PATH="coverage/python$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1710075685115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/산모양타일링" />
     <SUITE FILE_PATH="coverage/python$collision_risk_detection.coverage" NAME="collision_risk_detection Coverage Results" MODIFIED="1734226619836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection" />
     <SUITE FILE_PATH="coverage/python$2_2.coverage" NAME="석유시츄2-2 Coverage Results" MODIFIED="1718410118488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/석유시추/2" />
+    <SUITE FILE_PATH="coverage/python$depth_first_search.coverage" NAME="depth_first_search Coverage Results" MODIFIED="1735903745886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
     <SUITE FILE_PATH="coverage/python$2D_coin_filp.coverage" NAME="2D_coin_filp Coverage Results" MODIFIED="1735875475962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
     <SUITE FILE_PATH="coverage/python$.coverage" NAME="주사위고르기 Coverage Results" MODIFIED="1723681832586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기" />
     <SUITE FILE_PATH="coverage/python$test1_2.coverage" NAME="test1-2 Coverage Results" MODIFIED="1733644797976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/test" />
