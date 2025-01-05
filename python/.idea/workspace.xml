@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871e14f6-5dde-44f7-b56a-cd8fed87a48c" name="Changes" comment="Number of customer service representatives">
-      <change afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java3/out/production/Java3/billiardsPractice/billiardsPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java3/out/production/Java3/billiardsPractice/billiardsPractice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing2.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +80,8 @@
     "Python.skilltree2.executor": "Run",
     "Python.table_editing.executor": "Run",
     "Python.table_editing2.executor": "Run",
+    "Python.table_editing3.executor": "Debug",
+    "Python.table_editing4.executor": "Debug",
     "Python.test (1).executor": "Run",
     "Python.test.executor": "Run",
     "Python.test1-2.executor": "Debug",
@@ -161,7 +163,7 @@
       <recent name="C:\Users\leejunghyun\Desktop\develop\algorithmTraining\algorithmTraining\python\algorithm\everything_algorithm\algorithm_study\programmers\level2\석유시추\1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.table_editing2">
+  <component name="RunManager" selected="Python.table_editing4">
     <configuration name="산모양타일링" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -178,6 +180,98 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/산모양타일링/산모양타일링.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="주사위고르기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기/주사위고르기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="혼자서하는딕택토" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/혼자서하는딕택토" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/혼자서하는딕택토/혼자서하는딕택토.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="혼자서하는딕택토" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/혼자서하는딕택토" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/혼자서하는딕택토/혼자서하는딕택토.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="인사고과" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/인사고과" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/인사고과/인사고과.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -370,121 +464,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="주사위고르기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기/주사위고르기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="혼자서하는딕택토" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/혼자서하는딕택토" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/혼자서하는딕택토/혼자서하는딕택토.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="혼자서하는딕택토" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/혼자서하는딕택토" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/혼자서하는딕택토/혼자서하는딕택토.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="인사고과" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/인사고과" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/인사고과/인사고과.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="binary_search_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/algorithm/tree/binary_search_tree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/algorithm/tree/binary_search_tree/binary_search_tree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="collision_risk_detection" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -501,29 +480,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="fibonacci_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/algorithm/dynamic_programming/fibonacci_sequence" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/algorithm/dynamic_programming/fibonacci_sequence/fibonacci_sequence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -578,6 +534,52 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="table_editing3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="table_editing4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -604,19 +606,19 @@
     <list>
       <item itemvalue="Python.collision_risk_detection" />
       <item itemvalue="Python.산모양타일링" />
-      <item itemvalue="Python.fibonacci_sequence" />
+      <item itemvalue="Python.table_editing3" />
+      <item itemvalue="Python.table_editing4" />
       <item itemvalue="Python.table_editing" />
       <item itemvalue="Python.table_editing2" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.binary_search_tree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.table_editing4" />
+        <item itemvalue="Python.table_editing3" />
         <item itemvalue="Python.table_editing2" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.table_editing" />
-        <item itemvalue="Python.fibonacci_sequence" />
-        <item itemvalue="Python.binary_search_tree" />
       </list>
     </recent_temporary>
   </component>
@@ -721,7 +723,8 @@
       <workItem from="1735901685438" duration="3357000" />
       <workItem from="1735948518569" duration="1618000" />
       <workItem from="1735998165541" duration="2545000" />
-      <workItem from="1736038893941" duration="5258000" />
+      <workItem from="1736038893941" duration="5288000" />
+      <workItem from="1736056866073" duration="4699000" />
     </task>
     <task id="LOCAL-00001" summary="Choosing a dice">
       <option name="closed" value="true" />
@@ -2030,6 +2033,181 @@
           <line>45</line>
           <option name="timeStamp" value="323" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing2.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing2.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing2.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing2.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="327" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing2.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="333" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="334" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="335" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="338" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing3.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -2039,10 +2217,10 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python$countdown.coverage" NAME="countdown Coverage Results" MODIFIED="1735734912755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3" />
     <SUITE FILE_PATH="coverage/python$longgest_common_subsequence.coverage" NAME="longgest_common_subsequence Coverage Results" MODIFIED="1735633779510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/dynamic_programming" />
-    <SUITE FILE_PATH="coverage/python$breadth_first_search.coverage" NAME="breadth_first_search Coverage Results" MODIFIED="1735902345457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
+    <SUITE FILE_PATH="coverage/python$countdown.coverage" NAME="countdown Coverage Results" MODIFIED="1735734912755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3" />
     <SUITE FILE_PATH="coverage/python$bfs.coverage" NAME="bfs Coverage Results" MODIFIED="1718171633976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/석유시추/2" />
+    <SUITE FILE_PATH="coverage/python$breadth_first_search.coverage" NAME="breadth_first_search Coverage Results" MODIFIED="1735902345457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
     <SUITE FILE_PATH="coverage/python$puzzle_game_challenge3.coverage" NAME="puzzle_game_challenge3 Coverage Results" MODIFIED="1733621406181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/퍼즐게임챌린지" />
     <SUITE FILE_PATH="coverage/python$table_editing.coverage" NAME="table_editing Coverage Results" MODIFIED="1736045372157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
     <SUITE FILE_PATH="coverage/python$representable_binary_tree.coverage" NAME="representable_binary_tree Coverage Results" MODIFIED="1735781782562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/representable_binary_tree" />
@@ -2080,6 +2258,7 @@
     <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1736046407939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
     <SUITE FILE_PATH="coverage/python$4.coverage" NAME="주사위고르기4 Coverage Results" MODIFIED="1723942221522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기" />
     <SUITE FILE_PATH="coverage/python$longgest_common_subsequence2.coverage" NAME="longgest_common_subsequence2 Coverage Results" MODIFIED="1735698794581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/dynamic_programming" />
+    <SUITE FILE_PATH="coverage/python$table_editing4.coverage" NAME="table_editing4 Coverage Results" MODIFIED="1736061538616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
     <SUITE FILE_PATH="coverage/python$collision_risk_detection2.coverage" NAME="collision_risk_detection2 Coverage Results" MODIFIED="1734226972952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection" />
     <SUITE FILE_PATH="coverage/python$skilltree2.coverage" NAME="skilltree2 Coverage Results" MODIFIED="1733625288471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/skilltree" />
     <SUITE FILE_PATH="coverage/python$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1735877106474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
@@ -2097,9 +2276,10 @@
     <SUITE FILE_PATH="coverage/python$binary_search_tree.coverage" NAME="binary_search_tree Coverage Results" MODIFIED="1736000199694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/tree/binary_search_tree" />
     <SUITE FILE_PATH="coverage/python$2.coverage" NAME="2개이하로다른비트 Coverage Results" MODIFIED="1733625903130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/2개이하로다른비트" />
     <SUITE FILE_PATH="coverage/python$binary_search_recursive.coverage" NAME="binary_search_recursive Coverage Results" MODIFIED="1735998806293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/searching/binary_search" />
+    <SUITE FILE_PATH="coverage/python$table_editing3.coverage" NAME="table_editing3 Coverage Results" MODIFIED="1736058035575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
     <SUITE FILE_PATH="coverage/python$knapsack_algorithm.coverage" NAME="knapsack_algorithm Coverage Results" MODIFIED="1733793750269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/greedy" />
     <SUITE FILE_PATH="coverage/python$dynamic_programming.coverage" NAME="dynamic-programming Coverage Results" MODIFIED="1711463323226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/연속펄스부분수열의합" />
-    <SUITE FILE_PATH="coverage/python$table_editing2.coverage" NAME="table_editing2 Coverage Results" MODIFIED="1736047488591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
+    <SUITE FILE_PATH="coverage/python$table_editing2.coverage" NAME="table_editing2 Coverage Results" MODIFIED="1736057689912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
     <SUITE FILE_PATH="coverage/python$three4.coverage" NAME="three4 Coverage Results" MODIFIED="1710727019988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm/three" />
     <SUITE FILE_PATH="coverage/python$7.coverage" NAME="미로탈출7 Coverage Results" MODIFIED="1710985206153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출" />
   </component>
