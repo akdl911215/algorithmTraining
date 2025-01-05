@@ -14,8 +14,7 @@ def solution(n, k, cmd):
 
             while move > 0:
                 move -= 1
-                current_row = table[current_row][1]
-            answer[current_row] = 'X'
+                current_row = table[current_row][0]
 
         elif c.startswith('D'):
             down, X = c.split()
@@ -23,10 +22,10 @@ def solution(n, k, cmd):
 
             while move > 0:
                 move -= 1
-                current_row = table[current_row][0]
-            answer[current_row] = 'X'
+                current_row = table[current_row][1]
 
         elif c.startswith('C'):
+            answer[current_row] = 'X'
             prev, next = table[current_row]
             deleted_stack.append([prev, current_row, next])
 
