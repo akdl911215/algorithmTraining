@@ -1,4 +1,4 @@
-package algorithmStudy.sorting.quckSortAlgorithm;
+package algorithmStudy.sorting.quickSortAlgorithm;
 
 import java.util.Arrays;
 
