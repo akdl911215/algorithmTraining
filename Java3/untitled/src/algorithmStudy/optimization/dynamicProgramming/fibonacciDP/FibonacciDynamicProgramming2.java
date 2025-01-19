@@ -3,7 +3,7 @@ package algorithmStudy.optimization.dynamicProgramming.fibonacciDP;
 import java.util.HashMap;
 import java.util.Map;
 
-public class fibonacciDynamicProgramming2 {
+public class FibonacciDynamicProgramming2 {
 
     private static Map<Integer, Integer> memo = new HashMap<>();
 

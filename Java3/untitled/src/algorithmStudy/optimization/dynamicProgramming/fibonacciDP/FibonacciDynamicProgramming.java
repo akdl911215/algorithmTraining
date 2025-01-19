@@ -1,6 +1,6 @@
 package algorithmStudy.optimization.dynamicProgramming.fibonacciDP;
 
-public class fibonacciDynamicProgramming {
+public class FibonacciDynamicProgramming {
 
     public static void main(String[] args) {
         int n = 10;
