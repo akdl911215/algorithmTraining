@@ -72,7 +72,7 @@ public class KruskalMST {
             }
         }
 
-        System.out.print("Edges in the Minimum Spanning Tree: ");
+        System.out.println("Edges in the Minimum Spanning Tree: ");
         for (Edge edge: mst) {
             System.out.println("Edge: " + edge.src + " - " + edge.dest + " | Weight: " + edge.weight);
         }
