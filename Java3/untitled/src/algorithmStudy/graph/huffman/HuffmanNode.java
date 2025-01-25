@@ -84,7 +84,8 @@ class HuffmanCoding {
 
     public static void main(String[] args) {
 //        String text = "this is an example for huffman encoding";
-        String text = "apple";
+//        String text = "apple";
+        String text = "abbcccdddd";
         Map<Character, String> huffmanCodes = generateHuffmanCodes(text);
 
         System.out.println("Huffman Codes: ");
