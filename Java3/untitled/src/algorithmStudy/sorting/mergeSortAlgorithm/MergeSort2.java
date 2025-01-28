@@ -7,7 +7,8 @@ public class MergeSort2 {
 
     // Main function to test the merge sort
     public static void main(String[] args) {
-        int[] array = {38, 27, 43, 3, 9, 82, 10};
+//        int[] array = {38, 27, 43, 3, 9, 82, 10};
+        int[] array = {38, 27, 43, 3};
         System.out.println("Original Array : " + Arrays.toString(array));
 
         mergeSort(array, 0, array.length - 1);
