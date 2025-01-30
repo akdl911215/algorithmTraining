@@ -3,6 +3,8 @@ package algorithmStudy.backtracking.nQueens;
 public class NQueens {
     public static void main(String[] args) {
         int n = 4; // Size of the chessboard
+//        int n = 3;
+//        int n = 2;
         int[][] board = new int[n][n];
         if (solveNQueens(board, 0, n)) {
             printBoard(board);
