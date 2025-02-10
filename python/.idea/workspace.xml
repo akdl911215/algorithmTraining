@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="871e14f6-5dde-44f7-b56a-cd8fed87a48c" name="Changes" comment="Number of customer service representatives">
       <change beforePath="$PROJECT_DIR$/../Java3/out/production/Java3/billiardsPractice/billiardsPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java3/out/production/Java3/billiardsPractice/billiardsPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/everything_algorithm/chapter4/palindrome/palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/everything_algorithm/chapter4/palindrome/palindrome.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +81,7 @@
     &quot;Python.table_editing.executor&quot;: &quot;Run&quot;,
     &quot;Python.table_editing2.executor&quot;: &quot;Run&quot;,
     &quot;Python.table_editing3.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.table_editing4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.table_editing4.executor&quot;: &quot;Run&quot;,
     &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;Python.test1-2.executor&quot;: &quot;Debug&quot;,
@@ -132,6 +134,7 @@
     &quot;Python.혼자서하는딕택토4.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/leejunghyun/Desktop/develop/algorithmTraining/algorithmTraining/python&quot;,
@@ -140,7 +143,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -161,7 +164,7 @@
       <recent name="C:\Users\leejunghyun\Desktop\develop\algorithmTraining\algorithmTraining\python\algorithm\everything_algorithm\algorithm_study\programmers\level2\석유시추\1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.table_editing4">
+  <component name="RunManager" selected="Python.breadth_first_search">
     <configuration name="산모양타일링" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -171,13 +174,104 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.10 (python)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/산모양타일링" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/산모양타일링/산모양타일링.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="연속펄스부분수열의합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/연속펄스부분수열의합" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/연속펄스부분수열의합/연속펄스부분수열의합.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="무인도여행" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/무인도여행" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/무인도여행/무인도여행.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="미로탈출" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출/미로탈출.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="미로탈출" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출/미로탈출.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -370,7 +464,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="연속펄스부분수열의합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="breadth_first_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -379,81 +473,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/연속펄스부분수열의합" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/연속펄스부분수열의합/연속펄스부분수열의합.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="무인도여행" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/무인도여행" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/무인도여행/무인도여행.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="미로탈출" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출/미로탈출.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="미로탈출" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출/미로탈출.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/algorithm/breadth_first_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -471,36 +496,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.10 (python)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection/collision_risk_detection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="table_editing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -562,6 +563,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYCHARM_DEBUG" value="True" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
@@ -604,26 +606,27 @@
     <list>
       <item itemvalue="Python.collision_risk_detection" />
       <item itemvalue="Python.산모양타일링" />
+      <item itemvalue="Python.breadth_first_search" />
       <item itemvalue="Python.table_editing3" />
       <item itemvalue="Python.table_editing4" />
-      <item itemvalue="Python.table_editing" />
       <item itemvalue="Python.table_editing2" />
       <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.breadth_first_search" />
         <item itemvalue="Python.table_editing4" />
         <item itemvalue="Python.table_editing3" />
         <item itemvalue="Python.table_editing2" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.table_editing" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
+        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
       </set>
     </attachedChunks>
   </component>
@@ -723,7 +726,11 @@
       <workItem from="1735998165541" duration="2545000" />
       <workItem from="1736038893941" duration="5288000" />
       <workItem from="1736056866073" duration="4750000" />
-      <workItem from="1736061642579" duration="155000" />
+      <workItem from="1736061642579" duration="217000" />
+      <workItem from="1736122723486" duration="873000" />
+      <workItem from="1736125234673" duration="340000" />
+      <workItem from="1736125969475" duration="313000" />
+      <workItem from="1736126296133" duration="3113000" />
     </task>
     <task id="LOCAL-00001" summary="Choosing a dice">
       <option name="closed" value="true" />
@@ -2164,12 +2171,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
-          <line>19</line>
+          <line>18</line>
           <option name="timeStamp" value="350" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
-          <line>23</line>
+          <line>22</line>
           <option name="timeStamp" value="351" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -2179,32 +2186,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
-          <line>28</line>
+          <line>26</line>
           <option name="timeStamp" value="353" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
-          <line>32</line>
+          <line>31</line>
           <option name="timeStamp" value="354" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
-          <line>35</line>
+          <line>34</line>
           <option name="timeStamp" value="355" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
-          <line>38</line>
+          <line>37</line>
           <option name="timeStamp" value="356" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
-          <line>44</line>
+          <line>43</line>
           <option name="timeStamp" value="357" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing/table_editing4.py</url>
-          <line>45</line>
+          <line>44</line>
           <option name="timeStamp" value="358" />
         </line-breakpoint>
       </breakpoints>
@@ -2216,70 +2223,70 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python$countdown.coverage" NAME="countdown Coverage Results" MODIFIED="1735734912755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3" />
-    <SUITE FILE_PATH="coverage/python$longgest_common_subsequence.coverage" NAME="longgest_common_subsequence Coverage Results" MODIFIED="1735633779510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/dynamic_programming" />
-    <SUITE FILE_PATH="coverage/python$breadth_first_search.coverage" NAME="breadth_first_search Coverage Results" MODIFIED="1735902345457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
-    <SUITE FILE_PATH="coverage/python$bfs.coverage" NAME="bfs Coverage Results" MODIFIED="1718171633976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/석유시추/2" />
-    <SUITE FILE_PATH="coverage/python$puzzle_game_challenge3.coverage" NAME="puzzle_game_challenge3 Coverage Results" MODIFIED="1733621406181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/퍼즐게임챌린지" />
-    <SUITE FILE_PATH="coverage/python$table_editing.coverage" NAME="table_editing Coverage Results" MODIFIED="1736045372157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
-    <SUITE FILE_PATH="coverage/python$representable_binary_tree.coverage" NAME="representable_binary_tree Coverage Results" MODIFIED="1735781782562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/representable_binary_tree" />
-    <SUITE FILE_PATH="coverage/python$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1733646016878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/test" />
-    <SUITE FILE_PATH="coverage/python$collision_risk_detection4.coverage" NAME="collision_risk_detection4 Coverage Results" MODIFIED="1734489361685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection" />
-    <SUITE FILE_PATH="coverage/python$6.coverage" NAME="인사고과6 Coverage Results" MODIFIED="1712023982741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/인사고과" />
-    <SUITE FILE_PATH="coverage/python$3.coverage" NAME="주사위고르기3 Coverage Results" MODIFIED="1723682667390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기" />
-    <SUITE FILE_PATH="coverage/python$skilltree.coverage" NAME="skilltree Coverage Results" MODIFIED="1733625119348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/skilltree" />
-    <SUITE FILE_PATH="coverage/python$longget_common_subsequence.coverage" NAME="longget_common_subsequence Coverage Results" MODIFIED="1735526180463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/dynamic_programming" />
-    <SUITE FILE_PATH="coverage/python$one.coverage" NAME="one Coverage Results" MODIFIED="1710727410752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm/one" />
-    <SUITE FILE_PATH="coverage/python$testt.coverage" NAME="testt Coverage Results" MODIFIED="1733645509153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/test" />
-    <SUITE FILE_PATH="coverage/python$24.coverage" NAME="2개이하로다른비트4 Coverage Results" MODIFIED="1733625913453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/2개이하로다른비트" />
-    <SUITE FILE_PATH="coverage/python$three3.coverage" NAME="three3 Coverage Results" MODIFIED="1710726604896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm/three" />
-    <SUITE FILE_PATH="coverage/python$binary_search_iterative.coverage" NAME="binary_search_iterative Coverage Results" MODIFIED="1735999165403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/searching/binary_search_iterative" />
-    <SUITE FILE_PATH="coverage/python$representable_binary_tree2.coverage" NAME="representable_binary_tree2 Coverage Results" MODIFIED="1735830045013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/representable_binary_tree" />
-    <SUITE FILE_PATH="coverage/python$prim.coverage" NAME="prim Coverage Results" MODIFIED="1733791664535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/greedy" />
-    <SUITE FILE_PATH="coverage/python$2D_coin_flip2.coverage" NAME="2D_coin_flip2 Coverage Results" MODIFIED="1735906785447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
-    <SUITE FILE_PATH="coverage/python$5.coverage" NAME="주사위고르기5 Coverage Results" MODIFIED="1723943125535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기" />
-    <SUITE FILE_PATH="coverage/python$collision_risk_detection3.coverage" NAME="collision_risk_detection3 Coverage Results" MODIFIED="1734488530477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection" />
-    <SUITE FILE_PATH="coverage/python$countdown3.coverage" NAME="countdown3 Coverage Results" MODIFIED="1735736121833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/countdown" />
-    <SUITE FILE_PATH="coverage/python$breath_first_search2.coverage" NAME="breath_first_search2 Coverage Results" MODIFIED="1735902598199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
-    <SUITE FILE_PATH="coverage/python$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1735950519212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/sorting/quick_sort" />
-    <SUITE FILE_PATH="coverage/python$22.coverage" NAME="2개이하로다른비트2 Coverage Results" MODIFIED="1733625885102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/2개이하로다른비트" />
-    <SUITE FILE_PATH="coverage/python$three.coverage" NAME="three Coverage Results" MODIFIED="1710725647590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm/three" />
-    <SUITE FILE_PATH="coverage/python$coin_change.coverage" NAME="coin_change Coverage Results" MODIFIED="1735477197507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/dynamic_programming" />
-    <SUITE FILE_PATH="coverage/python$three2.coverage" NAME="three2 Coverage Results" MODIFIED="1710725937651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm/three" />
-    <SUITE FILE_PATH="coverage/python$one2.coverage" NAME="one2 Coverage Results" MODIFIED="1710728860837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm/one" />
-    <SUITE FILE_PATH="coverage/python$2_1.coverage" NAME="석유시추2-1 Coverage Results" MODIFIED="1718330937829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/석유시추/2" />
-    <SUITE FILE_PATH="coverage/python$23.coverage" NAME="2개이하로다른비트3 Coverage Results" MODIFIED="1733625906908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/2개이하로다른비트" />
-    <SUITE FILE_PATH="coverage/python$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1733644060258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/test" />
-    <SUITE FILE_PATH="coverage/python$dijkstra_algorithm.coverage" NAME="dijkstra_algorithm Coverage Results" MODIFIED="1733879366822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/dijkstra" />
-    <SUITE FILE_PATH="coverage/python$fibonacci_sequence.coverage" NAME="fibonacci_sequence Coverage Results" MODIFIED="1736043506489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/dynamic_programming/fibonacci_sequence" />
-    <SUITE FILE_PATH="coverage/python$kadane_algorithm.coverage" NAME="kadane-algorithm Coverage Results" MODIFIED="1711684781569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/연속펄스부분수열의합" />
     <SUITE FILE_PATH="coverage/python$countdown2.coverage" NAME="countdown2 Coverage Results" MODIFIED="1735735004118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/countdown" />
-    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1736046407939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
-    <SUITE FILE_PATH="coverage/python$4.coverage" NAME="주사위고르기4 Coverage Results" MODIFIED="1723942221522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기" />
-    <SUITE FILE_PATH="coverage/python$longgest_common_subsequence2.coverage" NAME="longgest_common_subsequence2 Coverage Results" MODIFIED="1735698794581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/dynamic_programming" />
-    <SUITE FILE_PATH="coverage/python$table_editing4.coverage" NAME="table_editing4 Coverage Results" MODIFIED="1736061759384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
-    <SUITE FILE_PATH="coverage/python$collision_risk_detection2.coverage" NAME="collision_risk_detection2 Coverage Results" MODIFIED="1734226972952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection" />
-    <SUITE FILE_PATH="coverage/python$skilltree2.coverage" NAME="skilltree2 Coverage Results" MODIFIED="1733625288471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/skilltree" />
-    <SUITE FILE_PATH="coverage/python$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1735877106474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
-    <SUITE FILE_PATH="coverage/python$representable_binary_tree3.coverage" NAME="representable_binary_tree3 Coverage Results" MODIFIED="1735866612990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/representable_binary_tree" />
-    <SUITE FILE_PATH="coverage/python$oil_rdilling.coverage" NAME="oil-rdilling Coverage Results" MODIFIED="1733623417988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/석유시추/3" />
-    <SUITE FILE_PATH="coverage/python$te.coverage" NAME="te상담원인원 Coverage Results" MODIFIED="1723944306200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/상담원인원" />
-    <SUITE FILE_PATH="coverage/python$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1710075685115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/산모양타일링" />
-    <SUITE FILE_PATH="coverage/python$collision_risk_detection.coverage" NAME="collision_risk_detection Coverage Results" MODIFIED="1734226619836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection" />
-    <SUITE FILE_PATH="coverage/python$2_2.coverage" NAME="석유시츄2-2 Coverage Results" MODIFIED="1718410118488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/석유시추/2" />
-    <SUITE FILE_PATH="coverage/python$depth_first_search.coverage" NAME="depth_first_search Coverage Results" MODIFIED="1735903745886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
-    <SUITE FILE_PATH="coverage/python$2D_coin_filp.coverage" NAME="2D_coin_filp Coverage Results" MODIFIED="1735875475962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
-    <SUITE FILE_PATH="coverage/python$.coverage" NAME="주사위고르기 Coverage Results" MODIFIED="1723681832586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기" />
     <SUITE FILE_PATH="coverage/python$test1_2.coverage" NAME="test1-2 Coverage Results" MODIFIED="1735950019665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/test" />
-    <SUITE FILE_PATH="coverage/python$25.coverage" NAME="2개이하로다른비트5 Coverage Results" MODIFIED="1733625962572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/2개이하로다른비트" />
-    <SUITE FILE_PATH="coverage/python$binary_search_tree.coverage" NAME="binary_search_tree Coverage Results" MODIFIED="1736000199694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/tree/binary_search_tree" />
-    <SUITE FILE_PATH="coverage/python$2.coverage" NAME="2개이하로다른비트 Coverage Results" MODIFIED="1733625903130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/2개이하로다른비트" />
-    <SUITE FILE_PATH="coverage/python$binary_search_recursive.coverage" NAME="binary_search_recursive Coverage Results" MODIFIED="1735998806293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/searching/binary_search" />
-    <SUITE FILE_PATH="coverage/python$table_editing3.coverage" NAME="table_editing3 Coverage Results" MODIFIED="1736058035575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
-    <SUITE FILE_PATH="coverage/python$knapsack_algorithm.coverage" NAME="knapsack_algorithm Coverage Results" MODIFIED="1733793750269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/greedy" />
+    <SUITE FILE_PATH="coverage/python$breadth_first_search.coverage" NAME="breadth_first_search Coverage Results" MODIFIED="1735902345457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
+    <SUITE FILE_PATH="coverage/python$representable_binary_tree.coverage" NAME="representable_binary_tree Coverage Results" MODIFIED="1735781782562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/representable_binary_tree" />
     <SUITE FILE_PATH="coverage/python$dynamic_programming.coverage" NAME="dynamic-programming Coverage Results" MODIFIED="1711463323226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/연속펄스부분수열의합" />
-    <SUITE FILE_PATH="coverage/python$table_editing2.coverage" NAME="table_editing2 Coverage Results" MODIFIED="1736057689912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
+    <SUITE FILE_PATH="coverage/python$collision_risk_detection4.coverage" NAME="collision_risk_detection4 Coverage Results" MODIFIED="1734489361685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection" />
+    <SUITE FILE_PATH="coverage/python$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1733646016878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/test" />
+    <SUITE FILE_PATH="coverage/python$skilltree2.coverage" NAME="skilltree2 Coverage Results" MODIFIED="1733625288471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/skilltree" />
+    <SUITE FILE_PATH="coverage/python$2_2.coverage" NAME="석유시츄2-2 Coverage Results" MODIFIED="1718410118488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/석유시추/2" />
+    <SUITE FILE_PATH="coverage/python$collision_risk_detection.coverage" NAME="collision_risk_detection Coverage Results" MODIFIED="1734226619836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection" />
+    <SUITE FILE_PATH="coverage/python$testt.coverage" NAME="testt Coverage Results" MODIFIED="1733645509153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/test" />
+    <SUITE FILE_PATH="coverage/python$depth_first_search.coverage" NAME="depth_first_search Coverage Results" MODIFIED="1735903745886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
+    <SUITE FILE_PATH="coverage/python$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1735877106474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
+    <SUITE FILE_PATH="coverage/python$23.coverage" NAME="2개이하로다른비트3 Coverage Results" MODIFIED="1733625906908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/2개이하로다른비트" />
+    <SUITE FILE_PATH="coverage/python$breath_first_search2.coverage" NAME="breath_first_search2 Coverage Results" MODIFIED="1735902598199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
+    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1736046407939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
+    <SUITE FILE_PATH="coverage/python$one2.coverage" NAME="one2 Coverage Results" MODIFIED="1710728860837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm/one" />
+    <SUITE FILE_PATH="coverage/python$3.coverage" NAME="주사위고르기3 Coverage Results" MODIFIED="1723682667390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기" />
+    <SUITE FILE_PATH="coverage/python$24.coverage" NAME="2개이하로다른비트4 Coverage Results" MODIFIED="1733625913453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/2개이하로다른비트" />
     <SUITE FILE_PATH="coverage/python$three4.coverage" NAME="three4 Coverage Results" MODIFIED="1710727019988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm/three" />
+    <SUITE FILE_PATH="coverage/python$representable_binary_tree3.coverage" NAME="representable_binary_tree3 Coverage Results" MODIFIED="1735866612990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/representable_binary_tree" />
+    <SUITE FILE_PATH="coverage/python$2_1.coverage" NAME="석유시추2-1 Coverage Results" MODIFIED="1718330937829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/석유시추/2" />
+    <SUITE FILE_PATH="coverage/python$binary_search_tree.coverage" NAME="binary_search_tree Coverage Results" MODIFIED="1736000199694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/tree/binary_search_tree" />
+    <SUITE FILE_PATH="coverage/python$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1710075685115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/산모양타일링" />
+    <SUITE FILE_PATH="coverage/python$binary_search_recursive.coverage" NAME="binary_search_recursive Coverage Results" MODIFIED="1735998806293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/searching/binary_search" />
+    <SUITE FILE_PATH="coverage/python$countdown.coverage" NAME="countdown Coverage Results" MODIFIED="1735734912755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3" />
+    <SUITE FILE_PATH="coverage/python$coin_change.coverage" NAME="coin_change Coverage Results" MODIFIED="1735477197507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/dynamic_programming" />
+    <SUITE FILE_PATH="coverage/python$oil_rdilling.coverage" NAME="oil-rdilling Coverage Results" MODIFIED="1733623417988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/석유시추/3" />
+    <SUITE FILE_PATH="coverage/python$knapsack_algorithm.coverage" NAME="knapsack_algorithm Coverage Results" MODIFIED="1733793750269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/greedy" />
     <SUITE FILE_PATH="coverage/python$7.coverage" NAME="미로탈출7 Coverage Results" MODIFIED="1710985206153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level2/미로탈출" />
+    <SUITE FILE_PATH="coverage/python$three3.coverage" NAME="three3 Coverage Results" MODIFIED="1710726604896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm/three" />
+    <SUITE FILE_PATH="coverage/python$representable_binary_tree2.coverage" NAME="representable_binary_tree2 Coverage Results" MODIFIED="1735830045013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/representable_binary_tree" />
+    <SUITE FILE_PATH="coverage/python$puzzle_game_challenge3.coverage" NAME="puzzle_game_challenge3 Coverage Results" MODIFIED="1733621406181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/퍼즐게임챌린지" />
+    <SUITE FILE_PATH="coverage/python$2.coverage" NAME="2개이하로다른비트 Coverage Results" MODIFIED="1733625903130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/2개이하로다른비트" />
+    <SUITE FILE_PATH="coverage/python$fibonacci_sequence.coverage" NAME="fibonacci_sequence Coverage Results" MODIFIED="1736043506489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/dynamic_programming/fibonacci_sequence" />
+    <SUITE FILE_PATH="coverage/python$table_editing4.coverage" NAME="table_editing4 Coverage Results" MODIFIED="1736125567195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
+    <SUITE FILE_PATH="coverage/python$one.coverage" NAME="one Coverage Results" MODIFIED="1710727410752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm/one" />
+    <SUITE FILE_PATH="coverage/python$skilltree.coverage" NAME="skilltree Coverage Results" MODIFIED="1733625119348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/skilltree" />
+    <SUITE FILE_PATH="coverage/python$25.coverage" NAME="2개이하로다른비트5 Coverage Results" MODIFIED="1733625962572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/2개이하로다른비트" />
+    <SUITE FILE_PATH="coverage/python$4.coverage" NAME="주사위고르기4 Coverage Results" MODIFIED="1723942221522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기" />
+    <SUITE FILE_PATH="coverage/python$prim.coverage" NAME="prim Coverage Results" MODIFIED="1733791664535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/greedy" />
+    <SUITE FILE_PATH="coverage/python$.coverage" NAME="주사위고르기 Coverage Results" MODIFIED="1723681832586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기" />
+    <SUITE FILE_PATH="coverage/python$three2.coverage" NAME="three2 Coverage Results" MODIFIED="1710725937651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm/three" />
+    <SUITE FILE_PATH="coverage/python$bfs.coverage" NAME="bfs Coverage Results" MODIFIED="1718171633976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/석유시추/2" />
+    <SUITE FILE_PATH="coverage/python$2D_coin_flip2.coverage" NAME="2D_coin_flip2 Coverage Results" MODIFIED="1735906785447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
+    <SUITE FILE_PATH="coverage/python$binary_search_iterative.coverage" NAME="binary_search_iterative Coverage Results" MODIFIED="1735999165403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/searching/binary_search_iterative" />
+    <SUITE FILE_PATH="coverage/python$longgest_common_subsequence.coverage" NAME="longgest_common_subsequence Coverage Results" MODIFIED="1735633779510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/dynamic_programming" />
+    <SUITE FILE_PATH="coverage/python$6.coverage" NAME="인사고과6 Coverage Results" MODIFIED="1712023982741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/인사고과" />
+    <SUITE FILE_PATH="coverage/python$kadane_algorithm.coverage" NAME="kadane-algorithm Coverage Results" MODIFIED="1711684781569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/level3/연속펄스부분수열의합" />
+    <SUITE FILE_PATH="coverage/python$collision_risk_detection3.coverage" NAME="collision_risk_detection3 Coverage Results" MODIFIED="1734488530477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection" />
+    <SUITE FILE_PATH="coverage/python$dijkstra_algorithm.coverage" NAME="dijkstra_algorithm Coverage Results" MODIFIED="1733879366822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/dijkstra" />
+    <SUITE FILE_PATH="coverage/python$longget_common_subsequence.coverage" NAME="longget_common_subsequence Coverage Results" MODIFIED="1735526180463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/dynamic_programming" />
+    <SUITE FILE_PATH="coverage/python$countdown3.coverage" NAME="countdown3 Coverage Results" MODIFIED="1735736121833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/countdown" />
+    <SUITE FILE_PATH="coverage/python$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1735950519212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/sorting/quick_sort" />
+    <SUITE FILE_PATH="coverage/python$table_editing.coverage" NAME="table_editing Coverage Results" MODIFIED="1736045372157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
+    <SUITE FILE_PATH="coverage/python$table_editing3.coverage" NAME="table_editing3 Coverage Results" MODIFIED="1736058035575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
+    <SUITE FILE_PATH="coverage/python$table_editing2.coverage" NAME="table_editing2 Coverage Results" MODIFIED="1736057689912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/table_editing" />
+    <SUITE FILE_PATH="coverage/python$longgest_common_subsequence2.coverage" NAME="longgest_common_subsequence2 Coverage Results" MODIFIED="1735698794581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/algorithm/dynamic_programming" />
+    <SUITE FILE_PATH="coverage/python$three.coverage" NAME="three Coverage Results" MODIFIED="1710725647590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm/three" />
+    <SUITE FILE_PATH="coverage/python$22.coverage" NAME="2개이하로다른비트2 Coverage Results" MODIFIED="1733625885102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/2개이하로다른비트" />
+    <SUITE FILE_PATH="coverage/python$5.coverage" NAME="주사위고르기5 Coverage Results" MODIFIED="1723943125535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/주사위고르기" />
+    <SUITE FILE_PATH="coverage/python$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1733644060258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/test" />
+    <SUITE FILE_PATH="coverage/python$collision_risk_detection2.coverage" NAME="collision_risk_detection2 Coverage Results" MODIFIED="1734226972952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level2/collision_risk_detection" />
+    <SUITE FILE_PATH="coverage/python$2D_coin_filp.coverage" NAME="2D_coin_filp Coverage Results" MODIFIED="1735875475962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/level3/2D_coin_flip" />
+    <SUITE FILE_PATH="coverage/python$te.coverage" NAME="te상담원인원 Coverage Results" MODIFIED="1723944306200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/everything_algorithm/algorithm_study/programmers/level3/상담원인원" />
   </component>
 </project>
