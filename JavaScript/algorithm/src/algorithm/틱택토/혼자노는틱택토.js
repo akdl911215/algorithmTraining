@@ -1,6 +1,6 @@
 function winnerCheck(board, player) {
-  let row = 0;
   for (let i = 0; i < 3; ++i) {
+    let row = 0;
     if (board[i][0] === player) {
       row += 1;
     }
@@ -16,8 +16,8 @@ function winnerCheck(board, player) {
     }
   }
 
-  let column = 0;
   for (let i = 0; i < 3; ++i) {
+    let column = 0;
     if (board[0][i] === player) {
       column += 1;
     }
@@ -53,8 +53,6 @@ function winnerCheck(board, player) {
 }
 
 function solution(board) {
-  let result = -1;
-
   let oSum = 0;
   let xSum = 0;
   for (let i = 0; i < board.length; ++i) {
@@ -71,27 +69,32 @@ function solution(board) {
 
   const oWin = winnerCheck(board, "O");
   const xWin = winnerCheck(board, "X");
-  console.log("oWin : ", oWin);
-  console.log("xWin : ", xWin);
 
   // "O"를 표시할 차례인데 "X"를 표시하거나 반대로 "X"를 표시할 차례인데 "O"를 표시
-  if (oSum < xSum) {
-    return -1;
+  if (oSum < xSum || oSum - xSum > 1) {
+    return 0;
+  }
+
+  if ((oWin && oSum <= xSum) || (xWin && oSum > xSum)) {
+    return 0;
   }
 
   // 선공이나 후공이 승리해서 게임이 종료되었음에도 그 게임을 진행
+  if (oWin && xWin) {
+    return 0;
+  }
 
-  return result;
+  return 1;
 }
 
 console.log(solution(["O.X", ".O.", "..X"]));
 // 1
 
-// console.log(solution(["OOO", "...", "XXX"]));
+console.log(solution(["OOO", "...", "XXX"]));
 // 0
 
-// console.log(solution(["...", ".X.", "..."]));
+console.log(solution(["...", ".X.", "..."]));
 // 0
 
-// console.log(solution(["...", "...", "..."]));
+console.log(solution(["...", "...", "..."]));
 // 1
