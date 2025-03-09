@@ -4,7 +4,10 @@ function buildPrefixTable(pattern) {
 
   for (let i = 1; i < pattern.length; i++) {
     // If characters match, increment prefixLength
-    if (pattern[i] === pattern[prefixLength]) {
+
+    const a = pattern[i];
+    const b = pattern[prefixLength];
+    if (a === b) {
       prefixLength++;
       prefixTable[i] = prefixLength;
     } else {
