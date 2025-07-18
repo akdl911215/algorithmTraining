@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871e14f6-5dde-44f7-b56a-cd8fed87a48c" name="Changes" comment="Number of customer service representatives">
-      <change afterPath="$PROJECT_DIR$/algorithm/algorithm/a_star.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/algorithm/dijkstra/dijkstra2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/algorithm/greatest_common_divisor/gcd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/algorithm/sorting/merge_sort/merge_sort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,12 +64,14 @@
     "Python.fibonacci_sequence.executor": "Debug",
     "Python.fibonachi-bottom-up.executor": "Debug",
     "Python.fibonachi.executor": "Run",
+    "Python.gcd.executor": "Debug",
     "Python.kadane-algorithm.executor": "Debug",
     "Python.knapsack_algorithm.executor": "Debug",
     "Python.longgest_common_subsequence.executor": "Debug",
     "Python.longgest_common_subsequence2.executor": "Run",
     "Python.longget_common_subsequence.executor": "Debug",
     "Python.lower_bound.executor": "Run",
+    "Python.merge_sort.executor": "Debug",
     "Python.oil-rdilling.executor": "Debug",
     "Python.one.executor": "Run",
     "Python.one2.executor": "Debug",
@@ -168,7 +170,7 @@
       <recent name="C:\Users\leejunghyun\Desktop\develop\algorithmTraining\algorithmTraining\python\algorithm\everything_algorithm\algorithm_study\programmers\level2\석유시추\1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dijkstra2">
+  <component name="RunManager" selected="Python.merge_sort">
     <configuration name="산모양타일링" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -557,7 +559,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fibonachi-top-down" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gcd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -566,11 +568,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/algorithm/greatest_common_divisor" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/algorithm/fibonachi-top-down.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/algorithm/greatest_common_divisor/gcd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -579,7 +581,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lower_bound" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="merge_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -588,11 +590,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/algorithm/sorting/merge_sort" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/algorithm/lower_bound.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/algorithm/sorting/merge_sort/merge_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -605,18 +607,18 @@
       <item itemvalue="Python.collision_risk_detection" />
       <item itemvalue="Python.산모양타일링" />
       <item itemvalue="Python.dijkstra2" />
+      <item itemvalue="Python.gcd" />
+      <item itemvalue="Python.merge_sort" />
       <item itemvalue="Python.dijkstra" />
       <item itemvalue="Python.fibonachi-bottom-up" />
-      <item itemvalue="Python.fibonachi-top-down" />
-      <item itemvalue="Python.lower_bound" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.merge_sort" />
+        <item itemvalue="Python.gcd" />
         <item itemvalue="Python.dijkstra2" />
         <item itemvalue="Python.dijkstra" />
         <item itemvalue="Python.fibonachi-bottom-up" />
-        <item itemvalue="Python.fibonachi-top-down" />
-        <item itemvalue="Python.lower_bound" />
       </list>
     </recent_temporary>
   </component>
@@ -2445,6 +2447,90 @@
           <url>file://$PROJECT_DIR$/algorithm/algorithm/dijkstra/dijkstra2.py</url>
           <line>14</line>
           <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/greatest_common_divisor/gcd.py</url>
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/greatest_common_divisor/gcd.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/greatest_common_divisor/gcd.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="410" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/greatest_common_divisor/gcd.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/sorting/merge_sort/merge_sort.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/sorting/merge_sort/merge_sort.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/sorting/merge_sort/merge_sort.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="414" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/sorting/merge_sort/merge_sort.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/sorting/merge_sort/merge_sort.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="416" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/sorting/merge_sort/merge_sort.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="417" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/sorting/merge_sort/merge_sort.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="418" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/sorting/merge_sort/merge_sort.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="419" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/sorting/merge_sort/merge_sort.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="420" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/sorting/merge_sort/merge_sort.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/sorting/merge_sort/merge_sort.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="422" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/sorting/merge_sort/merge_sort.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="423" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/sorting/merge_sort/merge_sort.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="424" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
