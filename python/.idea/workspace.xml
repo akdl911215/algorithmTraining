@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871e14f6-5dde-44f7-b56a-cd8fed87a48c" name="Changes" comment="Number of customer service representatives">
-      <change afterPath="$PROJECT_DIR$/algorithm/algorithm/composition_of_functions.py" afterDir="false" />
+    <list default="true" id="871e14f6-5dde-44f7-b56a-cd8fed87a48c" name="Changes" comment="Implement a composite function in code.">
+      <change afterPath="$PROJECT_DIR$/algorithm/algorithm/union_find/union_find.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,7 @@
     "Python.collision_risk_detection2.executor": "Debug",
     "Python.collision_risk_detection3.executor": "Run",
     "Python.collision_risk_detection4.executor": "Run",
+    "Python.composition_of_functions.executor": "Run",
     "Python.countdown.executor": "Run",
     "Python.countdown2.executor": "Debug",
     "Python.countdown3.executor": "Debug",
@@ -102,6 +103,7 @@
     "Python.three3.executor": "Run",
     "Python.three4.executor": "Run",
     "Python.transpose.executor": "Debug",
+    "Python.union_find.executor": "Debug",
     "Python.당구연습.executor": "Debug",
     "Python.당구연습2.executor": "Run",
     "Python.리코쳇로봇.executor": "Run",
@@ -173,7 +175,7 @@
       <recent name="C:\Users\leejunghyun\Desktop\develop\algorithmTraining\algorithmTraining\python\algorithm\everything_algorithm\algorithm_study\programmers\level2\석유시추\1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.composition_of_functions">
+  <component name="RunManager" selected="Python.union_find">
     <configuration name="산모양타일링" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -584,7 +586,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="transpose" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="union_find" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -593,11 +595,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/algorithm/union_find" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/algorithm/transpose.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/algorithm/union_find/union_find.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -613,15 +615,15 @@
       <item itemvalue="Python.max_subarray_sum" />
       <item itemvalue="Python.max_subarray_sum2" />
       <item itemvalue="Python.min_subarray_len" />
-      <item itemvalue="Python.transpose" />
+      <item itemvalue="Python.union_find" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.union_find" />
         <item itemvalue="Python.composition_of_functions" />
         <item itemvalue="Python.max_subarray_sum2" />
         <item itemvalue="Python.min_subarray_len" />
         <item itemvalue="Python.max_subarray_sum" />
-        <item itemvalue="Python.transpose" />
       </list>
     </recent_temporary>
   </component>
@@ -750,7 +752,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723945289893</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implement a composite function in code.">
+      <option name="closed" value="true" />
+      <created>1753231970113</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753231970113</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -759,7 +769,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Choosing a dice" />
     <MESSAGE value="Number of customer service representatives" />
-    <option name="LAST_COMMIT_MESSAGE" value="Number of customer service representatives" />
+    <MESSAGE value="Implement a composite function in code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement a composite function in code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2648,6 +2659,56 @@
           <url>file://$PROJECT_DIR$/algorithm/algorithm/sliding_window/min_subarray_len.py</url>
           <line>11</line>
           <option name="timeStamp" value="449" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/union_find/union_find.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="450" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/union_find/union_find.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/union_find/union_find.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="452" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/union_find/union_find.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="453" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/union_find/union_find.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/union_find/union_find.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="455" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/union_find/union_find.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="456" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/union_find/union_find.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="457" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/union_find/union_find.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="458" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/union_find/union_find.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="459" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
