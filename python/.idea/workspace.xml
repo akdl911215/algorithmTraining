@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871e14f6-5dde-44f7-b56a-cd8fed87a48c" name="Changes" comment="Implement a composite function in code.">
-      <change afterPath="$PROJECT_DIR$/algorithm/algorithm/union_find/union_find.py" afterDir="false" />
+    <list default="true" id="871e14f6-5dde-44f7-b56a-cd8fed87a48c" name="Changes" comment="Implement a union find algorithm in code.">
+      <change afterPath="$PROJECT_DIR$/algorithm/algorithm/threading/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/algorithm/threading/my_threading_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/algorithm/threading/my_threading_test_safe.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +77,7 @@
     "Python.max_subarray_sum2.executor": "Run",
     "Python.merge_sort.executor": "Debug",
     "Python.min_subarray_len.executor": "Debug",
+    "Python.my_threading_test.executor": "Run",
     "Python.oil-rdilling.executor": "Debug",
     "Python.one.executor": "Run",
     "Python.one2.executor": "Debug",
@@ -98,6 +101,7 @@
     "Python.test2.executor": "Run",
     "Python.testt.executor": "Debug",
     "Python.te상담원인원.executor": "Run",
+    "Python.threading.executor": "Run",
     "Python.three.executor": "Run",
     "Python.three2.executor": "Debug",
     "Python.three3.executor": "Run",
@@ -175,7 +179,7 @@
       <recent name="C:\Users\leejunghyun\Desktop\develop\algorithmTraining\algorithmTraining\python\algorithm\everything_algorithm\algorithm_study\programmers\level2\석유시추\1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.union_find">
+  <component name="RunManager" selected="Python.my_threading_test">
     <configuration name="산모양타일링" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -520,28 +524,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="max_subarray_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/algorithm/sliding_window" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/algorithm/sliding_window/max_subarray_sum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="max_subarray_sum2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -586,6 +568,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="my_threading_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/algorithm/threading" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/algorithm/threading/my_threading_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="union_find" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -612,18 +616,18 @@
       <item itemvalue="Python.collision_risk_detection" />
       <item itemvalue="Python.산모양타일링" />
       <item itemvalue="Python.composition_of_functions" />
-      <item itemvalue="Python.max_subarray_sum" />
       <item itemvalue="Python.max_subarray_sum2" />
       <item itemvalue="Python.min_subarray_len" />
+      <item itemvalue="Python.my_threading_test" />
       <item itemvalue="Python.union_find" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.my_threading_test" />
         <item itemvalue="Python.union_find" />
         <item itemvalue="Python.composition_of_functions" />
         <item itemvalue="Python.max_subarray_sum2" />
         <item itemvalue="Python.min_subarray_len" />
-        <item itemvalue="Python.max_subarray_sum" />
       </list>
     </recent_temporary>
   </component>
@@ -760,7 +764,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753231970113</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implement a union find algorithm in code.">
+      <option name="closed" value="true" />
+      <created>1753232991943</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753232991943</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -770,7 +782,8 @@
     <MESSAGE value="Choosing a dice" />
     <MESSAGE value="Number of customer service representatives" />
     <MESSAGE value="Implement a composite function in code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement a composite function in code." />
+    <MESSAGE value="Implement a union find algorithm in code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement a union find algorithm in code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2709,6 +2722,66 @@
           <url>file://$PROJECT_DIR$/algorithm/algorithm/union_find/union_find.py</url>
           <line>1</line>
           <option name="timeStamp" value="459" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/threading/my_threading_test.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="460" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/threading/my_threading_test.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="461" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/threading/my_threading_test.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="462" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/threading/my_threading_test.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="463" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/threading/my_threading_test.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="464" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/threading/my_threading_test.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="465" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/threading/my_threading_test.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="466" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/threading/my_threading_test.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="467" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/threading/my_threading_test.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="468" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/threading/my_threading_test.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="469" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/threading/my_threading_test.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="470" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/algorithm/threading/my_threading_test.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="471" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
