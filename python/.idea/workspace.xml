@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871e14f6-5dde-44f7-b56a-cd8fed87a48c" name="Changes" comment="Implement a union find algorithm in code.">
-      <change afterPath="$PROJECT_DIR$/algorithm/algorithm/transpose/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/algorithm/transpose/transpose.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/algorithm/transpose/transpose2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="871e14f6-5dde-44f7-b56a-cd8fed87a48c" name="Changes" comment="Matrix Transposition Test">
+      <change afterPath="$PROJECT_DIR$/algorithm/algorithm/two_pointer/two_sum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +104,7 @@
     "Python.three3.executor": "Run",
     "Python.three4.executor": "Run",
     "Python.transpose.executor": "Run",
+    "Python.transpose2.executor": "Run",
     "Python.union_find.executor": "Debug",
     "Python.당구연습.executor": "Debug",
     "Python.당구연습2.executor": "Run",
@@ -179,7 +177,7 @@
       <recent name="C:\Users\leejunghyun\Desktop\develop\algorithmTraining\algorithmTraining\python\algorithm\everything_algorithm\algorithm_study\programmers\level2\석유시추\1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.transpose2">
+  <component name="RunManager" selected="Python.two_sum">
     <configuration name="산모양타일링" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -502,28 +500,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="composition_of_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/algorithm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/algorithm/composition_of_functions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="my_threading_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -590,6 +566,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="two_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/algorithm/two_pointer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/algorithm/two_pointer/two_sum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="union_find" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -615,19 +613,19 @@
     <list>
       <item itemvalue="Python.collision_risk_detection" />
       <item itemvalue="Python.산모양타일링" />
-      <item itemvalue="Python.composition_of_functions" />
       <item itemvalue="Python.my_threading_test" />
       <item itemvalue="Python.transpose" />
       <item itemvalue="Python.transpose2" />
+      <item itemvalue="Python.two_sum" />
       <item itemvalue="Python.union_find" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.two_sum" />
         <item itemvalue="Python.transpose2" />
         <item itemvalue="Python.transpose" />
         <item itemvalue="Python.my_threading_test" />
         <item itemvalue="Python.union_find" />
-        <item itemvalue="Python.composition_of_functions" />
       </list>
     </recent_temporary>
   </component>
@@ -772,7 +770,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753232991943</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Matrix Transposition Test">
+      <option name="closed" value="true" />
+      <created>1753664955355</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753664955355</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -783,7 +789,8 @@
     <MESSAGE value="Number of customer service representatives" />
     <MESSAGE value="Implement a composite function in code." />
     <MESSAGE value="Implement a union find algorithm in code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement a union find algorithm in code." />
+    <MESSAGE value="Matrix Transposition Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Matrix Transposition Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
